@@ -14,25 +14,25 @@ algorithm: a method or a sequence of steps, with a flow of control that specifie
 
 algorithm more scientifically: a finite list of instructions that describe a computation that when executed on a set of inputs will proceed through a set of well-defined states and eventually produce an output.  
 
-computation: 
+computation: the action of mathematical calculation  
 
 fixed-program computers: designed to do very specific things, often only one thing. Like a simple calculator.  
 
 stored-program computer: stores (and manipulates) a sequence of instructions, and has components that will execute any instruction in that sequence. Useful because then we can easily change what the program does.  
 
-interpreter: 
+interpreter: a computer program that directly executes instructions  
 
-flow of control: 
+flow of control: the order in which individual statements, instructions or function calls of an imperative program are executed or evaluated  
 
-programming language: 
+programming language: a formal language, which comprises a set of instructions that produce various kinds of output  
 
-Universal Turing Machine: 
+Universal Turing Machine: can simulate an arbitrary Turing machine on arbitrary input  
 
 Church-Turing thesis: if a function is computable, a Turing Machine can be programmed to compute it  
 
-halting problem: 
+halting problem: the problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running, or continue to run forever  
 
-Turing completeness: 
+Turing completeness: if it can be used to emulate a Turing machine then it is turing complete.  
 
 note:
 "anything that can be programmed in one programming language can be programmed in any other programming language"  
@@ -65,23 +65,23 @@ Low-level versus high-level: move bits or make menu's, depends on the level of a
 
 General versus targeted to an application domain: is the design of the language highly specialized or widely applicable.  
 
-Interpreted versus compiled: is the code executed directly by an interpreted or converted by a compiler? 
+Interpreted versus compiled: is the code executed directly by an interpreted or converted by a compiler?  
 
-source code: 
+source code: a text listing of commands to be compiled or assembled into an executable computer program  
 
-machine code: 
+machine code: a computer programming language consisting of binary or hexadecimal instructions which a computer can respond to directly  
 
 Python's Weaknesses: weak static semantic checking make it not optimal for programs that have high reliability constraints and code that is built and maintained by many people over a long period of time.  
 
 program/script: is a sequence of definitions and commands
 
-shell: 
+shell: a user interface for access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation  
 
 command/statement: instructs the interpreter to do something
 
-Objects: 
+Objects: an object is an instance of a Class. Objects are an abstraction. They hold both data, and ways to manipulate the data  
 
-type: 
+type: an attribute of data which tells the compiler or interpreter how the programmer intends to use the data  
 
 Scalar objects: are indivisible  
     int 
@@ -91,15 +91,13 @@ Scalar objects: are indivisible
 
 Non-scalar objects: for example strings, have internal structure  
 
-literals: 
+literals: a notation for representing a fixed value in source code  
 
-floating point numbers: 
+floating point numbers: a variable type that is used to store floating-point number values. A floating-point number is one where the position of the decimal point can "float" rather than being in a fixed position within a number  
 
-operators: 
+operators: constructs which behave generally like functions, but which differ syntactically or semantically from usual functions. Common simple examples include arithmetic, comparison, and logical operations  
 
-expressions: 
-
-value of the expression: 
+expressions: a combination of one or more constants, variables, operators, and functions that the programming language interprets and computes to produce another value  
 
 note:
 "Objects and operators can be combined to form expressions, each of which evaluates to an object of some type"  
@@ -120,7 +118,7 @@ Variables: associate names with objects. In Python, a variable is just a name, n
 
 binds: when we reassign values to variables it shifts the memory pointer to the new value and loses the former value that stays stored in now unlinked memory.  
 
-assignment: 
+assignment: sets and/or re-sets the value stored in the storage location denoted by a variable name  
 
 note:
 "This does not mean that only computers read programs"  
@@ -129,11 +127,11 @@ reserved words/keywords: The reserved words in Python 3 are: and, as, assert, br
 
 comments: python uses # for comments  
 
-integrated development environment (IDE): 
+integrated development environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development  
 
 straightline programs: execute one statement after another in the order in which they appear, and stop when they run out of statements  
 
-Branching programs: 
+Branching programs: an instruction that tells a computer to begin executing a different part of a program rather than executing statements one-by-one  
 
 conditional:
     • a test, i.e., an expression that evaluates to either True or False;
@@ -150,7 +148,7 @@ compound Boolean expression: multiple boolean statements tied together with a st
 
 constant time: the program is guaranteed to take no more than k steps to run  
 
-computational complexity: 
+computational complexity: the amount of resources required for running it  
 
 
 
