@@ -1,3 +1,7 @@
-the course lectures can be found at https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/
+The course lectures can be found at:
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/
 
-the course readings come from: Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition
+The course readings come from:
+Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition
+
+
