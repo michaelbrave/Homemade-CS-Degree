@@ -92,4 +92,8 @@ range(start, stop, step)
     if you give it two numbers it is start and stop  
     stop defaults to num - 1  
 
-
+for loops are used when we know the number of interations
+while loops are more useful for things that are unpredictable, like getting user inputs
+both can use break
+for has built in counter, but while you have ot initialize and increment manually
+for can be rewritten as while but not vice versa
