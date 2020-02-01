@@ -84,3 +84,12 @@ input makes a string of everything the user types in until they hit enter
 input always outputs a string unless you cast  
 
 
+for loop range: for i in range(7)  
+range(start, stop, step)  
+    start defaults to zero  
+    step defaults to one  
+    if you give it only one number it is stop  
+    if you give it two numbers it is start and stop  
+    stop defaults to num - 1  
+
+
