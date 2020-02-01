@@ -129,26 +129,6 @@ comments: python uses # for comments
 
 integrated development environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development  
 
-straightline programs: execute one statement after another in the order in which they appear, and stop when they run out of statements  
-
-Branching programs: an instruction that tells a computer to begin executing a different part of a program rather than executing statements one-by-one  
-
-conditional:
-    • a test, i.e., an expression that evaluates to either True or False;
-    • a block of code that is executed if the test evaluates to True;
-    • a noptional block of code that is executed if the test evaluates to False.  
-
-Indentation: is semantically meaningful in Python  
-
-nested: multiple conditional statements within each other  
-
-elif stands for “else if”  
-
-compound Boolean expression: multiple boolean statements tied together with a statement like "and" or "or"  
-
-constant time: the program is guaranteed to take no more than k steps to run  
-
-computational complexity: the amount of resources required for running it  
 
 
 

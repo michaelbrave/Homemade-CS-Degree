@@ -1,0 +1,86 @@
+From the Book: Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data Second Edition  
+
+Readings: Chapters 2.2, 2.3.1, 2.4, and 3.2  
+
+Supplemented by lecture found at:
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/lecture-2-branching-and-iteration/  
+
+2.2
+straightline programs: execute one statement after another in the order in which they appear, and stop when they run out of statements  
+
+Branching programs: an instruction that tells a computer to begin executing a different part of a program rather than executing statements one-by-one  
+
+conditional:
+    • a test, i.e., an expression that evaluates to either True or False;
+    • a block of code that is executed if the test evaluates to True;
+    • a noptional block of code that is executed if the test evaluates to False.  
+
+Indentation: is semantically meaningful in Python  
+
+nested: multiple conditional statements within each other  
+
+elif stands for “else if”  
+
+compound Boolean expression: multiple boolean statements tied together with a statement like "and" or "or"  
+
+constant time: the program is guaranteed to take no more than k steps to run  
+
+computational complexity: the amount of resources required for running it  
+
+2.3.1
+overloaded: 
+
+repetition operator: 
+
+type checking: 
+
+length of a string can be found using the len function  
+value of len('abc') is 3  
+
+Indexing can be used to extract individual characters from a string  
+'abc'[0] into the interpreter will cause it to display the string 'a'  
+
+Slicing is used to extract substrings of arbitrary length  
+s[start:end] denotes the substring of s that starts at index start and ends at index end-1  
+
+'abc'[:] is semantically equivalent to the more verbose 'abc'[0:len('abc')]  
+
+Type conversions/type casts: 
+
+2.4
+iteration: 
+
+looping: If the test evaluates to True, the program executes the loop body once, and then goes back to reevaluate the test. This process is repeated until the test evaluates to False, after which control passes to the code following the iteration statement  
+
+while statement: 
+
+hand-simulating the code: 
+
+3.1
+
+decrementing function: 
+
+guess and check 
+
+exhaustive enumeration 
+
+3.2
+
+for loop: 
+
+range: 
+
+in operator: 
+
+
+Lecture
++ doesn't add a space implicity when adding strings together  
+
+* operator to repeat a string that many number of times  
+
+print with commas add spaces between values  
+
+input makes a string of everything the user types in until they hit enter  
+input always outputs a string unless you cast  
+
+
