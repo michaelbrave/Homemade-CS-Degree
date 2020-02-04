@@ -12,3 +12,19 @@ second course https://missing.csail.mit.edu/
 
 third course
 https://www.cis.upenn.edu/~cis191/lectures.html 
+or
+https://www.cs.cmu.edu/~07131/f19/ 
+or
+https://cgi.cse.unsw.edu.au/~cs2041/19T2/index.html 
+or
+https://buildingtoolswithgithub.teddyhyde.io/ 
+or 
+http://ieng6.ucsd.edu/~cs15x/ 
+
+
+
+later
+http://www.linuxfromscratch.org/
+
+later
+https://www.nand2tetris.org/
