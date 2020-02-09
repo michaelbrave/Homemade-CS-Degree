@@ -13,3 +13,9 @@
 #132 is divisible by 11 and 12
 #If a break statement is executed inside a nested loop (a loop inside another loop), the break will terminate the inner loop.
 
+numXs = int (input('How many times should I print theletter X? '))
+toPrint = "hello there"
+#concatenate X to toPrint numXs times
+while numXs > 0:
+    print(toPrint)
+    numXs -= 1
