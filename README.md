@@ -28,3 +28,11 @@ http://www.linuxfromscratch.org/
 
 later
 https://www.nand2tetris.org/
+
+later:  (how to read code)
+book: code reading: open source perspective by Diomidis Spinellis
+book: code quality: the open source perspective by Diomidis Spinellis
+book: clean code
+book: code craft
+book: code complete 2
+book: 500 lines or less & others - https://www.aosabook.org/en/index.html
