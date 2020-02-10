@@ -36,3 +36,13 @@ book: clean code
 book: code craft
 book: code complete 2
 book: 500 lines or less & others - https://www.aosabook.org/en/index.html
+
+
+learning swift
+https://www.coursera.org/specializations/swift-5-ios-app-developer?action=enroll&utm_campaign=Vw6koEkgEeqd_xFKDENJkw&utm_medium=email&utm_source=marketing#courses 
+
+logic
+https://www.edx.org/course/logic-and-computational-thinking-2?utm_source=sailthru&utm_medium=email&utm_campaign=newyears_2020&utm_content=course_feature_compsci_block4_20200209 
+
+algos
+https://www.edx.org/course/algorithmic-design-and-techniques?utm_source=sailthru&utm_medium=email&utm_campaign=newyears_2020&utm_content=course_feature_compsci_block4_20200209
