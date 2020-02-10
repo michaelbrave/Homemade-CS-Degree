@@ -1,0 +1,60 @@
+these are notes for the course found at 
+https://www.kadenze.com/courses/introduction-to-programming-for-the-visual-arts-with-p5-js-vi
+
+media machines is what he calles computers
+
+p5.js is javascript backed by the processing foundation
+
+People to Look up
+Lauren Mccarthy
+Chandler McWilliams
+Casey Reas
+Ben Fry
+
+sketching with code - create a program with one piece at a time
+
+your canvas by default is only 100px wide
+
+first arguments is x position of drawing (verticle center)
+second is y (horizonatl center)
+third is width
+fourth is height
+
+Commands to Know
+ellipse - circle
+rect - rectangle
+line
+strokeWeight - for thickness of lines
+fill - to fill a thing with color
+noFill - for if you want just the lines
+stroke - for color
+noStroke - for no stroke
+createCanvas(1024,768) width, height
+background 
+beginshape
+triangle
+
+beginshape - lets it know that  from now on use these points
+vertex - two points in space, link them together to make shapes
+endshape - end command for the shape 
+
+everything has fill and stroke too
+a lot of this is just getting used to using a grid
+
+largest value 1025, 768
+
+color is a range of 0-255
+for RGB we gotta do a red value a green value and a blue value
+it looks like 3 arguments   
+background(255, 0, 0)
+
+things you make like fill and stroke, the things below will inherit them natively
+if you set a fourth value to fill it affects transparency
+alpha channel, it's the 4th value listed
+same as before, between 0 and 255
+if black and white, use just two ranges
+
+
+nostroke and nofill don't seem to affect everything later like other things
+they seem to affect just the immediate calls
+

@@ -1,0 +1,11 @@
+seems to be the update for the intro to systematic program design
+on edx https://courses.edx.org/courses/course-v1:UBCx+HtC1x+2T2017
+
+systematic program design
+is all about design processes
+break down the problem into manageable parts
+
+uses BSL as a language - beginner student language, but is basically racket? I can't really tell
+
+
+
