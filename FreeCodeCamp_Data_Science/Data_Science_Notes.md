@@ -81,40 +81,40 @@ one step at a time, so that there is less backtracking
 19:45
 
 Engineer
--Focus on back end hardware (like servers)
--make data science possible
--developers or database managers
+- Focus on back end hardware (like servers)
+- make data science possible
+- developers or database managers
 
 Big Data
--Focus on computer science and math
--Machien Learning
--create data products (recomendation engines)
+- Focus on computer science and math
+- Machien Learning
+- create data products (recomendation engines)
 
 Researchers
--focus on domain specific research
--physics, genetics
--strong in stats
+- focus on domain specific research
+- physics, genetics
+- strong in stats
 
 Analyst
--Day to day tasks of running a business
--Web Analytics, sql
--good for business
--not quite a data scientist since data is structured already?
+- Day to day tasks of running a business
+- Web Analytics, sql
+- good for business
+- not quite a data scientist since data is structured already?
 
 Business people
--frame business relevant questions
--manage projects
--need to know enough to speak "data"
+- frame business relevant questions
+- manage projects
+- need to know enough to speak "data"
 
 Entrepreneurs
--data startup
--needs data and business skills
--need to be creative
+- data startup
+- needs data and business skills
+- need to be creative
 
 Full stack unicorn
--mythical creature with magical abilities
--mythical individual with universal abilities
--probably don't exist
+- mythical creature with magical abilities
+- mythical individual with universal abilities
+- probably don't exist
 
 different skills and goals for the different roles
 usually work in different contexts
@@ -140,21 +140,21 @@ cross big data with data science to make big data science
 
 if it doesn't fit into a machine, it's big data
 
--machine learning and word counts do not require data science
--but you will need to code and quant
+- machine learning and word counts do not require data science
+- but you will need to code and quant
 
 but the definitions get kind of messy
 
 big data isn't data science, they are related but not the same.
 
 coding
--task instructions
--like a recipe
--input and output
+- task instructions
+- like a recipe
+- input and output
 
 coding and data
--word counts, simple
--to make sense of it you need stats, which is data science
+- word counts, simple
+- to make sense of it you need stats, which is data science
 
 data science isn't coding, but they do share things
 stats is what seperates the two
@@ -163,24 +163,24 @@ data science isn't just a subset of statistics
 most data scientists are not formally trained in statistics
 machine learning and big data aren't a part of stats
 work in different contexts too
--they both analyze data
--but are ecologically distinct
--different backgrounds
--different goals and contexts
+- they both analyze data
+- but are ecologically distinct
+- different backgrounds
+- different goals and contexts
 
 it's also not business intelligence
--data on internal operations
--make justifyable decisions
+- data on internal operations
+- make justifyable decisions
 - it doesn't really use coding, premade apps
 - usually simple statistics
--focus is on domain expertise and utility
--data dashboards, most are well designed and you can learn a lot about accessibility and design from looking at them
+- focus is on domain expertise and utility
+- data dashboards, most are well designed and you can learn a lot about accessibility and design from looking at them
 
--identify data sources and set up framework
--help past easy questions and data
--can learn good design from BI
+- identify data sources and set up framework
+- help past easy questions and data
+- can learn good design from BI
 
--it's very goal oriented, related to data science but not the same
+- it's very goal oriented, related to data science but not the same
 
 
 42:00
@@ -190,27 +190,27 @@ Etnical issues - do no harm
 sources not intended for sharing
 
 anonymity
--not hard to identify a person with a small amount of data
--not identify people uniquely
--proprietary data
+- not hard to identify a person with a small amount of data
+- not identify people uniquely
+- proprietary data
 
 copyright
--scraping data is common and useful
--check copyright first
+- scraping data is common and useful
+- check copyright first
 
 data security
--data is valuable, people may try to steal it, especially if not made anonymous
+- data is valuable, people may try to steal it, especially if not made anonymous
 
 potential bias
--algos are only as neutral as the rules and data that they get
+- algos are only as neutral as the rules and data that they get
 
 overconfidence
--analyses are simplifications, still need humans in the loop to check it
--requires humility
+- analyses are simplifications, still need humans in the loop to check it
+- requires humility
 
 potentials and risks
 - it can't be neutral
--good judgement is vital
+- good judgement is vital
 
 48:40
 
@@ -219,7 +219,7 @@ Methods
 tech is the means, insight is the goal
 
 sourcing data
--how to get the data that goes into data science
+- how to get the data that goes into data science
 
 coding
 
@@ -228,25 +228,25 @@ math
 stats
 
 machine learning
--finding clusters or scores that could lead to meaning
+- finding clusters or scores that could lead to meaning
 
 tech is just a means to the insight
 
 
 sourcing -raw materials
--existing data
-    -in house
-    -open
-    -third party
--apis
-    -most common way to get web data
-    -direct import
--scraping
-    -for when they don't have an API
--making data
-    -interviews
-    -surveys
-    -expiraments
+- existing data
+    - in house
+    - open
+    - third party
+- apis
+    - most common way to get web data
+    - direct import
+- scraping
+    - for when they don't have an API
+- making data
+    - interviews
+    - surveys
+    - expiraments
 
 GIGO - garbage in, garbage out
 
