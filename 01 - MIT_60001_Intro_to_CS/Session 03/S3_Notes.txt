@@ -7,3 +7,10 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-i
 
 Lecture notes: 
 
+strings are more than sequences of characters. 
+they can be compared with ==, > < 
+len() is a function that can retrieve the length of the string
+
+s = "abc"
+len(s) -> evaluates to 3
+
