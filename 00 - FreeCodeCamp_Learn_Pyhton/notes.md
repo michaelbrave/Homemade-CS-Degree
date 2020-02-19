@@ -34,5 +34,3 @@ look up module
 
 input("enter your name")
 
-1:30:17
-
