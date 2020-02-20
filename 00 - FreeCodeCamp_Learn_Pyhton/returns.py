@@ -1,6 +1,6 @@
 
 def cube(num):
-    ans = num*num*num
+    ans = num * num * num
     return ans
 
 result = cube(4)
