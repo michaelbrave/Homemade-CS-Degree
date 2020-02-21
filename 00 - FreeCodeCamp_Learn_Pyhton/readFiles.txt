@@ -1,0 +1,5 @@
+Jim - Salesman
+Dwight - Assistant to The Regional Manager
+Pam - Artist
+Michael - Regional Manager
+Oscar - Accountant
