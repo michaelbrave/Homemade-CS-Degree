@@ -36,3 +36,15 @@ Operation count:
         for(i =1; i<=n; i++) = n
         doulbe for and addition = n(squared)
     can figure out the equation for how complex it is
+
+
+
+main question: How much time does it take to run this function?
+or better how does the runtime of this function grow as the size of the input grows?
+
+big o notation?
+
+
+
+basically how much does it have to scale (in time and size) based on how much you give it (as input)
+O is worste case (genearlly)
