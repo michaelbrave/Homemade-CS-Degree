@@ -1,5 +1,6 @@
 employee_file = open("readFiles.txt", "r+")
 #r = read, w = write, a = append, r+ = read and write
+#w acts like an override for the file
 
 #readable tells us if the file is readable
 #employee_file.readable()
