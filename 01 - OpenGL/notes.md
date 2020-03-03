@@ -1,4 +1,7 @@
 course found here https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
+Except I'm doing it on macOS and with makefiles.
+
+
 
 docmunentation found here https://www.glfw.org/
 
@@ -22,4 +25,10 @@ https://github.com/cybercser/OpenGL_3_3_Tutorial_Translation/blob/master/Buildin
 
 
 
-left off at:
+left off at: https://www.youtube.com/watch?v=WeUmb8XeOms 3:42
+
+
+glew - http://glew.sourceforge.net/
+had to install with brew due to admin permisisons stored at /nfs/2018/m/mbrave/.brew/Cellar/glew/2.1.0_1/
+
+or glad
