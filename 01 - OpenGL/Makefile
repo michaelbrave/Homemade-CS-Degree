@@ -16,14 +16,14 @@ SRCS = Application.cpp \
 
 CFLAGS = -Wall -Werror -Wextra -I ./inc
 
-OBJ = $(SRCS:.c=.o)
+OBJ = $(SRCS:.cpp=.o)
 
 all: $(NAME)
 
 $(NAME): $(OBJ)
 	gcc -o $(NAME) $(CFLAGS) $(OBJ) -L Dependencies/GLFW/lib-macos/ -lglfw3 -framework OpenGL -framework Cocoa -framework IOKit
 
-clean:
+clean: #why is it deleting my cpp file?
 	rm -f $(OBJ)
 
 fclean: clean
