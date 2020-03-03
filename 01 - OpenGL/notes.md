@@ -20,3 +20,6 @@ http://duriansoftware.com/joe/An-intro-to-modern-OpenGL.-Chapter-1:-The-Graphics
 maybe helpful
 https://github.com/cybercser/OpenGL_3_3_Tutorial_Translation/blob/master/Building%20your%20own%20C%20application.md
 
+
+
+left off at:

@@ -26,6 +26,16 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
+        //temp test, make a triangle to the screen.
+        // different on MacOS?
+        /*
+        glBegin(GL_TRIANGLES);
+        glVertex2f(0, 0);
+        glVertex2f(0.5, -0.5);
+        glVertex2f(-0.5, -0.5);
+        glEnd();
+        */
+
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
 
@@ -36,3 +46,4 @@ int main(void)
     glfwTerminate();
     return 0;
 }
+
