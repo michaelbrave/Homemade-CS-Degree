@@ -29,11 +29,33 @@ int main(void)
     if (glewInit() != GLEW_OK)
         std::cout << "Error" << std::endl;
 
-    //not working?
+    //test to console output //it's using OpenGL 2.1 ATI-1.66.31
     std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl;
 
+    //was an example in tutorial,not sure what for
     //unsigned int a;
     //glGenBuffers(1, &a);
+
+    //buffer here
+    unsigned int buffer; //this is the ID of the buffer
+    glGenBuffers(1, &buffer);
+    //selecting is called binding
+    glBindBuffer(GL_ARRAY_BUFFER, buffer);
+    //next specify the data, how large it should be
+    float positions[6] = {
+        -0.5f, -0.5f,
+         0.0f, -0.5f,
+        -0.5f, -0.5f,
+    };
+    //allocate the memory
+    glBufferData(GL_ARRAY_BUFFER, (6 * sizeof(float)), positions, GL_STATIC_DRAW);
+    //likely need an index buffer here as well
+    //also need a shader probably
+
+    //need to specify how to use the bytes given it, tell it how the data is layed out
+    //gl vertex attribute pointer
+
+
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
@@ -41,15 +63,10 @@ int main(void)
         /* Render here */
         glClear(GL_COLOR_BUFFER_BIT);
 
-        //temp test, make a triangle to the screen.
-        // different on MacOS?
-        /*
-        glBegin(GL_TRIANGLES);
-        glVertex2f(0, 0);
-        glVertex2f(0.5, -0.5);
-        glVertex2f(-0.5, -0.5);
-        glEnd();
-        */
+        //used when you don't have an index buffer, will draw what was bound
+        glDrawArrays(GL_TRIANGLES, 0, 3); //type, start position, amount
+
+        //glDrawElements(GL_TRIANGLES, 3, );
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
