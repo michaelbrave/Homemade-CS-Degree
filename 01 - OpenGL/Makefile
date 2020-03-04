@@ -14,6 +14,10 @@ CC = gcc
 
 SRCS = Application.cpp \
 
+GLEWLIB = -L Dependencies/GLEW/lib/ -lGLEW
+
+GLFWLIB = -L Dependencies/GLFW/lib-macos/ -lglfw3 -framework OpenGL -framework Cocoa -framework IOKit
+
 CFLAGS = -Wall -Werror -Wextra -I ./inc
 
 OBJ = $(SRCS:.cpp=.o)
@@ -21,7 +25,7 @@ OBJ = $(SRCS:.cpp=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	gcc -o $(NAME) $(CFLAGS) $(OBJ) -L Dependencies/GLFW/lib-macos/ -lglfw3 -framework OpenGL -framework Cocoa -framework IOKit
+	gcc -o $(NAME) $(CFLAGS) $(OBJ) $(GLFWLIB) $(GLEWLIB)
 
 clean: #why is it deleting my cpp file?
 	rm -f $(OBJ)

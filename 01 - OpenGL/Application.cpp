@@ -1,5 +1,8 @@
 #include <iostream>
+#include "Dependencies/GLEW/include/glew.h" //needs to come first?
 #include "Dependencies/GLFW/include/glfw3.h"
+
+
 
 int main(void)
 {
