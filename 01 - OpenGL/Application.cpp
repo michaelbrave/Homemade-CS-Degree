@@ -8,6 +8,8 @@ int main(void)
 {
     GLFWwindow* window;
 
+
+
     /* Initialize the library */
     if (!glfwInit())
         return -1;
@@ -22,6 +24,16 @@ int main(void)
 
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
+
+    // has to come after context, or it doesn't work
+    if (glewInit() != GLEW_OK)
+        std::cout << "Error" << std::endl;
+
+    //not working?
+    std::cout << "OpenGL " << glGetString(GL_VERSION) << std::endl;
+
+    //unsigned int a;
+    //glGenBuffers(1, &a);
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))

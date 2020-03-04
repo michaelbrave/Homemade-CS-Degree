@@ -10,7 +10,7 @@
 
 NAME = OpenGLTest
 
-CC = gcc
+CC = g++
 
 SRCS = Application.cpp \
 
@@ -25,7 +25,7 @@ OBJ = $(SRCS:.cpp=.o)
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	gcc -o $(NAME) $(CFLAGS) $(OBJ) $(GLFWLIB) $(GLEWLIB)
+	$(CC) -o $(NAME) $(CFLAGS) $(OBJ) $(GLFWLIB) $(GLEWLIB)
 
 clean: #why is it deleting my cpp file?
 	rm -f $(OBJ)

@@ -25,7 +25,7 @@ https://github.com/cybercser/OpenGL_3_3_Tutorial_Translation/blob/master/Buildin
 
 
 
-left off at: https://www.youtube.com/watch?v=WeUmb8XeOms 3:42
+left off at: https://www.youtube.com/watch?v=WeUmb8XeOms 17:23
 
 
 glew - http://glew.sourceforge.net/
