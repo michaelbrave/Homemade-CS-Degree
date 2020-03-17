@@ -68,3 +68,5 @@ a vertex is more than a position
 
 
 left off at: https://www.youtube.com/watch?v=x0H--CL2tUI&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2&index=5
+
+going to start over since I've had to switch to windows now
