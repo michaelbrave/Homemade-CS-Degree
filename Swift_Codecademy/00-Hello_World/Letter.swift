@@ -1,0 +1,5 @@
+print("Dear Self,")
+print("Goal #1 - get good at swift")
+print("Goal #2 - stop being broke")
+print("those are the focus anyway")
+print("good luck - Mike Brave, 3/22/20")
