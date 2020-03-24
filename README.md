@@ -46,3 +46,35 @@ https://www.edx.org/course/logic-and-computational-thinking-2?utm_source=sailthr
 
 algos
 https://www.edx.org/course/algorithmic-design-and-techniques?utm_source=sailthru&utm_medium=email&utm_campaign=newyears_2020&utm_content=course_feature_compsci_block4_20200209
+
+
+
+Things to Learn:
+Iteration
+Recursion
+Multi Dimentional Arrays + Matrices
+Linked Lists
+Queues + Stacks + Heaps
+Sets + Hash Maps (Very Useful)
+Trees + Binary Search
+Graphs + Graph Traversals (Depth First Search + Breadth First Search + Backtracking)
+Tries
+Sorting Algorithms (Merge Sort + Quick Sort)
+Implementation and Time and Space Complexity Analysis
+Dynamic Programming Problems (Memoization + Divide & Conquer)
+Proofs (Contrapositive + Contradiction + Cases + Induction)
+Multiple Pointers
+Sliding Windows
+Greedy Algorithms
+Object Oriented Programming
+
+Berkley CS 61A CS 61B
+https://cs61a.org/ 
+http://inst.eecs.berkeley.edu/%7Ecs61b/sp20/
+
+See:
+Leetcode
+Hackerrank
+GeeksForGeeks
+https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt
+
