@@ -1,0 +1,18 @@
+// Add your code below 😈
+// this is an example of why we should use loops
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
+print("This can be so much easier with loops!")
