@@ -429,7 +429,10 @@ I won't be paying much attention but will take notes
         these are quick things, if you find yourself reusing a lot make a struct
 
         
-6. 
+6. Closures
+    this is a bit more different than other languages
+    steep learning curve, but not a lot of items on it
+    
 
 
 
