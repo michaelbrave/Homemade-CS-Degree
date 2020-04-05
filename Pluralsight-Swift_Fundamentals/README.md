@@ -193,3 +193,82 @@ I won't be paying much attention but will take notes
         var myArray: [Int] = [] will work
 
 3. Control Flow
+
+    it's not quite the same as other languages, though it is familiar
+
+    if / else
+        more or less similar
+        but you don't need parenthesis for simple things
+        but keep the curly braces, they are forced always
+            this makes the code safer
+        the conditions have to be true or false
+            testing for zero or not zero won't work
+        && is and
+        || is or
+    switch statements //select, case, when
+        switch keyword {
+            case 0:
+                print("state zero)
+            case 1:
+                print("state 1")
+            default:
+                print("not a valid input")
+        
+        }
+        you have to cover all possibilities in a switch
+            that's why we have a default clause
+        each case must contain executable code, no empty case statements, no fallthrough
+        don't need break statements, it's built in it stops once it finds one that works
+        but you can write a break statement for break or something if you need to.
+        we can have a case that takes multiple values (unique to swift)
+        can also check for a range of values (unique to swift)
+        ... is a range operator
+        start...end - checks for all inbetween
+        can use unicode/symbols and emojis
+    loops
+        there are only three ways to do it in swift
+        while loop
+            keep going until condition
+            no parens needed, curly braces always required
+            has to be true or false
+        do while loop - changed name to repeat while loop
+            repeat {
+
+            } while thing > 0
+            will run at least once
+        for loops are different
+            for in loop replaced it
+            it's vague but in a good way
+            for i in array {
+                print(i)
+            }
+            for num in 0...10 {
+                print(num)
+            }
+            the item is a temp variable for the loop
+            1..<10 will print out 1-9
+            ... is a closed range operator
+            ..< is a half open range operator
+            these sequqnces always go up, not down
+            they also go one by one
+            stride to and stride though
+                do we include the final value or stop without including it
+                to stops just short
+                through includes the final value
+            for number in stride(from: 0, through:256, by:16) {
+
+            }
+            for number in stride(from: 100, to: 0, by:-5) {
+
+            }
+    string interpolation
+        combination of fixed text with variable data
+        string concatination
+            \(variable)
+            put it inside the string
+            but you don't have to cast an int to string, it just will do it
+            we can write expressions inside the parens
+            \(duration / 60)
+4. 
+
+
