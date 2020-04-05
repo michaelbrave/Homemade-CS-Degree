@@ -269,6 +269,63 @@ I won't be paying much attention but will take notes
             but you don't have to cast an int to string, it just will do it
             we can write expressions inside the parens
             \(duration / 60)
-4. 
+
+4. Constructing Code
+    creating functions/methods
+        usually name on a verbNoun style
+        func showMessage (num: Int) {
+            print("hello there \(num)")
+        }
+
+        call it like
+            showMessage(num: 42)
+            // you have to give the name when calling it
+            you have to use the label of the variable
+        func parameters are treated as constants by default
+    return types
+        return type is given after the name of function
+        func basicFunction -> String {
+            let str = "hello"
+            return str
+        }
+        this will let it know a function will return a string
+    functions without return values
+        you can omit the return arrow or -> Void
+        nil is not the same as void
+        void has no return value
+        but omitting is the bettwer style in swift
+        what matters is the parameter type and the rturn type, this is a way to describe function types
+        see also closures
+    when a function returns a value and we don't care
+        the compiler won't like it and will give a warning
+        but you can use _ to ignore a thing or suppress it.
+        can use it instead of the name of the argument too
+        can do it on the sending or receiving end
+            this isn't a swift style though
+        swift isn't about simplicity but rather clarity
+        it's especially important when calling the function, so it makes sense to understand, and so it's readable
+        but the names don't have to line up?
+            if you give it two names in the recieving
+            the first one is argument label, being recieved
+            the second is the parameter name, name to use inside the function
+        you don't need to always name all functions with a verb, espeically if it's a simple thing like something that returns a simple number
+        getDifference is less good than difference
+        it's also ok to remove redundancy in the names
+            example: showMessage(message:) could instead be show(message:)
+            could I name two funcs show then?
+        instead of typeof() it's type(of:)
+        see also stride(to) and stride(through)
+
+5. 
+
+
+
+        
+
+
+
+
+
+
 
 
