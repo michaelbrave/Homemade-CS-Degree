@@ -316,12 +316,120 @@ I won't be paying much attention but will take notes
         instead of typeof() it's type(of:)
         see also stride(to) and stride(through)
 
-5. 
+5. data types
+    defining your own data types
+        enums can be one of many options, but only one at a time. 
+        Enums are a little different here
+            we want to control the types of data
+            uppercase datatypes
+            defining
+        enum MediaType {
+            case book
+            case movie
+            case music
+            case game
+            case book, movie, music, game
+        }
 
+        var itemType: MediaType
+        itemType = .book
+        itemType = MediaType.book
+        these two are the same, but if you put all inside the initial case declaration the .book wouldn't work, if made each case seperately they will
+        good to use these with switch statements
+            use all of the cases without default so the error will remind you when you forgot something
+        enum Temp: String {
+            case name = "Bob"
+            case hometown = "upland"
+        }
+        you can also use .rawValue
+        Associated Values = customizeable values
+        case movie(String)
 
+        case wind(speed: Int) - how to do a secondary value
+
+        later in a switch
+        caase.wind(let speed) where speed < 10: - to trigger the case only when a specific thing is met
+        how you order cases matter, the associated values are optionals also
+
+        Enum Raw Values - look up further
+        seems like it can auto assign numbers and things like that so you could reference things like which number of planets is earth from the sun
+
+        associated values don't have to be the same types
+        case movie(String)
+        case music(Int)
+
+        MediaType = .move("Comedy")
+        in switch
+        case .move(let genre):
+    structs
+        structs are more than containers
+        Strings and other data types are actually structs
+        more powerful than most languages
+        struct Movie {
+            var title: String
+
+        }
+        these variables are called properties of the struct
+        uses a memberwise initializer
+        you have to fill in the default values when you initialize
+
+        when you make many of the same kind of struct these are called instances
+
+        non functions in structs are calle property, functions in structs are called methods
+        this is universal terminology between enums, classes and structs
+
+        difference between struct and classes
+        structs don't use inheritance
+        value types (struct) vs reference types (classes)
+    dictionaries / maps / associated arrays / symbol table
+        it's like an array but instead of being numbered starting with zero it had a key(words as labels)
+        it could be an out of sequence thing too
+        you can have duplicate values but not duplicate keys
+        keys are one type, values are one type(like int)
+
+        but you need to know what am I using to find it and what do I expect to get out of it.
+        "Key": "Value",
+        it would type infer this as strings for both
+
+        this is how to make an empty one
+        var dictionary: [Int: String]
+
+        requesting form dictioonary is an optional, treat it as such
+        you check if there is a key
+
+        this will add or change whats in the dictionary
+        airline["DVA"] = "Discovery Airlines"
+        so if DVA existed in the key it would update, if it didn't exist it would add it
+
+        A dictionary is an unordered colleciton
+
+        if you set a key to nil it will remove both the key and the value
+
+        you can iterate dictionaries like other things, but keep in mind that they are unordered
+        for(key, value) in airlines {
+            print(value)
+        }
+        keep the names in the for statement the same as what was used
+        this is a tuple, which most other languages don't have
+    tuples
+        small quick groupings of values
+        (value1, value2)
+        you can use this to allow a function to return two types
+        if you do this you can name the two parts of the tuple that will be returned
+        you have to return the parts in correct order
+        func randomAlbum() -> (albumTitle: String, length: Int)
+
+        cn all it later 
+        print(result.albumTitle)
+
+        you can recieve the returned values individually
+        let (nextTitle, lenthy) = randomAlbum()
+        these would act as seperate variables
+        handy for listing key/value of dictionaries
+        these are quick things, if you find yourself reusing a lot make a struct
 
         
-
+6. 
 
 
 
