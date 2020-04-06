@@ -432,8 +432,77 @@ I won't be paying much attention but will take notes
 6. Closures
     this is a bit more different than other languages
     steep learning curve, but not a lot of items on it
-    
 
+    you kind of need to understand closures on the whole to make sense of it, so it's ok if you don't get it at first. It's also not super useful until you know all the pieces. 
+
+    closures aren't complicated, it just takes a bit to wrap your head around it. 
+
+    good for: sorting, filtering, animation, data fetching, or task specific like IOS best way to pull up a window
+
+    closres let us take lines of code and group it together to use elsewhere in our program
+
+    this is kind of link functions, but without a name
+    it doesn't have or need a name
+    functions are blocks of code you want to call
+    closures are blocks of code you want to pass
+    most of the time you would be using the standard library or device specific things
+    things that take closures as passing arguments are built to accept lines of code instead of variables
+    it lets us use prewritten behavior
+
+    other languages call this blocks, or lambdas, or func literals or anonymous functions. Not all the same but similar concepts
+
+    ideal situation, you don't want to write your own sorting algos
+    if you look at array in the documentation toward the bottom ther eare things like inspecting an array, finding elements, but we want to look at the contains method
+    it looks like this
+    func contains(where: (Element) -> Bool) -> Bool
+    this is what it looks like when a method accepts a closure. 
+    this one needs code that would return a bool
+    see also reodering elements of array
+    sort method is destructive
+    sorted would be non destructive
+    sorted(by: (Element, Element) -> Bool) -> [Element]
+    we pass it two elements (books) and it compares them and returns a bool, so for example alphabetical
+    it's asking "are these in the right order?"
+    if firstBook.readingAge <= secondBook.readingAge
+
+    might be easy to start with a normal function that you can simplify down
+
+    a functin is a closer with a name
+    so you could pass the function name as the argument if you want, or the code of the function so long as it meets the requirements
+
+    if you aren't going to use the function again elsewhere then it's too much, this is why we have closures
+
+    you can put the parameters and return type inside the curly braces
+    the word in will seperate it form the rest of the code.
+
+    {
+        (firstBook: Book, secondBook: Book) -> Bool
+        in
+        code here
+    }
+
+    put the whole thing curly braces and all into the argument of the method
+
+    but we can do better, we can shorten this a lot
+    the parameters and return types are extra now
+    the in keyword is extra now
+    replace the names with $0 or $1 etc
+    this represents the variable it's searching for
+    if the closure is the only argument you can put it outsdie the method call
+    this is called a trailing closure
+    {return $0.readingAge <= $1.readingAge}
+    if it's a single line that only returns something we don't need the return
+    {$0.readingAge <= $1.readingAge}
+    so that works
+
+    you can add other things too
+    {$0.readingAge.uppercased <= $1.readingAge.uppercased}
+
+    can use it to whittle down too
+    {$0.readingAge < 10}
+    to only return the ones that are for the under 10 age group as an example
+
+    
 
 
 
