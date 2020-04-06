@@ -14,6 +14,7 @@
 		27E4023B2436A1BA0073ABF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E402392436A1BA0073ABF2 /* Main.storyboard */; };
 		27E402472436A1BB0073ABF2 /* VacationPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E402462436A1BB0073ABF2 /* VacationPlannerTests.swift */; };
 		27E402522436A1BB0073ABF2 /* VacationPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E402512436A1BB0073ABF2 /* VacationPlannerUITests.swift */; };
+		27E402602436AC8F0073ABF2 /* TripListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E4025F2436AC8F0073ABF2 /* TripListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		27E4024D2436A1BB0073ABF2 /* VacationPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VacationPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E402512436A1BB0073ABF2 /* VacationPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VacationPlannerUITests.swift; sourceTree = "<group>"; };
 		27E402532436A1BB0073ABF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27E4025F2436AC8F0073ABF2 /* TripListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				27E402322436A1B70073ABF2 /* ViewController.swift */,
 				27E402372436A1BA0073ABF2 /* Assets.xcassets */,
 				27E402392436A1BA0073ABF2 /* Main.storyboard */,
+				27E4025F2436AC8F0073ABF2 /* TripListViewController.swift */,
 				27E4023C2436A1BA0073ABF2 /* Info.plist */,
 				27E4023D2436A1BA0073ABF2 /* VacationPlanner.entitlements */,
 				27E402342436A1B70073ABF2 /* VacationPlanner.xcdatamodeld */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27E402332436A1B70073ABF2 /* ViewController.swift in Sources */,
+				27E402602436AC8F0073ABF2 /* TripListViewController.swift in Sources */,
 				27E402312436A1B70073ABF2 /* AppDelegate.swift in Sources */,
 				27E402362436A1B70073ABF2 /* VacationPlanner.xcdatamodeld in Sources */,
 			);

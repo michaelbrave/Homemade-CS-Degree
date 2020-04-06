@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -673,7 +674,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="VacationPlanner" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -693,25 +694,102 @@
                         </connections>
                     </window>
                     <connections>
-                        <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
+                        <segue destination="ouH-rf-ZbM" kind="relationship" relationship="window.shadowedContentViewController" id="ADS-af-LsI"/>
                     </connections>
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="hIz-AP-VOD">
+        <!--Split View Controller-->
+        <scene sceneID="OkM-yl-ZEh">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <splitViewController id="ouH-rf-ZbM" sceneMemberID="viewController">
+                    <splitViewItems>
+                        <splitViewItem id="agl-YP-YOY"/>
+                        <splitViewItem id="Nmj-eU-5f9"/>
+                    </splitViewItems>
+                    <splitView key="splitView" dividerStyle="thin" vertical="YES" id="jug-Gg-13J">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <connections>
+                            <outlet property="delegate" destination="ouH-rf-ZbM" id="q1y-ng-LFr"/>
+                        </connections>
+                    </splitView>
+                    <connections>
+                        <outlet property="splitView" destination="jug-Gg-13J" id="TtH-26-03j"/>
+                        <segue destination="BtK-ec-xdC" kind="relationship" relationship="splitItems" id="m2M-EO-eJE"/>
+                        <segue destination="fRW-ao-llQ" kind="relationship" relationship="splitItems" id="QJn-Rc-P3h"/>
+                    </connections>
+                </splitViewController>
+                <customObject id="trr-Fj-32o" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="711"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="L1x-fg-tp6">
+            <objects>
+                <viewController id="BtK-ec-xdC" sceneMemberID="viewController">
+                    <view key="view" id="UoB-6d-zLa">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
                 </viewController>
-                <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <customObject id="EUT-a5-jLz" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="742" y="470"/>
+        </scene>
+        <!--Tab View Controller-->
+        <scene sceneID="Blb-6A-MPp">
+            <objects>
+                <tabViewController id="fRW-ao-llQ" sceneMemberID="viewController">
+                    <tabViewItems>
+                        <tabViewItem identifier="" id="Euq-b7-7Z6"/>
+                        <tabViewItem identifier="" id="RBe-QU-TFe"/>
+                    </tabViewItems>
+                    <tabView key="tabView" type="noTabsNoBorder" id="JNe-st-c0O">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <font key="font" metaFont="system"/>
+                        <connections>
+                            <outlet property="delegate" destination="fRW-ao-llQ" id="OPZ-Oe-9aN"/>
+                        </connections>
+                    </tabView>
+                    <connections>
+                        <outlet property="tabView" destination="JNe-st-c0O" id="v5V-bR-u3w"/>
+                        <segue destination="eon-vs-KoQ" kind="relationship" relationship="tabItems" id="Ppr-uA-rGy"/>
+                        <segue destination="Ju8-pl-hgJ" kind="relationship" relationship="tabItems" id="fv6-TZ-cVo"/>
+                    </connections>
+                </tabViewController>
+                <customObject id="X1h-QF-1Pc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="865"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9aO-xf-13W">
+            <objects>
+                <viewController id="eon-vs-KoQ" sceneMemberID="viewController">
+                    <view key="view" id="ZRe-da-MHB">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="wbs-je-iN5" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1418" y="679"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dRU-QJ-pOZ">
+            <objects>
+                <viewController id="Ju8-pl-hgJ" sceneMemberID="viewController">
+                    <view key="view" id="75N-Ew-QeX">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="wKB-3Q-1hn" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1418" y="1051"/>
         </scene>
     </scenes>
 </document>
