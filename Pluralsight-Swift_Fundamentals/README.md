@@ -502,7 +502,128 @@ I won't be paying much attention but will take notes
     {$0.readingAge < 10}
     to only return the ones that are for the under 10 age group as an example
 
-    
+7. Classes and Objects
+
+    class
+        class Appliance {
+            //properties
+            var thing: String
+        }
+        thse are instance level properties of the class, temporary variables
+        we wither provide an initializer or default values for the variables, or make them optionals
+        use self to refer the current instance of a class
+        technically you don't need to write self, but it could be suseful
+
+        var kettle = Appliance()
+        this is how to call it
+        kettle.model = "name of model"
+        kettle.getDetails() - to call a funciton in the class
+
+    initialization
+        default values is the easy way or we can initialize
+        init() {
+            self.name = "default"
+            self.age = "0"
+
+        }
+        it's ok not to initialize optionals
+        you can make multiple inits, but they need different paramaters so as to tell them apart
+        deinitializer, leave empty?
+        deinit {
+
+        }
+        use this for releasing memory code if you need to
+        you can only have one deinit
+        you can't make a deinit for a struct, only for classes. 
+        ARC memory keeps track of what is in use or not
+
+    structs
+        structs are more powerful in swift
+        they can have methods and initializers
+        very similar to classes
+        memberwise initializer is the default one, or you can write your own
+        but with classes you have to make your own init method.
+        structs don't do inheritance
+        structs are value types, classes are reference types
+        when you make an instance of a struct and assign it or pass it, it is duplicated
+        but with a class it is referenced, it's not copied, changes will change the original object
+        this is part of why functions paramaters are always constants
+        === is the identity operator it only works with classes, it's asking if they are the same instance and not just identical info
+        you could make the class a constant when you make it, you could chang the internals if it's a constant and the internals are vars, so set them appropriately as you need.
+        many people use the word instance instead of class or struct as it can refere to both
+    Inheritance
+        : represents a type of - relationship
+        toaster is a type of appliance
+        class Toaster: Appliance {}
+        instead of parent child, we say superclass and subclass
+        there is no universal base class to inherit from in swift unlick some languages
+        the point of inheriting is to change existing behavior
+        you will need to initialize or default any new properties added.
+        override init ()
+        override will let us modify inherited behavior
+        if it's only initializing new things then it will merely add to it instead of replacing
+
+        if I want to call from subclass to the superclass use super
+        super.init()
+        flipside if I want to prevent something being ovewrittend add final to the variable
+        you can also add final to the class as a whole
+        final class Appliance {}
+
+        we don't use classes and inheritance much in swift, it's useful but it's not core instead we use protocols, delegations and extensions
+
+    Extensions
+        allow us to add new methods and properties to existing types without inheritance
+        this also works with structs and enums
+        we can use this with things that aren't even ours
+        we can extend the String type for example
+        extension String {
+            func removeSpaces() -> String {
+                let filteredCharacters = self.filter {$0 != " "}
+                return String(filteredCharacters)
+            }
+        }
+        now we can use this on any string. 
+        print(album.removeSpaces())
+
+        extensions are always adding things, not removing or overwriting
+    Storred Properties
+        the variables stored in classes are called stored properties and keep their own values for each instance
+        usually this is what we mean when we say properties
+        but sometimes it's computer genereated
+        this is true of structs too
+        a computer property looks like a normal one except instead of providing a vaue we add a codeblock with get and set, often only get
+        if only get it's a read only property
+        var score: Int {
+            get {
+                return (enemiesDestryed * 1000) + bonus + (livesRemaining * 5000)
+            }
+            set {
+                print("You passin in \(newValue) but I'm going to ignore it")
+            }
+        }
+        this lets us act like this data belongs to the player
+        print("The final score is: \(newPlayer.score)")
+        to set/change it
+        newPlayer.score = 1250000
+        if there is only one line of code in the get area you can just put the line of code, don't have to put get, just put it inside the {}
+        it will be read only, but it's not a constant
+        it has to be var because it is adding from other places, though you can't change it from other places
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
