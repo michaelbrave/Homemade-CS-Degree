@@ -608,7 +608,124 @@ I won't be paying much attention but will take notes
         if there is only one line of code in the get area you can just put the line of code, don't have to put get, just put it inside the {}
         it will be read only, but it's not a constant
         it has to be var because it is adding from other places, though you can't change it from other places
+8. Introducing protocols
+    protocols
+        sometimes people use inhertiance to standardize a behavior, protocols can standardize a behavior without having to inherit
+        set of rules, or code of behavior, what do you have to do and in what order
+        certain things expected, rules that need to be followed to do something that is already going on
+        simple list of methods and properties
+        this can be general puprose or app specific
+        loading and saving data, or making dynamic interfaces
+        use premade before we start writing them
+        CustomStringConvertable is part of the standard library
+        look at protocl requirements in docs
+        it doesn't do anything but require a description
+        class Player: CustomStringConvertable {}
+        class NewClass: SuperClass, Protocol {}
+        you can only inherit from one superclass but you can inherit from multiple protocols
         
+        but for the protocol you need to include it's requirements
+        for that particular protocol include
+        var description: String = {
+            code here that could be a more apt description
+            a custom one
+        }
+
+        it will now fully integrate that custom thing
+
+        a protocol is a list of necissary properties
+        protocol MyProtocol {
+            func showMessage()
+            var name: String {get set}
+        }
+        so it needs to include something called showMessage
+        and it needs to have a string var called name, but we label it here with a get/set to make it read/write
+
+        adopt and conform
+        adopt protocol x, conformed protocol y
+        adopt is when we use a protocol
+        conformed is when we do what the protocol asked
+        (these are kind of like interfaces with java)
+        this was inherited form objective-C
+
+    error handling
+        there are three parts to error handling
+        1. define it
+        2. throw it - where and when can it happen
+        3. handle it - what to do about it?
+        usually there is a standard error type
+        swift doesn't have a built in error struct
+        you can build it yourself and define it yourself
+        they don't have to inherit or anything
+        enum could be a good choice here
+        completely up to you
+        enum ServerError: Error {
+            case noConnection
+        }
+        this new type is an error that is meant to throw
+        func checkStatus(serverNumber: Int) throws -> String {
+            switch serverNumber {
+                case 1:
+                    print("You have no connection")
+                    throw ServerError.noConnection
+            }
+        }
+        have to include throws to let it know that it will be doing errors
+
+        to call a function that cna throw errors we have to do it differently
+        do {
+           let result = try checkStatus(serverNumber: 1)
+
+        } catch {
+
+        }
+        you have to include the try in the do catch statement
+        you can have multiple catch blocks for more specific errors
+        unlike switch it doesn't have to be exhaustive
+        its good practice to leave a generic one at the end
+
+        there is a more consciese way 
+        use try?
+        if let result = try? checkStatus(serverNumber: 1)
+        look up if let statements, and let statements
+
+    Guard and defer
+        these are control flow statements kind of liek if else
+
+        guard is a lot like an if else statment and usually has an else with it
+        guard itemsRequested < itemsInStock else {}
+        it's meant for several optional parameters
+        did we actually get all the parameters
+        usually we would check with a bunch of if's to look for empty variables
+        or we could use a guard statement
+        guard condition-I-need-to-be-true else {
+
+        }
+        so if it's true it won't run
+        guard let unwrappedVal = optionalVal else {}
+        so it's kind of like (if these variables aren't empty go ahead)
+        you need a hard else statement, because you are describing what you need to be true
+
+        usually guards can be seen at the top to protect against empty things
+
+        guard let is similar to an if let
+        guard let unwrappedName = optionalName else {}
+        if things are returning the same thing you can seperate them by commas
+
+        defer keyword
+        not unusual to have a method that needs to open something and be able to close it
+
+        defer {
+
+        }
+        it will be called just before
+
+        look up defer statements
+
+
+
+
+
 
 
 
