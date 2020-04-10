@@ -65,8 +65,7 @@ Need a buffer and a shader, also need vertex attributes. This is the minimum via
 
 a vertex is more than a position
 
+going to start over since I've had to switch to windows now.
 
 
-left off at: https://www.youtube.com/watch?v=x0H--CL2tUI&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2&index=5
-
-going to start over since I've had to switch to windows now
+//-------------------// Staring over //---------------------//
