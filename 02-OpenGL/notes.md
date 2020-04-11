@@ -61,6 +61,16 @@ glfw is nice because it's lightweight.
 sdl is a bit more complex
 but for the purposes of making a window, it's good.
 
+should you use prebuild binaries or compile from source code?
+Doesn't seem to matter
+
+32 vs 64 bit, use what's appropriate for the system you want to build for
+what matter is the architecture of your application, how you compile it, not the OS that you're using, where is it going to be run?
+
+it's also pretty easy to switch
+
+
+
 03. 
 
 04. 
