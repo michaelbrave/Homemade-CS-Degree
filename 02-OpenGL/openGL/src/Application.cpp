@@ -1,5 +1,5 @@
 #include <iostream>
-#include <Dependencies/GLFW/include/GLFW/glfw3.h>
+#include "../inc/GLFW/glfw3.h"
 
 int main(void)
 {
