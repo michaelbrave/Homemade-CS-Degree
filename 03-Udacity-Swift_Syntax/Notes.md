@@ -8,3 +8,8 @@ Enums & Structs (Special in swift)
 Protocols & Extensions
 Closures
 
+resources can be found at https://github.com/udacity/ios-nd-swift-syntax/
+
+course can be found at https://classroom.udacity.com/courses/ud902/lessons/
+
+
