@@ -1,80 +1,59 @@
 # Homemade-CS-Degree
 
-This is my attempt to fill in some of the gaps in knowledge that I may have due to being more of a self taught developer (learning at 42 is more of a figure things out yourself style).  
+This is my attempt to fill in some of the gaps in knowledge that I may have due to being more of a self taught developer (even learning at 42 was more of a figure things out yourself style).  
 
-So I've chosen various courses, classes and reading to supplment my gaps in knowledge. Here I will keep references and notes to all of them.  
+So I've chosen various courses, classes and reading that will serve that purpose. This repository will keep references, notes, examples and code samples of these resources.  
 
-The first course will be MIT's 6.0001 - Introduction to Computer Science and Programming in Python  
-This is the course that replaced SICP, which I plan on doing later so that I can compare them(Also I had started with SICP but found my knowledge lacking enough that it felt beyond me, although this was almost a year ago and I would likely do better now, my hope is that this course may help bridge the gap somewhat). This was not only to build up some possibly missing foundational knowledge but also to learn python in preparation for a hackathon in the upcoming month. It was a two birds with one stone choice.  
+other courses recomended to me:
+> MIT's 6.0001 - Introduction to Computer Science and Programming in Python  
+> https://missing.csail.mit.edu/
+> https://www.cis.upenn.edu/~cis191/lectures.html
+> https://www.cs.cmu.edu/~07131/f19/
+> https://cgi.cse.unsw.edu.au/~cs2041/19T2/index.html 
+> https://buildingtoolswithgithub.teddyhyde.io/ 
+> http://ieng6.ucsd.edu/~cs15x/ 
+> Linux from Scratch http://www.linuxfromscratch.org/
+> https://www.nand2tetris.org/
 
-second course https://missing.csail.mit.edu/
+> (how to read and write clean code)
+    book: code reading: open source perspective by Diomidis Spinellis
+    book: code quality: the open source perspective by Diomidis Spinellis
+    book: clean code
+    book: code craft
+    book: code complete 2
+    book: 500 lines or less & others - https://www.aosabook.org/en/index.html
 
+> Swift https://www.coursera.org/specializations/swift-5-ios-app-developer?action=enroll&utm_campaign=Vw6koEkgEeqd_xFKDENJkw&utm_medium=email&utm_source=marketing#courses 
 
-third course
-https://www.cis.upenn.edu/~cis191/lectures.html 
-or
-https://www.cs.cmu.edu/~07131/f19/ 
-or
-https://cgi.cse.unsw.edu.au/~cs2041/19T2/index.html 
-or
-https://buildingtoolswithgithub.teddyhyde.io/ 
-or 
-http://ieng6.ucsd.edu/~cs15x/ 
+> Logic https://www.edx.org/course/logic-and-computational-thinking-2?utm_source=sailthru&utm_medium=email&utm_campaign=newyears_2020&utm_content=course_feature_compsci_block4_20200209 
 
-
-
-later
-http://www.linuxfromscratch.org/
-
-later
-https://www.nand2tetris.org/
-
-later:  (how to read code)
-book: code reading: open source perspective by Diomidis Spinellis
-book: code quality: the open source perspective by Diomidis Spinellis
-book: clean code
-book: code craft
-book: code complete 2
-book: 500 lines or less & others - https://www.aosabook.org/en/index.html
+> Algos https://www.edx.org/course/algorithmic-design-and-techniques?utm_source=sailthru&utm_medium=email&utm_campaign=newyears_2020&utm_content=course_feature_compsci_block4_20200209
 
 
-learning swift
-https://www.coursera.org/specializations/swift-5-ios-app-developer?action=enroll&utm_campaign=Vw6koEkgEeqd_xFKDENJkw&utm_medium=email&utm_source=marketing#courses 
+> Other things to Learn:
+    Iteration
+    Recursion
+    Multi Dimentional Arrays + Matrices
+    Linked Lists
+    Queues + Stacks + Heaps
+    Sets + Hash Maps (Very Useful)
+    Trees + Binary Search
+    Graphs + Graph Traversals (Depth First Search + Breadth First Search + Backtracking)
+    Tries
+    Sorting Algorithms (Merge Sort + Quick Sort)
+    Implementation and Time and Space Complexity Analysis
+    Dynamic Programming Problems (Memoization + Divide & Conquer)
+    Proofs (Contrapositive + Contradiction + Cases + Induction)
+    Multiple Pointers
+    Sliding Windows
+    Greedy Algorithms
+    Object Oriented Programming
 
-logic
-https://www.edx.org/course/logic-and-computational-thinking-2?utm_source=sailthru&utm_medium=email&utm_campaign=newyears_2020&utm_content=course_feature_compsci_block4_20200209 
+> Berkley CS 61A CS 61B https://cs61a.org/ or http://inst.eecs.berkeley.edu/%7Ecs61b/sp20/
 
-algos
-https://www.edx.org/course/algorithmic-design-and-techniques?utm_source=sailthru&utm_medium=email&utm_campaign=newyears_2020&utm_content=course_feature_compsci_block4_20200209
-
-
-
-Things to Learn:
-Iteration
-Recursion
-Multi Dimentional Arrays + Matrices
-Linked Lists
-Queues + Stacks + Heaps
-Sets + Hash Maps (Very Useful)
-Trees + Binary Search
-Graphs + Graph Traversals (Depth First Search + Breadth First Search + Backtracking)
-Tries
-Sorting Algorithms (Merge Sort + Quick Sort)
-Implementation and Time and Space Complexity Analysis
-Dynamic Programming Problems (Memoization + Divide & Conquer)
-Proofs (Contrapositive + Contradiction + Cases + Induction)
-Multiple Pointers
-Sliding Windows
-Greedy Algorithms
-Object Oriented Programming
-
-Berkley CS 61A CS 61B
-https://cs61a.org/ 
-http://inst.eecs.berkeley.edu/%7Ecs61b/sp20/
-
-See:
-Leetcode
-Hackerrank
-GeeksForGeeks
-https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt
+> See Also:
+    Leetcode
+    Hackerrank
+    GeeksForGeeks
+    https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt
 
