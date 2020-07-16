@@ -1,1 +1,0 @@
-this is from a course on Kadenze called Generative Art and Computational Creativity found here https://www.kadenze.com/courses/generative-art-and-computational-creativity-i/
