@@ -1,5 +1,15 @@
-So here are my assignments from doing CS50 Online, my main intent is to catalog the things I do even if trivial, this is my attempt at that. If it is useful for you then great. 
+These are my notes and files for Harvard CS50 done through EDX. I did this in the hopes of brushing up on basics that were missed in my attempt as self learning.
 
-This is for the 2018 Class. 
+## Helpful Links:
 
--Mike
+### Course
+
+https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/
+
+### Sandbox
+
+https://sandbox.cs50.io/
+
+### LibCS50
+
+https://github.com/cs50/libcs50
