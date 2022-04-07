@@ -13,6 +13,8 @@ It should be noted that this book was designed to be a part 1 of a 4-5 course se
 5. Software Development (Putting it all together)
 (Most of these are meant to be done with pair programming and peer reviews, I don't have the luxury right now but I have done this before and I will try to do what I can at least for getting peer review from some friends)
 
+--
+
 First Course "How to Design Programs" Objective
 1. Learn systemic and explicit design of programs
 2. Learn how to do systemic problem solving
@@ -171,6 +173,8 @@ Recomended Reading
 1. Weinberger's Psychology of Programming (parts of it)
 2. Introduction to Algorithms: A Creative Approach by Udi Manber
 
+Books I found that I think may be Relevant
+1. Bringing Design to Software (1996) https://hci.stanford.edu/publications/bds/
 
 -----
 
