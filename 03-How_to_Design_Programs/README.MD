@@ -142,7 +142,7 @@ Simplified Steps
 
 -----
 
-Week 1 Lecture Notes
+Week 1 Lecture Notes:
 A lot of software survives long past when it should have been replaced (example: banks using cobol programming to this day). 
 This creates software rust (my words) or at the minimum tech debt (my words). 
 the lesson is: "if your software survives the protype stage then it will survive you"
@@ -206,4 +206,71 @@ Books I found that I think may be Relevant
 
 -----
 
-Prolog:
+Prolog Notes:
+
+Logic Statements
+if, and, or, not, >, <, =?, 
+=? means is the following items identical, true or false?
+
+--- PG10-11
+
+teachpack/library used = dhtdp/image
+
+image related commonds used or given as examples in prolog:
+empty-scene - it makes a grid
+image-width
+image-height
+circle 10 "solid" "red" - will make a circle size 10, colored solid red
+place-image
+overlay() - use it to stack things like circles or boxes, kinda like string-append
+above() - similar to overlay
+beside() - similar to overlay but places the objects next to each other
+
+images in racket use a grid that starts in the uper left at 0,0 - so it's inverse of normal math, y coord goes downward
+
+--- function example for racket
+
+function definition - Parameter - Body
+(define (functionName InputName) BodyExpression)
+
+function application
+which function to use - which input to give
+(functionName ArgumentExpression)
+
+---
+
+- think
+if false (trueAns)(falseAns)
+
+--- pg 18
+
+condition examples
+
+(define (sign X)
+    (cond
+        [(> X 0) 1]
+        [(= X 0) 0]
+        [(< X 0) -1]
+    )
+)
+
+(cond
+    [expr1 Result1]
+    [expr2 Result2]
+)
+it's a qustion, if true then replace with, if not next on list
+
+--- final advice of prolog
+
+"programmers create programs for other people to read them in the future"
+
+"a good program reflects the problem statements and it's important concepts"
+
+"good programming is about solving problems systematically and conveying the system within the code"
+
+
+
+------ Ch1 
+
+
+
