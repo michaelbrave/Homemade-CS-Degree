@@ -102,6 +102,3 @@ it's a qustion, if true then replace with, if not next on list
 "a good program reflects the problem statements and it's important concepts"
 
 "good programming is about solving problems systematically and conveying the system within the code"
-
------ CH 1
-

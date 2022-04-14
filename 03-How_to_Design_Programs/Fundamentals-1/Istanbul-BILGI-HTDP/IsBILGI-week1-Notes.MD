@@ -1,0 +1,1 @@
+Istanbul Bilgi HtDP 2010 - https://www.youtube.com/playlist?list=PLA_-EWSPTJcuy5VyJyvemxydu16kcAK0S 
