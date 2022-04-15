@@ -1,8 +1,10 @@
 The Goal: To build up my foundational knowledge in being a good programmer
 
+
 Searching for resources that lend themselves toward this toward "better thinking about programming" I've found two highly recomended resources.
 1. SICP - The Structure and Interpretation of Computer Programs (The Wizard Book)
 2. HtDP - How to Design Programs
+
 
 The oversimplified gist of the history is that SICP was developed kinda alongside LISP in the mid 80's for MIT, and presupposed one would already be good at things like linear algebra. The first class was taught to already professional programmers and engineers.
 - https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs
@@ -10,11 +12,25 @@ The oversimplified gist of the history is that SICP was developed kinda alongsid
 Later at Northeastern University (which specializes more in work based programming rather than research based programming is a good way to say it) they built up an entire curriculim more closely based around foundations and fundamentals for beginners, and based it heavily off of SCIP while addressing the concerns that they had. While doing this they created the Racket programming language and DrRacket the IDE used with it. There have been further simplificaions for kids (how to design worlds - immaginative programming in DrScheme)(Picturing Programs: An Introduction to Computer Programming by Stephen Bloch) but as I am not a child and have coded before I didn't feel the need to go that far. 
 - https://en.wikipedia.org/wiki/How_to_Design_Programs 
 
-So to oversimplify again, HtDP is more beginner friendly in that uses DrRacket as an IDE, starts with a simplified Scheme-Language and doesn't require the heavy math requirements that are implied with SCIP as it was designed to be part of a 5 course track. I've also had better luck finding newer and (even if old still not outdated) courses and methods of implementation for it than SICP(last taught at MIT in 2007)(DrRacket is solid). On the whole it's been a much more seamless experience getting the environment working and finding the resources I need. 
 
+Ultimate Decision:
+HtDP
+
+
+Reasoning:
+
+
+So to oversimplify again, HtDP is more beginner friendly in that uses DrRacket as an IDE, starts with a simplified Scheme-Language and doesn't require the heavy math requirements that are expected to be known with SCIP as it was designed to be part of a 5 course track.
+
+I've also had better luck finding newer and (even if old still not outdated - it seems to have been relatively futureproofed by design, such that so long as you can run DrRacket there shouldn't be any major problems of anything being outdated) courses and methods of implementation for it than SICP (which was last taught at MIT in 2007). On the whole it's been a much more seamless experience getting the environment working and finding the resources I need.
+
+I also appreciate that it has been taught to kids at some point, and that level of simplification will help me in my future endevors to teach and this is as much to learn about the process of learning how to code (so I can help others later), as it is to build better habits and learn to be better at programming. 
+
+I'm also fascinated by the idea of Computer Program Designer and Designers which seems to have been advocated a bit in the 80's and I don't hear much about that anywhere without significant digging, this seems to be something of a continuation of that thought and the most mainstream version of it as well, and I think that thought is valuable and worth exploring deeper. 
+
+
+Plan Going Forward:
 So the plan is to emulate the 5 course track of Northeastern as best I can, and if afterward I still feel lacking I will then move on to SCIP. 
-
-This is as much to learn about the process of learning to code (so I can help others later), as it is to build better habits and learn to be better at programming. 
 
 
 ----- 

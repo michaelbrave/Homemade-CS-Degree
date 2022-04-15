@@ -162,3 +162,48 @@ Evaluating if Expressions:
 3. if the question is false, replace with false answer, if true replace3 with true answer
 4. return the correct answer, if value other than true or false produce an error
 
+Other Expressions:
+and - an expression similar to if that creates a boolean value, if all are true will return true
+- it doesn't keep evaluating as soon as it hits false, it's called short circuiting, or would stop as soon as one was true
+or - similar to and expression, checks if one of the options is true
+not - similar to and expression, returns the opposite of a true false statement
+
+
+--- Using the Stepper
+
+it's built into DrRacket
+top right corner there is a play, stop and step button
+the step button (looks like play pointing at a wall)
+it will work through the program, one step at a time
+
+
+--- Discovering Primitives
+
+the first way to discover a primitive it to make a lucky guess, as you get more experienced, you get better at this
+for example you know that circle and rectangle exist, so why not try triangle and see if it's there
+
+the second method to discover a primitive is called search and scroll
+cursor over related function, sign like /, and right click it and DrRacket will bring up a "serach in help desk" click that and it opens the manuals on a website
+from there choose the appropriate language that is being used, and it goes to the documentation, look through the documentation to find what you need
+
+
+------ Practice Problems
+
+Recomended by Course before moving on to week 2 - But there are more practice problems in the Problem Bank
+I've downloaded and included the solution files as well as leaving the originals untoched in case others find these files unaccessible via other means
+
+P1 - More Arithmetic Expressions
+
+P3 - Tile
+
+P5 - Compare Images
+
+P6 - More Foo Evaluation
+
+P15 - Function Writing
+
+P16 - Foo Evaluation
+
+
+- Personal Note
+Foo Bar examples are stupid and should not be used, there has to be a better way to make examples
