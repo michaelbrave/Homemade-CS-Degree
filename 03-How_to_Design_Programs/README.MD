@@ -9,22 +9,24 @@ Searching for resources that lend themselves toward this toward "better thinking
 The oversimplified gist of the history is that SICP was developed kinda alongside LISP in the mid 80's for MIT, and presupposed one would already be good at things like linear algebra. The first class was taught to already professional programmers and engineers.
 - https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs
 
-Later at Northeastern University (which specializes more in work based programming rather than research based programming is a good way to say it) they built up an entire curriculim more closely based around foundations and fundamentals for beginners, and based it heavily off of SCIP while addressing the concerns that they had. While doing this they created the Racket programming language and DrRacket the IDE used with it. There have been further simplificaions for kids (how to design worlds - immaginative programming in DrScheme)(Picturing Programs: An Introduction to Computer Programming by Stephen Bloch) but as I am not a child and have coded before I didn't feel the need to go that far. 
+Later at Northeastern University (which specializes more in work based programming rather than research based programming kinda) they built up an entire curriculim more closely based around foundations and fundamentals for beginners, and based it heavily off of SCIP while addressing the concerns they had with it.
+
+While doing this they created the Racket programming language and DrRacket the IDE used with it. There have been further simplificaions for kids ("How to Design Worlds - Immaginative Programming in DrScheme" by Mathias Felleisen and others, and "Picturing Programs: An Introduction to Computer Programming" by Stephen Bloch) There also seems to have been some more recently releases of similar books in German. 
 - https://en.wikipedia.org/wiki/How_to_Design_Programs 
 
 
 Ultimate Decision:
-HtDP
+HtDP - as I am not a child, do not speak German, do not know linear algebra and having coded/programmed before I felt that HtDP will serve my needs. 
 
 
-Reasoning:
+Further Reasoning:
 
 
 So to oversimplify again, HtDP is more beginner friendly in that uses DrRacket as an IDE, starts with a simplified Scheme-Language and doesn't require the heavy math requirements that are expected to be known with SCIP as it was designed to be part of a 5 course track.
 
 I've also had better luck finding newer and (even if old still not outdated - it seems to have been relatively futureproofed by design, such that so long as you can run DrRacket there shouldn't be any major problems of anything being outdated) courses and methods of implementation for it than SICP (which was last taught at MIT in 2007). On the whole it's been a much more seamless experience getting the environment working and finding the resources I need.
 
-I also appreciate that it has been taught to kids at some point, and that level of simplification will help me in my future endevors to teach and this is as much to learn about the process of learning how to code (so I can help others later), as it is to build better habits and learn to be better at programming. 
+I also appreciate that it has been taught to kids at some point, and that level of simplification will help me in my future endevors to teach and this is as much about learning the process of "learning how to code" (so I can help others later), as it is to build better habits and learn to be better at programming. 
 
 I'm also fascinated by the idea of Computer Program Designer and Designers which seems to have been advocated a bit in the 80's and I don't hear much about that anywhere without significant digging, this seems to be something of a continuation of that thought and the most mainstream version of it as well, and I think that thought is valuable and worth exploring deeper. 
 
