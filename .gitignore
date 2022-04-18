@@ -1,5 +1,5 @@
-._*
-.DS*
-.exe
-.obj
-.bak
+*._*
+*.DS*
+*.exe
+*.obj
+*.bak

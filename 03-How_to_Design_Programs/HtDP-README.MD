@@ -184,3 +184,12 @@ My Reasoning
 3. Repetition of material does help it to solidify in memory even if it is a bit slower going at the time. 
 4. If I have already mastered the material I would be terribly bored going through it again, so I would likely not be able to get through the supplementary sources if I did not do them concurrently.
 5. Most likely I will compile my notes from all of the above and compile them into a course or book at some point, so good/dumb notes and multiple examples and assignments to choose from are not a negative. 
+
+
+
+----- Other Githubs I thought were well done if one get's stuck or doesn't like my examples
+
+1. https://github.com/v2chrisb/i2spd/tree/master/HtDP-2
+2. https://github.com/emaphis/HtDP2e-solutions
+3. https://github.com/janegca/htdp2e
+
