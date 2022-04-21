@@ -10,6 +10,8 @@ Sub Sections
 6. Itemizations and Structures
 7. Intermezzo 1: Beginning Student Language
 
+This chapter is meant to be skimmed and come back to it as needed
+
 
 Terms:
 BSL - Basic Student Language - simplified Racket used to teach the beginning part of this book, a functional math based language with support for images as a type
@@ -17,8 +19,6 @@ BSL - Basic Student Language - simplified Racket used to teach the beginning par
 
 
 1. ----- Arithmetic
-
-This chapter is meant to be skimmed and come back to it as needed
 
 --- Fixed Size Data, Atomic Data
 Every Language has data and operations on data
