@@ -12,14 +12,11 @@ Sub Sections
 
 This chapter is meant to be skimmed and come back to it as needed
 
-
 Terms:
 BSL - Basic Student Language - simplified Racket used to teach the beginning part of this book, a functional math based language with support for images as a type
 
 
-
 1. ----- Arithmetic
-
 --- Fixed Size Data, Atomic Data
 Every Language has data and operations on data
 
