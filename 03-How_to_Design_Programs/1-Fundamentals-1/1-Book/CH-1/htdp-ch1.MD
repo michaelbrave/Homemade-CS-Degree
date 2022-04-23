@@ -1,5 +1,5 @@
 
-Section 1 Fixed-Size Data
+Section 1 - Fixed-Size Data
 
 Sub Sections
 1. Arithmetic
