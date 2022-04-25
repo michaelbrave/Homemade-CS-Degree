@@ -1,0 +1,1 @@
+Notes about procedural generation, algortithms used, techniques deployed and ideally how to integrate it into AI systems either to help set constraints or to generate data to be used by the AI systems. 
