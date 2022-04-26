@@ -1,7 +1,7 @@
 Courses about AI, Machine Learning, & other types of AI with a focus on generating content. 
 
 
-Things to Look up / Terms - especially in context of generating content:
+Things to Look up, Terms I read somewhere, Things that seem worth defining and writing down, and then understanding at a deeper level / especially in context of generating content:
 - Generative Adversarial Networks (GANs)
 - Deep Variational Autoencoders (VAEs)
 - Long Short-Term Memory (LSTM)
@@ -26,3 +26,27 @@ Things to Look up / Terms - especially in context of generating content:
 - stochastic bi-objective beam search model
     - to identify emotion
 - Markov Decision Process (MDP)
+    - strategy based deck building
+- Fractal network (convo-lutional network with structured skip connections)
+- Adversarial Learning (AL)
+    - good with 2D arrays like images or sprite tiles
+- Conditional Embedding Self-Attention GAN (CESAGAN)
+- deep convolutional GAN (DCGAN)
+    - was used to make 2D heightmaps
+-  token-based oneshot arbitrary dimension generative adversarial network (TOAD-GAN)
+- constrained adversarial networks (CANs)
+- latent space illumination (LSI)
+- Covariance Matrix Adaptation MAP-Elites (CMA-ME)
+- a GAN architecture, composed of a branched generator and multiple parallel discriminators
+- multi-discriminator GAN
+- conditional GAN (cGAN)
+- RL as player agent to test against level generator created by GAN
+- Evolutionary computation (EC) 
+- gradient descent
+- evolutionary algorithms such as Neuroevolution of augmenting topologies (NEAT) 
+- Deep Learning Novelty Explorer (DeLeNoX)
+- latent variable evolution (LVE) 
+- Latent Variable approach which combines unsupervised learning in the form of a GAN/VAE with evolutionary computation to search for content in the learned space of a GAN/VAE.
+- Compositional Pattern Producing Networks (CPPNs)
+- interactive evolutionary computation (IEC)
+- Neuroevolution via novelty search
