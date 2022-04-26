@@ -4,6 +4,8 @@ This is my attempt to fill in some of the gaps in knowledge that I may have due 
 
 Treat this respository as one would a library of things they want to read and filled with notes of what has been read (in many cases in the hopes of turning it into some sort of learning material for others later). It is as much aspirational as educational, and at the very least serves as a reference for myself so I do not forget.
 
+I'm organizing it such as if I were designing a curriculim for others in future, thinking about what order would serve best as a foundation for others. 
+
 So I've chosen various courses, classes and reading that will serve that purpose. This repository will keep references, notes, examples and code samples of these resources.  
 
 - Other things to Learn:

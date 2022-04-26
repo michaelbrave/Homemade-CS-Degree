@@ -1,0 +1,2 @@
+Book
+http://learnyouahaskell.com/

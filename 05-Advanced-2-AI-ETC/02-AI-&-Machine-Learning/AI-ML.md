@@ -50,3 +50,8 @@ Things to Look up, Terms I read somewhere, Things that seem worth defining and w
 - Compositional Pattern Producing Networks (CPPNs)
 - interactive evolutionary computation (IEC)
 - Neuroevolution via novelty search
+- Latent semantic features of the content, something for DL to measure statistical measures
+- Semantic hashing based on autoencoders, to categorize
+- deep player behavior modeling (DPBM)
+- multi-layer perceptron (MLP)
+- Bayes Net
