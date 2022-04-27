@@ -1,5 +1,9 @@
 Rough Plan to Master C#
 
+Scott Allen - Pluralsight
+https://www.pluralsight.com/courses/csharp-fundamentals-dev
+
+
 C# Command Line Programs
 https://www.youtube.com/playlist?list=PLdo4fOcmZ0oVxKLQCHpiUWun7vlJJvUiN
 https://www.youtube.com/watch?v=XLW3Biw-a68 

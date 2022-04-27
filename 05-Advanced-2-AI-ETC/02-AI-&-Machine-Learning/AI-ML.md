@@ -1,6 +1,36 @@
 Courses about AI, Machine Learning, & other types of AI with a focus on generating content. 
 
 
+Fast AI
+- https://www.fast.ai/
+
+
+
+Intro to Artificial Intelligence
+- https://www.udacity.com/course/intro-to-artificial-intelligence--cs271
+
+Andrew Ng
+- AI for Everyone - https://www.coursera.org/learn/ai-for-everyone
+- Machine Learning - https://www.coursera.org/learn/machine-learning
+- probably more
+
+University of Helsinki
+- https://course.elementsofai.com/
+
+Geoffrey Hinton
+- Neural Networks for Machine Learning - https://www.youtube.com/playlist?list=PLoRl3Ht4JOcdU872GhiYWf6jwrk_SNhz9
+
+CalTech - Learning From Data (The Math Behind AI More or Less)
+- https://work.caltech.edu/telecourse.html
+
+IMT Course - Understanding Artificial Intelligence through Algorithmic Information Theory
+- https://www.edx.org/course/artificial-intelligence-algorithmic-information-aiai
+
+Book - Daphne Koller - Probabilistic Graphical Models
+- https://www.coursera.org/specializations/probabilistic-graphical-models
+
+
+
 Things to Look up, Terms I read somewhere, Things that seem worth defining and writing down, and then understanding at a deeper level / especially in context of generating content:
 - Generative Adversarial Networks (GANs)
 - Deep Variational Autoencoders (VAEs)

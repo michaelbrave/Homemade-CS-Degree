@@ -1,4 +1,8 @@
 
+Branching
+- Tutorials - https://learngitbranching.js.org/
+
+
 Commit Message Style - Conventional Commit
 - feat: support new line chart
 - fix: update props for new line chart
