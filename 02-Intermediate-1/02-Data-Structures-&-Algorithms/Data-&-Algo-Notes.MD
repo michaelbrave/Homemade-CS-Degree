@@ -33,3 +33,7 @@ OSSU
 Interview Prep - Relevant
 https://www.interviewbit.com/
 Algo and Interview Prep Checklist - https://github.com/jwasham/coding-interview-university/blob/main/README.md#data-structures
+
+
+Discrete Optimizations - U of Melborne
+- https://www.coursera.org/learn/discrete-optimization

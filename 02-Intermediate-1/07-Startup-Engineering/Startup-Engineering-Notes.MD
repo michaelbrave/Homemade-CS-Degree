@@ -5,3 +5,6 @@ Course (all other traces gone now)
 How to Start a Startup
 - https://startupclass.samaltman.com/
 
+Technology Entrepreneurship - Stanford
+- https://www.youtube.com/playlist?list=PLF6C0319C607DEDC1
+

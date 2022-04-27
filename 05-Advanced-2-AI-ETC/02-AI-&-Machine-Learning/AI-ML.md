@@ -23,13 +23,24 @@ Geoffrey Hinton
 CalTech - Learning From Data (The Math Behind AI More or Less)
 - https://work.caltech.edu/telecourse.html
 
+Georgia Tech
+- Knowledge Based AI: Cognitive Systems - https://www.udacity.com/course/knowledge-based-ai-cognitive-systems--ud409 (Projects are better than lectures)
+- Introduction to Computer Vision - https://www.udacity.com/course/introduction-to-computer-vision--ud810
+- Reinforcement Learning - https://www.udacity.com/course/reinforcement-learning--ud600
+
 IMT Course - Understanding Artificial Intelligence through Algorithmic Information Theory
 - https://www.edx.org/course/artificial-intelligence-algorithmic-information-aiai
 
 Book - Daphne Koller - Probabilistic Graphical Models
 - https://www.coursera.org/specializations/probabilistic-graphical-models
 
+Berkley
+- CS 188 - Atrificial Intelligence - https://www.youtube.com/channel/UCHBzJsIcRIVuzzHVYabikTQ/videos
 
+Introduction to Reinforcement Learning with David Silver
+- https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver
+
+------
 
 Things to Look up, Terms I read somewhere, Things that seem worth defining and writing down, and then understanding at a deeper level / especially in context of generating content:
 - Generative Adversarial Networks (GANs)

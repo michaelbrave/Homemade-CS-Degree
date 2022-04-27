@@ -12,3 +12,15 @@ Book
 Martin Odersky
 - Functional Programming Principles in Scala - https://www.coursera.org/learn/scala-functional-programming
 
+Peter Van Roy
+- Book - Concepts, Techniques, and Models of Computer Programming (Could probably compete with SICP)
+- Course - Paradigms of Computer Programming – Fundamentals - https://www.edx.org/course/paradigms-of-computer-programming-fundamentals
+
+FUN - Intro to Functional Programming in OCaml
+- https://archive.org/details/fun_ocaml_mooc
+
+ELM Lang
+- https://courses.knowthen.com/p/elm-for-beginners
+
+
+Book - Grokking Functional Programming - Michal Plachta
