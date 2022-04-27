@@ -9,3 +9,9 @@ it's easy to solve the wrong problem because it's fun or because someone else sh
 Before we implement a solution, what is the problem we are actually trying to solve?
 
 Even advanced engineers struggle with this and improve over thier lives
+
+
+----
+
+"it is not the domain experts knowledge that goes to production, it si the assukmption of the developers that goes to production" - Albert Brandolini
+
