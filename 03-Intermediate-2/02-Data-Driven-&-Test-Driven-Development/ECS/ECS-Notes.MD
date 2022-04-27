@@ -57,11 +57,24 @@ Sparce and Dense Arrays Sets
 
 
 --- OOP Vs ECS ---
-Distinction of ECS from OOP
+OOP
+- Focuses on interfaces (how code is used) with key concepts being encapsulation, abstration and inheritance. 
+- Easy to understand in a human way, which makes it easy to build and maintain
+
+Data-Oriented Design
+- More focus on the data itself, and the algorithms that manipulate that data
+- key concepts are removal of data dependency, and how that affects memory access patterns as well as algorithmic simplicity
+- Design data structures for how they are going to be used, for maximum efficiency and use. 
+- maximize efficiency while keeping code simple
+
+ECS (also a kind of Data-Oriented Design)
+- Entity systems assign each component to a system which manages those components
 - A sepration of Components from the system (so not putting a Function/Method inside a component as is common with OOP classes)
-- it's a more data driven development process, but also more systems driven
-- components are strickly for holding data
+- Components have no logic, are strickly for holding data, aka plain old data
+- Entities are only and identifier used to associate components in systems with each other
 - flat heirarchy
+- Each system is responsible for updating all of it's components
+- Componenets should have no dependencies of each other
 
 
 --- Examples to show the need ---
@@ -69,13 +82,11 @@ Example - Traditional Object Heirarchy (Clases and Subclasses)
     Entity->Animal->Bird->Parrot (Does Fly)
                         ->Penguin (Doesn't Fly)
     What happens when you reach a behavior difference?
-
 --
 Example of OOP Heirarchy Problem
     Object->NPC->Merchant
                 ->Quest-Giver
     what happens when you want a merchant/quest-giver, double inhertiance is bad and often not supported, common way to fix ends up bloating the higher tier class
-
 --
 Example of ECS (Simplified), things in struct are components that trigger systems
 NPC {
@@ -113,26 +124,30 @@ Quest-Merchant {
     - Non exponential behavior complexity, more linear interactions
     - Clean archtecture, dependencies are simpler
     - Structure around consuming data as a stream so mutations don't clash
+    - Similar advantages as microservices and functional programming
 3. Composability
     - can add and remove, and make new stuff easilty
     - Exposed data, easy modding
     - Developer Productivity, easy to add new things
     - Easily extendible and scaleable
+    - no heirarchy, just composition
 4. Performant
     - loads data in an optimized way, most of the time
     - Can load memory in a more optimized way if done correctly
     - plays nice with Parallelisation
     - good with large sets of data or tasks (similar tasks)
+    - less memory allocation tasks and having to free them
 
 
 --- Weaknesses ---
-1. Overkill for non interactive things, like tiles or UI
-    - Also UI also may be easier to understand in an OOP way
+1. Overkill for non interactive things, like tiles
 2. More components more memory needed, though most say this is minimal
 3. Having to think in more generic or broader terms, which maybe harder to do
     - instead of tranforming an object break it down to anything that can move, or that can be seen
 4. Cache misses seem to be a common problem
 5. It usually means more code, even if it's better code
+6. No small versions to wrap head around, small version is still complex
+7. Requires a deeper understanding of how memory and processors work, without some hardware knowledge many of the optimization benefits won't be there
 
 
 --- When to use ---
@@ -145,11 +160,11 @@ Quest-Merchant {
 7. To eliminate the stuff that isn't used (often OOP will include extra stuff that gets inherited but not used)
 8. It works well to support emergent gameplay and dynamic systems
 9. When data analysis (from many sources) is prioritized over mutation
-
+10. When you want everything in the game world to be able to interact with everything else
 
 --- When Not to use ---
 1. For simple things, it's an overengineered solution that isn't needed, which can cause problems
-2. If a system doesn't change much or isn't interactive (Like UI)
+2. If a system doesn't change much or isn't interactive, it's overkill
 3. Beginner Programmers - it is a more advanced way to reason about code and data
 
 
@@ -165,7 +180,7 @@ Quest-Merchant {
 
 ----- What sorts of things should it be used for? -----
 It's Good for:
-- GUI programming (Mixed Answers Here)
+- GUI programming (only updates the parts changed)
 - Editors
 - Audio Systems
 - VFX
@@ -173,6 +188,14 @@ It's Good for:
 - Service Registry
 - Anything event Driven
 - Anything you want to easily unit test
+- Graphics, particle engines, culling, batching
+- Physics, Ray testing
+- Lighting, lightmap calculation
+
+It's Neutral for:
+- Game Logic
+- AI (pathfinding might be good though)
+- Tools (better to just get them done the quickest way)
 
 It's not good for:
 - Disk Heavy Operations
@@ -180,7 +203,14 @@ It's not good for:
 - heavily hierarchical data - use a database
 
 
------ Ideas to Build With, Suggestions of Implementation ------
+----- How Can it Be Implemented -----
+--- Existing Implementations ---
+Rust - Specs
+C++ - EnTT, EntityX, Anax
+C# - Entitas, EgoCS
+Java - Artemis (I've heard it's a very simple and elegant solution that's easy to understand)
+
+--- Suggestions of Implementation ----
 Components (The heart of it)
 - should only have data, unless it's a supreme edge case like networking
 - no logic in data structures
@@ -241,12 +271,24 @@ Game Loop
 
 ----- Links and Sources -----
 --- Definition & Explanation Links ---
+ECS
+https://en.wikipedia.org/wiki/Entity_component_system
 
 Composition over Inheritance
 https://en.wikipedia.org/wiki/Composition_over_inheritance
 
-ECS
-https://en.wikipedia.org/wiki/Entity_component_system
+
+--- Resources ---
+ECS FAQ
+https://github.com/SanderMertens/ecs-faq
+
+Entity Systems Wiki
+http://entity-systems.wikidot.com/
+
+Game Programming Patterns: Component
+http://gameprogrammingpatterns.com/component.html
+
+http://devres.zoomquiet.top/data/20170928165417/index.html
 
 
 --- Talks, Tutorials & Retrospectives ---
@@ -263,6 +305,9 @@ Adam Martin - Making Operation Flashpoint Dragon Rising (2007)
 http://t-machine.org/index.php/2007/09/03/entity-systems-are-the-future-of-mmog-development-part-1/
 http://t-machine.org/index.php/2007/11/11/entity-systems-are-the-future-of-mmog-development-part-2/
 
+Sean Middleditch - DigiPen GEAC 2013 - Data-Oriented Design
+https://www.youtube.com/watch?v=16ZF9XqkfRY
+
 Brian Bucklew - IRDC 2015 - Data Driven Engines of Qud and Sproggiwood
 https://www.youtube.com/watch?v=U03XXzcThGU
 
@@ -274,8 +319,6 @@ https://www.youtube.com/watch?v=JxI3Eu5DPwE
 
 Mars Buttfield-Addison, Paris Buttfield-Addison, Tim McJones - SAConf NY 2019 - Entity Component Systems and You: They're Not Just For Game Developers
 https://www.youtube.com/watch?v=SFKR5rZBu-8
-
---- Resources ---
 
 
 --- Sources ---
