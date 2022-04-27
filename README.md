@@ -75,3 +75,6 @@ Intermediate Courses:
 Advanced:
 1. Assembly
 2. Hardware
+
+can find more course on this list
+- https://github.com/prakhar1989/awesome-courses#readme

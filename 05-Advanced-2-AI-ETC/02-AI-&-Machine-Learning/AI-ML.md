@@ -1,5 +1,7 @@
 Courses about AI, Machine Learning, & other types of AI with a focus on generating content. 
 
+Math for Machine Learning
+- https://www.coursera.org/specializations/mathematics-machine-learning
 
 Fast AI
 - https://www.fast.ai/
@@ -39,6 +41,10 @@ Berkley
 
 Introduction to Reinforcement Learning with David Silver
 - https://www.deepmind.com/learning-resources/introduction-to-reinforcement-learning-with-david-silver
+
+Tensorflow for Deep Learning
+- https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187
+
 
 ------
 

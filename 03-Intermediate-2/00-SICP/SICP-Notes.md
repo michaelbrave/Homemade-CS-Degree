@@ -25,3 +25,7 @@ Work through the book do all exercises Like This:
 To check work 
 - http://eli.thegreenplace.net/category/programming/lisp/sicp/
 - http://community.schemewiki.org/?SICP-Solutions
+
+
+Composing Programs - Equivalent in Python
+- http://composingprograms.com/

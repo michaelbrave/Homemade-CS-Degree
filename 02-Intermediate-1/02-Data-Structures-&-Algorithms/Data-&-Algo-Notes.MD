@@ -24,6 +24,9 @@ UC San Diego Data Structures Specialization (Best Structure of Courses)
 - Advanced Algorithms and Complexity
 - Genome Assembly Programming Challenge
 
+Kevin Wayne
+- Algorithms Part 1 - https://www.coursera.org/learn/algorithms-part1
+
 Book - Algorithms - Jeff Ericson 
 - http://jeffe.cs.illinois.edu/teaching/algorithms/
 
