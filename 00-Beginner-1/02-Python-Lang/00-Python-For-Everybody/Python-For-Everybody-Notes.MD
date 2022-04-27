@@ -11,9 +11,11 @@ What he teaches online he refers to as the first half of the path toward a maste
 
 1st half of path to master programmer
 1. Python
-2. Django - learning objective is actually more Object oriented with examples than it is for web
-3. PHP & MYSQL - the non object oriented version of how to write web, more power
-4. Postgress - Databases are core skills
+2. Python Data Structures 
+    - https://www.edx.org/course/python-data-structures?utm_source=braze&utm_medium=email&utm_campaign=Tuesday_Course_Promo_20220426
+3. Django - learning objective is actually more Object oriented with examples than it is for web
+4. PHP & MYSQL - the non object oriented version of how to write web, more power
+5. Postgress - Databases are core skills
 
 2nd half of path to master programmer
 1. C programming for everybody - core objective is understand how other layers like Java or python use C to implement OOP
