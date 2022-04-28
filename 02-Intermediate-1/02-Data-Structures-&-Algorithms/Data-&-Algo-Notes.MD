@@ -11,7 +11,6 @@ Robert Sedgewick (Most Recomended)
 - Princeton - Algos Part 2 - https://www.coursera.org/learn/algorithms-part2
 
 Tim Roughgarden - Stanford (Second Most Recomended)
-- Book - Algorithms Illuminated 1-4 - Tim Roughgarden - http://algorithmsilluminated.org/
 - Algorithms: Design and Analysis Part 1 - https://www.edx.org/course/algorithms-design-and-analysis
 - Algorithms: Design and Analysis Part 2 - https://www.edx.org/course/algorithms-design-and-analysis-part-2-2
 
@@ -23,6 +22,14 @@ UC San Diego Data Structures Specialization (Best Structure of Courses)
 - Algorithms on Strings
 - Advanced Algorithms and Complexity
 - Genome Assembly Programming Challenge
+
+Gerth Brodal - AARHUS
+- Algorithms and Data Structures - https://cs.au.dk/~gerth/ads20/
+- The Supplemental Book, was valuable
+    - Some comments as to why it's interesting
+        - https://news.ycombinator.com/item?id=31059660
+        - https://news.ycombinator.com/item?id=31059735 
+        - https://news.ycombinator.com/item?id=31060504 
 
 Kevin Wayne
 - Algorithms Part 1 - https://www.coursera.org/learn/algorithms-part1
@@ -37,6 +44,12 @@ Interview Prep - Relevant
 https://www.interviewbit.com/
 Algo and Interview Prep Checklist - https://github.com/jwasham/coding-interview-university/blob/main/README.md#data-structures
 
+Google
+- https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/
 
 Discrete Optimizations - U of Melborne
 - https://www.coursera.org/learn/discrete-optimization
+
+Software Engineering Interview Study Guide (Sorry I can't remember who gave it to me)
+- https://docs.google.com/spreadsheets/d/1Nz09S4i6fodyFjSuC-3-KuzZMtwl14yNXM1AG2URFWE/edit?usp=sharing
+

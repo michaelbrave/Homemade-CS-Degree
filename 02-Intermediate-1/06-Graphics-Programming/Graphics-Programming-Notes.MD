@@ -5,3 +5,10 @@ Interactive 3D Graphics
 Ray Tracing in a Weekend
 - https://raytracing.github.io/
 
+Book - Game Programming Patterns
+
+Book - Game Engine Architecture
+
+Beginning Game Programming
+- http://lazyfoo.net/articles/article01/index.php
+

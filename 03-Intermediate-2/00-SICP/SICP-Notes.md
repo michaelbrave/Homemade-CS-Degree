@@ -16,8 +16,11 @@ Berkley course
 Other Course
 - http://www.aduni.org/courses/sicp/index.php?view=cw 
 
-
-
+Berkley Courses
+- Book Composing Programs - http://composingprograms.com/
+- CS61A: The Structure and Interpretation of Computer Programs - https://cs61a.org/ 
+- CS61B: Data Structures - http://datastructur.es/sp16/ 
+- CS61C: Machine Structures - https://cs61c.org/sp22/
 
 Work through the book do all exercises Like This:
 - http://sarabander.github.io/sicp/ 

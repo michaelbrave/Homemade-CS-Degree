@@ -14,3 +14,5 @@ More Advanced
 3. Real and Complex Analysis - Ruden
 
 
+Fundamentals of Complex Analysis with Applications to Engineering, Science, and Mathematics - Saff, Snider
+Visual Complex Analysis - Tristan Needham

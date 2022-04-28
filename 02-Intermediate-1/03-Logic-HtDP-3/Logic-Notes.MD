@@ -10,3 +10,5 @@ Walter Sinnott-Armstrong - Duke (people language arguments, but the logic is use
 - Think Again I: How to Understand Arguments - https://www.coursera.org/learn/understanding-arguments
 - Also a book
 
+Logic and Computational Thinking (Microsoft)
+- https://learning.edx.org/course/course-v1:Microsoft+DEV262x+4T2017/home

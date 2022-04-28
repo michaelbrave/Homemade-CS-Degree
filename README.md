@@ -41,7 +41,10 @@ Discrete Math & Math For Computer Science
 - Mathematics for Computer Science - (MIT) 6.042J (2010) - https://www.youtube.com/playlist?list=PLB7540DEDD482705B
 
 Misc Things - Version Control Git - Markdown - Command Line (Bonus)
-- 
+- Missing Semester of Your CS Eductaion - https://missing.csail.mit.edu/
+- Great Practical Ideas in CS (Carnegie Melon) - https://www.cs.cmu.edu/~07131/f19/
+- Book - Building Tools With Github - Chris Dawson
+
 
 42 - Piscine C
 - 4 weeks of projects, learn as much as you can, Low level C code, command line, code style, ssh all kinds of things
@@ -143,6 +146,9 @@ Startup Engineering
 - Startup Engineering - Balaji S. Srinivasan (2013) - https://www.youtube.com/watch?v=0QC1FK2_pqg
 - Technology Entrepreneurship (Stanford) (2014) - https://www.youtube.com/playlist?list=PLF6C0319C607DEDC1
 
+Algorithm Design
+- Algorithmic Design and Techniques (UC San Diego) - https://www.edx.org/course/algorithmic-design-and-techniques
+
 
 ----- Intermediate 2 Courses/Books -----
 SICP
@@ -207,6 +213,9 @@ Refactoring
 
 Systems Analysis and Modeling
 - 
+
+Software Architecture
+- Book - The Architecture of Open Source Applications - https://www.aosabook.org/en/index.html
 
 
 ----- Advanced 1 - Low Level and Computer Internals - Courses/Books -----

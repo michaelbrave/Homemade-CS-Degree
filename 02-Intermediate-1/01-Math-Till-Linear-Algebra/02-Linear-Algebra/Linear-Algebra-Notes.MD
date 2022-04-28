@@ -20,3 +20,7 @@ MIT
 Brown - Coding the Matrix - Learn Linear Algebra with Code
 - Book - http://codingthematrix.com/
 - https://cs.brown.edu/video/channels/coding-matrix-fall-2014/
+
+Gilbert Strang (MIT) - Lectures on Linear Algebra
+- https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D
+

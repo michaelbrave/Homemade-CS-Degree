@@ -55,3 +55,53 @@ May be technically AI, maybe not?
 - Bayes Nets
 - Blending with Alternating Generators
 - Random Forrest Classifier
+
+
+
+---- Unsorted Resources ---- 
+
+GalaxyKate GDC Talk
+https://www.youtube.com/watch?v=WumyfLEa6bU 
+
+Nanogenmo Tutorials and resources
+https://nanogenmo.github.io/ 
+
+Perlin Noise
+
+Game Maker Studio ProcGen
+https://forum.yoyogames.com/index.php?threads/beginners-proc-gen-in-gms-6-a-is-born-pathfindings-greatest-hits.83160/ 
+https://refreshertowelgames.wordpress.com/2020/12/30/procedural-generation-in-gml-1-an-introduction/ 
+
+Redblog Games Resources
+https://www.redblobgames.com/
+
+Cellular Automata
+https://www.raywenderlich.com/2425-procedural-level-generation-in-games-using-a-cellular-automaton-part-1 
+
+Fantasy Maps Azgaar
+https://azgaar.wordpress.com/
+
+Book - Computational Beauty of Nature - https://mitpress.mit.edu/books/computational-beauty-nature
+
+Roguebasin
+http://www.roguebasin.com/index.php?title=Main_Page
+
+Here Dragons Abound
+https://heredragonsabound.blogspot.com/ 
+
+Book - The Nature of Code
+https://natureofcode.com/book/ 
+
+ProcJam
+http://www.procjam.com/ Might Need to Use Wayback, if so save everything
+https://twitter.com/procjam 
+
+IEEE Conference
+https://ieee-cog.org/
+
+Unity Procedural Tutorials
+https://catlikecoding.com/unity/tutorials/
+
+Procgen Space / Firespark
+https://procgen.space/resources
+
