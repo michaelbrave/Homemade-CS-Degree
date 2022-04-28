@@ -45,9 +45,11 @@ Misc Things - Version Control Git - Markdown - Command Line (Bonus)
 - Great Practical Ideas in CS (Carnegie Melon) - https://www.cs.cmu.edu/~07131/f19/
 - Book - Building Tools With Github - Chris Dawson
 
-
 42 - Piscine C
 - 4 weeks of projects, learn as much as you can, Low level C code, command line, code style, ssh all kinds of things
+
+15-213 Introduction to Computer Systems (ICS) Carnegie-Mellon University
+- https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22b96d90ae-9871-4fae-91e2-b1627b43e25e%22
 
 
 ----- Beginner 2 Courses/Books -----
@@ -211,11 +213,11 @@ Math Electives (Bonus)
 Refactoring
 - Book - Martin Fowler - Refactoring, Improving the Design of Existing Code
 
-Systems Analysis and Modeling
-- 
-
 Software Architecture
 - Book - The Architecture of Open Source Applications - https://www.aosabook.org/en/index.html
+
+Computational Maths
+- CIS 500 Software Foundations University of Pennsylvania - http://www.seas.upenn.edu/~cis500/cis500-f14/index.html#schedule
 
 
 ----- Advanced 1 - Low Level and Computer Internals - Courses/Books -----
@@ -234,9 +236,6 @@ Circuits
 - Circuits and Electronics 2: Amplification, Speed, and Delay (MIT) - https://www.edx.org/course/circuits-and-electronics-2-amplification-speed-a-2
 - Circuits and Electronics 3: Applications (MIT) - https://www.edx.org/course/circuits-and-electronics-3-applications-2
 
-Hardware for Programmers
-- 
-
 42 Advanced Projects
 - GBEMU
 - Ft-Newton
@@ -244,7 +243,7 @@ Hardware for Programmers
 - XV
 - Computor
 
-Nand to Tetris
+Nand to Tetris (Logic Gates)
 - Build a Modern Computer from First Principles: From Nand to Tetris (HUJ) - https://www.coursera.org/learn/build-a-computer
 
 Compilers
@@ -259,13 +258,22 @@ Programming Languages
 - Programming Languages Part C (Washington) - https://www.coursera.org/learn/programming-languages-part-c
 
 Networks
-- 
+- Computer Networking Georgia Tech - https://www.udacity.com/course/computer-networking--ud436
 
-Ethical Hacking
+Hacking & Systems
 - Learn Ethical Hacking From Scratch - https://www.udemy.com/course/learn-ethical-hacking-from-scratch/
 
 Analog to Digital (Bonus)
 - Digital Signal Processing Specialization (EPFL) - https://www.coursera.org/specializations/digital-signal-processing
+
+Parallel Computing
+- 15-418 Parallel Computer Architecture and Programming Carnegie-Mellon University - https://scs.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22a5862643-2416-49ef-b46b-13465d1b6df0%22
+
+Computer Science Theory
+- 6.045 Great Ideas in Theoretical Computer Science MIT - http://stellar.mit.edu/S/course/6/sp15/6.045/special/videos/index.html
+
+Software Engineering
+- CS 5150 Software Engineering Cornell University - http://www.cs.cornell.edu/courses/CS5150/2014fa/materials.html
 
 
 ----- Advanced 1 - AI, ML, DL and ProcGen - Courses/Books -----
@@ -281,8 +289,14 @@ AI, Machine Learning & Deep Learning
 - Fast AI - https://www.fast.ai/
 - Lots more but I have to go through it
 
+AI Generators & Synthesis
+- CS 6630 Realistic Image Synthesis Cornell University - http://www.cs.cornell.edu/courses/CS6630/2012sp/schedule.stm
+
 Data Science
 - Data Camp - https://www.datacamp.com/
+
+Evolutionary Computation
+- CS 5724 Evolutionary Computation Cornell University - http://courses2.cit.cornell.edu/cs5724/schedule.htm
 
 
 ---------- Influences & Reasoning ----------

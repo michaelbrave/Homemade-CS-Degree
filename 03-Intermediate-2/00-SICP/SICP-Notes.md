@@ -19,6 +19,7 @@ Other Course
 Berkley Courses
 - Book Composing Programs - http://composingprograms.com/
 - CS61A: The Structure and Interpretation of Computer Programs - https://cs61a.org/ 
+- or CS 61AS Structure & Interpretation of Computer Programs [Racket] UC Berkeley - https://www.youtube.com/course?category=University%2FEngineering%2FComputer%2520Science%2FProgramming%2520Languages&list=EC6D76F0C99A731667
 - CS61B: Data Structures - http://datastructur.es/sp16/ 
 - CS61C: Machine Structures - https://cs61c.org/sp22/
 

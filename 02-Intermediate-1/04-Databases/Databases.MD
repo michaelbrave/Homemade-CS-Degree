@@ -12,3 +12,9 @@ CMU Database Group
 - Advanced Database Systems - https://www.youtube.com/playlist?list=PLSE8ODhjZXjasmrEd2_Yi1deeE360zv5O
 - Hardware Accelerated Database Lectures - https://www.youtube.com/playlist?list=PLSE8ODhjZXjbjOyrcqgE6_lCV6xvzffSN
 
+CS 186 Introduction to Database Systems UC Berkeley
+- https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iBVK2QzAV-R7NMA1ZkaiR2y
+
+15-721 Advanced Database Systems Carnegie-Mellon University
+- https://www.youtube.com/playlist?list=PLSE8ODhjZXjbisIGOepfnlbfxeH7TW-8O
+- this is the low level internals of a database system

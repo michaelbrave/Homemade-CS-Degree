@@ -21,3 +21,13 @@ I'm Not Sure Who This is or Where It Was Taught
 
 Michal Platchta
 - Book - Grokking Functional Programming
+
+COS 326 Functional Programming Princeton University
+- https://www.cs.princeton.edu/~dpw/courses/cos326-12/lectures.php
+
+CS 223 Purely Functional Data Structures In Elm University of Chicago
+- https://www.classes.cs.uchicago.edu/archive/2015/winter/22300-1/Schedule.html
+
+CS 3110 Data Structures and Functional Programming
+- http://www.cs.cornell.edu/courses/CS3110/2014fa/lecture_notes.php
+

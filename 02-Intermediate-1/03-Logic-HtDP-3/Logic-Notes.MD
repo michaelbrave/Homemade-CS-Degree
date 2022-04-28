@@ -12,3 +12,10 @@ Walter Sinnott-Armstrong - Duke (people language arguments, but the logic is use
 
 Logic and Computational Thinking (Microsoft)
 - https://learning.edx.org/course/course-v1:Microsoft+DEV262x+4T2017/home
+
+CS 4860 Applied Logic Cornell University
+- http://www.cs.cornell.edu/courses/CS4860/2012fa/schedule.php
+
+CS 6840 Algorithmic Game Theory Cornell University
+- http://www.cs.cornell.edu/courses/CS6840/2014sp/
+
