@@ -1,4 +1,5 @@
-CS50 Course Notes
 
-I've started it but never finished it, will finish it once done with how to design programs
 
+CS50 - Harvard
+- https://cs50.harvard.edu/college/2022/spring/
+- https://www.edx.org/course/introduction-computer-science-harvardx-cs50x

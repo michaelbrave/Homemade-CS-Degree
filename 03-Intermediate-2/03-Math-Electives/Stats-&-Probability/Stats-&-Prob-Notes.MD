@@ -6,3 +6,6 @@ Books
 
 Course - Statistical Rethinking (Bayesian)
 - http://xcelab.net/rm/statistical-rethinking/
+
+Course
+- Probability - The Science of Uncertainty and Data - https://www.edx.org/course/probability-the-science-of-uncertainty-and-data

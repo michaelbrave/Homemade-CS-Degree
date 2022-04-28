@@ -322,3 +322,6 @@ https://www.youtube.com/watch?v=SFKR5rZBu-8
 
 
 --- Sources ---
+
+https://gist.github.com/LearnCocos2D/77f0ced228292676689f
+

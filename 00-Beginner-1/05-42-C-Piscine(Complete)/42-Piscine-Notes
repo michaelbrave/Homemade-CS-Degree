@@ -1,0 +1,711 @@
+42 Has what's called a piscine, it was a bit less than a month, and was an intensive bootcamp style tryout for the school, where very little was explained and the projects would come at you like a firehose. 
+
+This is part of a series that culminated here or you can read up about what it’s like as a cadet at 42 here. I wrote a lessons learned post here https://medium.com/@themichaelbrave/lessons-learned-after-a-month-of-code-at-42s-piscine-679afb17fb and an 8 months later post here https://medium.com/@themichaelbrave/life-as-a-cadet-at-42-silicon-valley-8-months-in-9d86204bf078. 
+
+42 in the US has since been closed due to covid then closed permanently. It was a great experience, but since I'm building a curriculim, it helps to include something that was so formative for me.
+
+I'll put my personal journal/Daily blog that I posted on Medium, from that time (Oct 2018) here below.
+
+----------
+
+
+Day 1 (00)
+I wasn’t entirely sure what to expect. I managed to get in at the dorms around 2 pm yesterday after flying in from Austin, it took about 4 hours of flying, caught an Uber at the airport for about $35 and arrived at the dorms as a line was forming. It was pretty casual and reminded me a lot of how scout camp felt.
+
+The first thing I noticed was how much more relaxed the students who are already attending are compared to those of us in the piscine, they do things sure but I also see them hanging out, chatting on the lawn, walking dogs. Not much different than any other college campus would feel.
+
+The food options are less than expected, the Cantina’s hours are limiting (dinner is over at 6:30, who eats dinner that early?) and restaurants are all over a 20 min walk away, having a car would have been nice after all.
+
+I’m rooming with a few guys, childhood friends from West Virginia, they seem cool so far, most of the people I’ve met have been pretty cool actually.
+
+One thing that worried me a little is I met about 4 people who are taking the piscine for the second or third time. I had been under the impression that determination was a core determiner, but it seems these did finish but still did not succeed. I felt a lot less sure about my chances after meeting them. One has been a fantastic help to understand things, a real resource, another told me things that weren’t really true “like it was ok to wait in the rec room” (it wasn’t) and the third doesn’t remember anything from her last time here. Which is concerning in a different way.
+
+Last night I tried to go to the lab and check it out, security asked me to leave as I hadn’t officially started the piscine yet. So I found some of the guys in the game room, joined a game of poker and later a few games of chess.
+
+Now lets get down to what we learned today:
+
+We started with an assembly where a few rules were explained, and the philosophy of the school was reiterated “you don’t learn to ride a bike by watching other people ride”. We were told to make sure we subscribe to our projects daily as we first wake up, were given wristbands and shown to the lab.
+
+After that the instruction has been minimal to none (as advertised), there were some video tutorials that corresponded with the assignments, but those left a lot still to figure out, to search for online and to ask each other.
+
+Our first assignment was to edit a text file agreeing to comply with harassment policy, then to figure out how our git system worked and upload it to the right place. This was harder than it sounded as I thought I had uploaded it twice when I had not, luckily as a first assignment I could retry it.
+
+There were 11 other assignments today, I’m still working on number 4.
+
+Assignment 1 was modifying write permissions of a file using the terminal
+
+Assignment 2 was similar but with more files, directories, more complexity and linking of files
+
+Assignment 3 understanding and getting Kerberos tickets
+
+Assignment 4 ldap who am I script file (but we had ldap server problems, but I had no idea and fought with it for hours)
+
+Assignment 5 is more ldap but with more things
+
+Assignment 6 adding a phone number using ldap
+
+Assignment 7 midLS (what even is that?)
+
+Assignment 8 reinterpreting inputs lowercase z to uppercase Z
+
+Assignment 9 program to find the difference
+
+Assignment 10 program to clean up junk files
+
+Assignment 11 find all files with the 42 header
+
+It wouldn’t feel right to go into further detail than that, but as I said I’ve done probably 10 hours today and I’m stuck on number 4 of 12 for the day, I’m not especially proud of myself. I’m going to give it another 15 minutes or so and call it a night, get some sleep and be back at it around 5 am tomorrow as I’m way smarter in the morning.
+
+People are getting more collaborative as it gets later though, so it might be smart to stay up a bit more, I’m not sure, I’m still transitioning out of nocturnal by the way so I have to keep that in mind too.
+
+My brain hurts though, there is a literal headache.
+
+Until tomorrow.
+
+-----
+
+
+Day 2 (01)
+
+Right so today was better than yesterday, still hard, spent all day in the lab, was helped and helped a lot of other students, feeling the flow. I’ve buddied up with a couple of the guys who did this before, collaborating with them we are pushing through pretty fast and not spending time on things that matter less.
+
+Apparently you are expected to get about 25% of the projects completed that are assigned. More important is doing well on the tests. There are some cadets (those who are official students and not trying out as we are) here who had nearly straight 100% for everyday. It’s intimidating. but I think I have a better idea of what’s expected now.
+
+The grading system is different than I’ve ever seen. If you don’t pass the first assignment perfectly all other future assignments are not counted. This continues onward. If the second isn’t perfect then the third onward isn’t counted etc. So most important is really nailing and perfecting the first several assignments rather than skipping ahead.
+
+We also found a study guide for the tests on github, apparently there are solutions to the projects on github as well but I’ve avoided looking them up as I actually want to understand what’s going on. But the link for the test study guides for those interested is here. A few of the guys and myself are going to do study sessions for the test coming up tonight, I think this will be a good use of time.
+
+Also of note, you have to be responsible to sign up for the work for the day, if you miss the timeline (11:42 PM — 8:42 AM) then you cannot sign up for the day. Some days you can sign up a few days ahead of time, I signed up for up to day 4. Some students missed signing up for today because they slept in past 9AM, they had to have overrides to be able to do the work.
+
+Today the assignments were as follows
+
+    groups, paths, and replacing spaces with commas
+    find all the files ending in .sh, remove all that is not the file name (directory, file ending (.sh))
+    count all the files and directories including the one you are in
+    list mac addresses with line breaks and no other data
+    make a file with a really strange name (I didn’t get it figured out)
+    skip every other line of output
+    reverse, alphabetical sort, only show logins
+    list number of users with bon in their name
+    changing numbers and letters from mrdoc base to gtaio luSnemf base (I have no idea what this means)
+
+Those were the assignments today, hope it helps someone.
+
+-----
+
+
+Day 3 (02)
+
+Mostly blogging right now as my brain was fried and I needed a break. I’ve been averaging around 13 hour days the first two days, today will probably be longer, but I also feel like today was the least productive workload wise but most productive actual usefulness wise.
+
+We finally started programming instead of terminal commands. Though I feel I really did learn a lot from those, I’m eager to leave it behind and just look things up as needed. Hopefully that’s a healthy attitude, because spending months on just doing terminal things sounds terrible to me.
+
+Today we started grading each other’s projects. It’s set up such that we have a certain amount of grading points that we spend to get someone else to grade our work for us, we earn them when we do the grading. There is essentially only a finite amount of points in circulation, when people quit they take their points with them, and shortages apparently can and do happen. It helps to be generous and willing to grade more than just being graded, I feel that was the intent of the system.
+
+I did ok when graded, but then I had to also factor that the computer graded me as well. This was for day 1 (00). The first two assignments out of 6 were done wrong, but I aced the other four. ironically if you fail the easier/earlier assignments then the rest aren’t counted, so I got my grade for the day was a solid zero. This was a blow to the ego, especially since it was something like changing the date/time to match the screenshot was the detail I got wrong. I figured timestamp changing couldn’t possibly be part of what they were asking as it wasn’t specified in words. I was wrong, and now I’m paranoid about being tricked or complacent again, which maybe was a more important lesson? I don’t know.
+
+Later on though several people asked me for help and I think I was actually helpful for them in how I explained some of the basics of programming, that made me feel a little bit better about my first day failing.
+
+I’m finding out that the assignments today actually have a lot of little tricks to get caught up on, I hope I catch them all, I’ll spend several hours tomorrow cleaning them up before final submission. I did manage to get a couple more of yesterdays work done today, but I’m not spending much time on polishing them tonight, I’d rather work on the actual programming.
+
+The test study guides show that it’s primarily programming things, so I would rather get a better grasp on that to be ready for that.
+
+assignments today were as follows
+
+    a print alphabet function using only a special function ft_putchar (note all assignments today, the only function allowed is ft_putchar)
+    print reverse alphabet
+    print digits on a single line in ascending order
+    a function that determines if a number is negative or positive
+    populate and remove duplicates of a number sort (3 digit numbers, 012, 789, no two numbers the same, no reverse duplicates) -this is how far I got today
+    display all two digit combination of numbers of between 00 and 99
+    display the numbers entered as a parameter, display all possible values within an int type variable (I’m a bit lost here)
+    number sort, print combine (honestly I don’t understand it yet)
+
+that’s it for now.
+
+-----
+
+
+Day 4 (03)
+
+I’m writing this at 2:30 am. I’m awake because my roommates smoke so much that my sinuses won’t let me sleep. I was going to write this in the morning, but since I can’t sleep now works just fine too.
+
+A few things I forgot to say before. The food here is actually pretty good, it ends up being about $5 a day for lunch and $6 a day for dinner, no breakfast though. The campus is actually a former Devry campus, but it’s nice, there are some things that still seem to be under construction (like where the information monitors used to be) but on the whole it’s nice, dorms are too but the beds remind me a lot of the beds we used at scout camp, basically a cot, but decent enough. Computer lab is huge and pretty cool looking, it does get a little hot though, they recommended bringing a fan, I would second it. it’s hard to find time to do laundry and other chores. Those who commute from home commuting to and from seems to be an extra struggle, I read somewhere else that “if you don’t get into the dorms don’t bother”, I feel this was a little strong but also I do see the commuters struggling more than those who just walk next door.
+
+Busy day, I spent most of it working on day02 exercise 4, a program that made three digit numbers without repeating numbers or reverse similar numbers while not being allowed to use most functions or create new ones either, basically the write function and while loops were all there was. I felt a bit overwhelmed, had to take a nap, call my mom and make some tea today to calm some feelings of anxiety about it. The nap helped and after I got back to work, finished exercise 04 of day 02, polished up my code before submission (mostly using a command called norminette, to see if our code fits the styling standards of the school called the norm) and submitted. Then I got back to work on day 03 determined to get at least examples 00 through 03 done tonight and finished at about 11:30.
+
+Sidenote; I failed day 01 as well as day 00. Not all of my assignments failed but my first ones did, for stupid mistakes that could have been easily avoided. This has shaken my confidence some and has made me paranoid looking for tricks and things that were implied but not more outrightly spoken. It seems many of the “word problems” for lack of a better word are tricky or designed to trick you. The real success here is not just in ability to code but in ability to look for directions and follow them even when not boldly stated (like reading the directions at the beginning of a document and remembering them as you go through the document or equally important paying attention to the screenshot examples).
+
+The people here are really cool, it’s nice to at least be in some good company, it’s also humbling/refreshing to be around so many smart people, and people, many of whom are way smarter than I am, which I don’t run into a lot. A few groups have started forming mostly around language lines, those who speak French hang out with each other, those who speak German and Russian likewise. There are not many who speak Spanish, but a good diversity of nearly everywhere else is represented, there’s a good showing of women as well, which is cool to see (I would say about a 2 to 1.5 ratio of men to women, not perfect but better than expected for a code environment).
+
+Apparently this particular piscine is small, I’m not entirely sure how that affects our chances of getting in, but I guess sometimes if there are too many there is a grade cutoff as there are limited spots, which for us should be at least one less problem to worry about. I worry that some of this info may just be hearsay, if I end up being wrong about it I’m sorry, once I finish the piscine I’ll try to go back and edit out any inaccuracies I’ve posted. The lack of clarity of process seems to be a feature and not a bug though, those who ask questions and get to know people find out more, those who search it out find it, those who don’t try don’t know. At least it seems that way to me. To be honest I’ve barely talked to the prefects (the ones who are running the piscine) I’m not sure if they would answer more questions if I asked them or not, they seem to give off the vibe that they aren’t here to teach but just to facilitate, and have often joked about not actually helping, but perhaps that was a trick as well.
+
+Some people have already quit, though not as many as expected based on what I read ahead of time. Time will tell, I think the first test will really determine a lot of who stays or goes.
+
+assignments today were as follows
+
+    function that does a pointer to an int showing a certain number
+    chain of nine pointers
+    swap the values
+    dividing with remainders while using pointers (hint use mod)(this is how far I got today)
+    similar to above but more complex
+    display a string of characters using pointers and arrays
+    count and return number of characters in a string
+    reverse the order of a characters in a string
+    reproduce the behavior of atoi (what?)
+    sort an array by ascending order
+
+That’s it for today.
+
+-----
+
+
+Day 05 — (Exam00)(04)
+
+Not a lot of time today (as it’s the next morning now). I’ve got a large project, a group project and all of yesterday still due tonight. I took too much time preparing for the test, which was great as I passed (got a 55/100, more than 25 is passing) but then someone told me that the exams excepting the final aren’t really weighted more than assignments, that it’s just about getting as many points as possible. I’m not sure what is true or isn’t about the process but I need to buckle down a little more.
+
+More than half of the class didn’t pass the exam, and from what I understand percentage wise this was a higher pass rate than normal, as we are expected to improve over time more than to already be masters coming in. A few people got 100% on the exam as well, but I think these ones came from a programming background already.
+
+For the group project one of our teammates has already stopped showing up a couple of days ago, I’m not sure if this will affect our grade. I may have to talk to someone. The project itself is to automate grid creation in the terminal window, not unlike creating sudoku boards.
+
+The personal project is called Sastantua (after the pyramid in Hitchhiker’s Guide) where we are visualizing different sizes from different distances. Also it’s a higher level of a project than all the others being a lvl 2 assignment, everything else has been 0 or 1. This means it will be put under heavier scrutiny and is worth more points, in gaming terms think of it like a rarespawn or a boss fight I suppose.
+
+I see less people everyday, though I think most are sticking through it. We’ve been placed on four different teams, the wufpack, snek, galacticats, and honeybadger. In each groups we have a leaderboard for points and a bit of competition has started to develop between them, but the top 7 seem to be somewhat consistent for each team, I’m solidly between 11 and 18 on my team.
+
+My partner who is still here for the group project is one who is top ranked for his team, when I talked to him about the project he had already finished and asked me to work on it a bunch to figure it out and then we would compare notes later, which sounded fair to me, so that is what I will be doing first, even though the project is worth the least amount of points of all of them as it’s level 0 and with us missing a member of our team will be extra costly to be corrected, so it’s a higher cost with a smaller reward, if a project would be given the chopping block to skip this one would maybe be it.
+
+I’m getting the swing of things now, but still feel perpetually behind and always catching up, I think it’s designed that way. I may ask to switch rooms after all as I’m really not sleeping well.
+
+Making some friends too so that’s cool.
+
+Other things of note, as pisciners we are not allowed free reign of the place, certain zones are off limits, we were given a talking to today because some took some food set out for a hackathon (ie not us). I’m spending more on vending machine snacks than I thought I would. Finding time for laundry is hard, but it seems Saturday and Sunday are the best days for this as they are less demanding (sort of). Some people have been bad at checking the slack channel, but it’s been really important to check it once in a while(we’ve gotten resources like a google calendar that notifies when you should sign up for things). I still don’t have a clear path as to how to pass this thing other than to keep trying, to help people and to rack up as many points as possible, which is about as much as I knew on the first day. Someone showed me a tool on github called towel that can auto check our work, but I think it’s a touch outdated, so even if it’s helpful it should not be treated as gospel.
+
+assignments for today were such
+
+    iterative factorial (iterative functions)
+    recursive factorial (recursive function)
+    function that returns the value of a power applied to a number
+    recursive function that returns the value of a power applied to a number
+    fibonacci sequence
+    function that returns the square root of a number
+    find if the number is a prime number
+    return the prime number greater or equal to the number given as argument
+    function that returns the number of possibilities to place either queens on a chessboard without them being able to reach each other
+    same as 9 but recursive?
+
+-----
+
+
+Day 6
+
+Day 04 was due, I didn’t get it turned in. I was too busy trying to understand the stuff for the rush00 project and trying to understand concepts like arrays and pointers, day04 was all about recursion, which I sort of understand but not nearly enough. I tried to put in some time to work on it at night but my brain was mush so it didn’t happen, couldn’t happen. I need to prioritize better, and try to be working on things a day ahead I think. No new assignments today but I do need to finish the rush00 project and work on the sastantua project which I don’t yet fully understand. The gist of it seems to be though that we are visually displaying a pyramid with a door, and it sort of works like a fractal. Also I’m tempted to try and get a head start on the next assignments (05) so that this never happens again.
+
+A girl here tried to put together a study session last night, I was the only one that didn’t fail the test that showed up. It went alright for about 15 minutes and then people who liked hearing themselves talk dominated the conversation and other people trickled out. I think this may evolve into a test prep session next Thursday night, which I think would be the best use really. I may have to take a little more charge and be the organizing girls lieutenant to help it run smoother or something.
+
+My roommates smoking continues to be a problem, I woke up coughing and my lungs are congested, their smoking is actually making me sick, I really do need to switch rooms. I’m contemplating sleeping with a surgical mask on or looking into air purifiers, but I have no idea if those would help. Part of the problem is that everyone else who has offered I could room with them also smoke, but I don’t think to the degree of my current roommates, I also think most of them do it outside (I can’t confirm that my roommates smoked in the room, but I can’t explain why they carry so much of a smell with them or why it’s irritating my sinuses so much, perhaps they hotbox the car, or maybe they are actually smoking in the room which would get them kicked out, which is part of why I hesitate to ask to move). It feels petty to ask for a room change, but I seriously haven’t slept well in over four days, and this really will make me sick if the trend continues.
+
+Speaking of my roommates though, they have already signed up for the next piscine, which I’m not sure how to do other than using a new email, perhaps that is the how of it. I did tell my job I was coming back, other than breaking my word about that though I‘m ok with not going back, I don’t really have a place to stay and was going to rent an AirBnB while I worked a few more months to save money before coming up here accepted. So what I lose is a bit of money making and a bit of integrity. I’d like to do the piscine again though even if I do get accepted to understand a bit better. I’ll think on it, I’ll probably try to sign up for it and then have the option available. Keeping my word matters to me though, but at the same time I was feeling really done with that job, already gave sufficient notice and at worst I pushed back their posting of my old position by a week or two, so not that bad. All my life I’ve been one to sacrifice what I needed to help those around me, most crappy situations in my life have been exactly these types of situations, where if I had prioritized what I needed over what other people asked for or what I assumed they wanted then the problem wouldn’t have happened. Which now becomes a more interesting question self preservation vs integrity. If a man dies for a lost cause is he a fool or a hero?
+
+Which brings this full circle almost. The piscine itself is more than anything teaching us to be proactive, to do and ask and take responsibility instead of being given or handed things. To seek out the answer and figure things out instead of being told what to do. Which is exactly what I need, though it’s a hard medicine to take.
+
+I feel like I’m exactly where I’m supposed to be, even though I’m barely sleeping, my brain turns to mush everyday and I’ve never felt so dumb. This is right, and it’s time to get back to work.
+
+Other thoughts: what we often mistake for intelligence is actually familiarity and preparation.
+
+-----
+
+Day 7
+
+I did not finish the sastantua project, I barely started it all, but I also barely understood how to do it, we had to print to screen a pyramid that would adjust what was already printed to center based on what was later printed. Then have a door that based on the size displays differently and is also centered.
+
+Group project turned out better than I thought, my partner is from an island outside of Madagascar, cool guy, really smart. He helped me understand a lot of things that had been bothering me that I didn’t understand yet, one of which (the thing I really wanted to know, how to use a variable as an array size) is apparently really bad practice, and after I asked about it in slack they gave an announcement about how you shouldn’t do that (oops).
+
+But now it’s day05, I’m glad I put in the time to understand arrays as now we are doing a ton of string manipulation. I’m going to try to actually get all of today’s work done, missing an assignment because I didn’t prioritize my time right was about the worst feeling in the world.
+
+There is also a meeting today at 9:42, we are all unsure as to what it will be about, my guess is that we will be reminded of rules that people have been breaking.
+
+Our numbers are fewer still than they were before, every day when I get here in the morning there are less and less. I still think we are close to 90 but I would have to count. Right now at 8am Monday there are about 14, a third of which are still here from the night before. Two days ago at this time there was 40 to put it in perspective. Either people are getting more used to the schedule and actually sleeping now or more have left.
+
+I did sign up for another piscine starting October 20th, that way I can still keep my word to my old job a little bit (though only being back for one month wouldn’t be great for them, It may not be enough to justify it really). But the plan is still to get accepted the first time. I used a different email to sign up again, and it gave me a different login which is a shame since I like my login. Between paying for car insurance and rent I almost wonder if it’s worth it going back, or if I should just have my brother sell the car and call it good. It would be a shame not to go back as there was a girl I would have liked to see, but she was terrible at texting me back anyway, so she probably doesn’t actually care much. All I stand to lose is a loss of integrity, and I wonder if perhaps I promised something I shouldn’t have. Still integrity is important to me, so I’ll do it even if it’s expensive, but for future lessons I should probably be slower to promise things like coming back when it wasn’t something I really wanted to do.
+
+I’m not sure if my roommates know about the meeting, I’ve been trying to run into them for days to let them know I’m going to try to move out (as I don’t want to be a dick who just leaves) but they go to bed at like 3 am, are rarely in the lab (at lest not when I am) and sleep until after noon. I don’t think they’ve managed to set up slack either, so if I were a betting man I’d wager they won’t show. I wonder what the consequences of missing a mandatory meeting are?
+
+We are one week done out of four, no small feat. In a way I’m sort of proud of the people who stuck through it, just the feeling of constant failure is hard to push past, to be able to put aside your ego enough to get through it is itself impressive.
+
+Oh I did try to nail down the selection process further and as it turns out nobody really knows anything, everything about the process is rumor. We know that certain things help, things like higher points, better collaboration, helping others, putting in the time, but on the whole nobody really knows, many of the people who have gotten in barely know or at least the feeling is that they still don’t. But all who have come before have stories of people who got low scores and still got in and people with nearly perfect scores who did not. So I guess cross your fingers for me since I’m not really sure what the most important thing to focus on would be, the short answer is that I don’t know how to game the system, and I would guess that’s exactly why it’s designed as it is.
+
+I don’t actually have access to day05 files for another half an hour, so I will update that tomorrow.
+Day 8 (05)
+
+I made a mistake, wasted most of today and only just realized the mistake as I was heading to bed.
+
+I let my ego get in the way of progress. I see everyone else figuring things out and I wanted to be one to come to conclusions on my own as well, I wanted to feel smart, to have discovered or learned on my own, then later to help others understand. Ultimately this was stupid as I had the resource that other people not being used. Not using the resources at hand is dumb.
+
+So this is how today went. I would spend 20 minutes working on code, filling in as much as I knew and understood, then I would get stuck stare at the screen for ten minutes, half heartedly ask my neighbor if they solved it yet (usually a no, not yet) then stare at it again until the frustration morphed into procrastination. Then I would daydream about some game I’d love to make, YouTube music would be listened to, memes looked at, email checked and articles read. Then stare at code in frustration again, watch a video about what I think I’m stuck on and still feel stuck afterward. Rinse and repeat and that was most of today.
+
+I did go to town for groceries and a haircut also the servers were down (meaning the lab was down) for a couple of hours before noon so I took the time to do laundry but otherwise my day was frustration and procrastination and what’s worse is I realized what I could have done to fix it as I was heading out. I was trying to solo what aught to have been collaborative. By not seeking out help from others (which I’ve been good about until now) I handicapped my learning for the day. Because I was proud and wanted to feel smart rather than actually learn. This was maybe one of the dumbest things I could have done.
+
+Also there was a meeting this morning about 1. How getting a high score on assignments but not tests shows either a lack of understanding or cheating so it’s not the way. 2. We need to understand pointers, arrays and recursion. 3. Keep going some people don’t have it click until days before the end.
+
+Other hints given at the meeting: look up c array syntax sugar, look up file descriptors for the write function, pointers are values also.
+
+I for one was grateful for the slight clarity of process, encouragement and direction. Lots of others interpreted differently. Some saw it as a warning to pay more attention, others still thought it was a waste of time. Another theory was that the group was too small so they need to increase the pass rate while not lowering quality (I find that doubtful). I really think it was just to help.
+
+Some of the guys who are a bit better at coding started working on a script to calculate how many of us haven’t quit yet, I bounced some ideas with them for possible solutions but I don’t have time to help more than that. It’s cool to see a small personal project emerge though.
+
+I’m writing this on my phone so I don’t have access to the assignment list but I will say the first 3 are the hard assignments from previous days, they don’t count for points but have to be correct to get any points on the other assignments. There were a lot of other assignments as well. I’ll do details tomorrow.
+
+Edit: as promised here are the assignments for day05
+
+    (not for points but needed to continue) put string function
+    (not for points but needed to continue) put number function
+    (not for points but needed to continue) atoi clone
+    strcpy clone
+    strncpy clone
+    strstr clone
+    strcmp clone
+    strncmp clone
+    function to transform every letter of every word to uppercase
+    function to transform every letter of every word to lowercase
+    function to capitalize the first letter of ever word and lowercase the rest
+    return a 1 if a string is only alphabetical characters, a 0 if there are others
+    return a 1 if a string is only numbers, 0 if there are others
+    return a 1 if the string is only lowercase characters, 0 if otherwise
+    return a 1 if the string is only uppercase characters, 0 if otherwise
+    return a 1 if string contains only printable characters, 0 if otherwise
+    strcat clone
+    strncat clone
+    strlcat clone
+    strlcpy clone
+    putnbr_base — displays number in a base system onscreen, shape of int and in radix of shape of a string(what?), contains only useable symbols, must handle negative numbers, if invalid display nothing
+    atoi base (I don’t understand what it’s asking for at all)
+    if non printable character display as hexadecimal
+    function to display memory area onscreen
+
+hope this helps someone in the future.
+
+-----
+
+
+Day 9 (06)
+
+Today was better than yesterday, I at least learned more, but I did not finish assignments that were worth points, only the preliminary ones that were not. Because they weren’t worth points I didn’t turn them in, this was probably a mistake as it would have left a bit of a record of progress.
+
+I feel like I’m always behind, I was talking to another student about it this morning and she responded “we have to measure ourselves against ourselves not each other” wise words I’ll have to make an effort to remember them.
+
+It really feels like the piscine, or even this whole school is less about coding and more about being the kind of person who could be great at coding. Like what I’m told was an old zen proverb “drawing a perfect circle is easy, first be perfect, then merely draw a circle”. This piscine seems to be designed such as to be a foundational philosophy for a life filled with code, rather than just learning to code. We are learning seemingly contradictory things that when you take a step back really aren’t. We are learning to be humble, and to earn what we get. Seeing our weaknesses for what they are (hence always feeling frustrated) and also that we are more capable than we thought. That we must be willing to ask for help but ultimately owning our own success or failures. To think for ourselves, to seek out answers on our own and yet part of that is knowing that other people are resources to learn from.
+
+I mean the school is set up to teach us to be great at programming, but I hope they don’t mind me taking some life philosophy away from it as well. Damn I really want to be here on a more than probational status, I want to be the kind of person this would help me to be. I mean I’m already on the path and I was before I came, but to have a place surrounded by these sorts of smart people, in an environment where finding your own answers and working together is encouraged, sounds to me almost beautiful, lacking a better word.
+
+My not getting things turned in isn’t the way though, even my roommates who have seemed like they have been sort of slacking managed to get in up to assignment 8, and I only got up to 2, because I didn’t want to move on without understanding, which maybe was a mistake. I need to ask for help sooner, even though yesterday was better, I still hesitated. I need it to be every half an hour after stuck instead of every few hours after stuck.
+
+Also yesterday I didn’t sit next to my friends, not what I wanted to do but I did see an increase in work done, I may just have to check in with them and go to lunch with them and try not to sit too close in order to get things done.
+
+Yesterday my base count of students at around 8 pm was 120 give or take ten. I don’t think there are more than 130 total students anymore, I could be wrong but I think that’s about what it is now. The guys making a script to calculate ran into problems and will have to build a web-scraper and a program to compare results, I’m not sure they are that dedicated to it yet so we may not know until we finish, we may not know even then.
+
+I’m in the lab early because I woke up early, there are about 8 of us here at 7am, half of which are here from the night before, I found two people asleep at desks or laying on multiple chairs.
+
+Later today we are being graded on our group project, our group grade is based on the weakest link of the group, which since there is only two of us, and my partner did a piscine once before and is brilliant, well the weakest link would be me. I’ve been studying and feel that I understand, I had to hand compute my way through the program to fully grasp it but I think I’ve got it now, I hope it goes well. I feel for some of the other groups, most of my friends have been the ones pulling their group, and their teammates don’t understand and seemingly haven’t tried very hard to. It’s hard to say if this is a failing of the stronger teammates or not, one can only push so hard, and often this is usually part of a language barrier(much like real life I suppose), we will have to see how it goes.
+
+day06 assignments were as follows
+
+    create a library (using previously made functions)
+    create a program that displays it’s own name
+    create a program that displays it’s given arguments
+    create a program that displays it’s given arguments in reverse order
+    create a program that displays it’s given arguments sorted by ascii order
+
+-----
+
+
+Day 10 (07)
+
+We had our group project (rush00) graded today. I was prepared enough to answer most questions and explain the program, my partner managed to answer all bonus questions. We got 125% credit, well done and all. But I walked away from it feeling really dumb. I didn’t know the answers to most of the bonus questions, and some of them I really should have, as I’ve looked them up and explained them to others even. Seems it was a bit of performance anxiety.
+
+I’m struggling, I feel constantly left behind, like my understanding stopped at day 8 and we are two days past that. I’m not sure how to catch up, I’m not sure I can. I got two of tonights 5 assignments done tonight, but those I had to ask for help, and I don’t feel like I fully understand. I glanced at some github code of the next assignment hoping it would spark an idea of how it works, but I’ve got nothing, so there is nothing to turn in. I’ve still got about two hours till the deadline, but it’s not going to happen.
+
+I’ve been really distracted lately with feelings of loneliness and worrying about some of my personal relationships back home, a best friend who isn’t on the best of terms at the moment because of feelings and poor choices. Memories of failed relationships of the past trigged by a girl who works at hacking house looking very similar to my ex fiance. Another girl here with a personality similar to another ex, and a third who should have statues modeled after her. I just want to focus on the task at hand, these old emotions aren’t serving anything here, they are not problems to be solved, just distractions when I need them least.
+
+Tonight we were supposed to get a group together to get ice cream, there was a poor showing of wanting to come, mostly me. The girl putting it together canceled, this only furthered said lonely feelings.
+
+One of my roommates is headed home, he was in the middle of arranging housing for a friend of his who isn’t 18 yet, which seems to have special implications in getting housing in West Virginia, I didn’t push to understand. We also had a student kicked out for trying to fight the security guard when asked where his wristband was, why the hell would your reaction be to fight the guy, would you fight the cops if they called you out on something? I mean that never ends well. Third one of my better friends here is thinking about leaving as well, but her reasons seem shallow at best, at least the reasons she is presenting are shallow, perhaps there are more hidden ones that aren’t being expressed. Hard to say. Most of us tried to convince her to stay, I didn’t push as she isn’t one that would appreciate it, but other people less close really tried to reason with her.
+
+My count of students for the day was about 114 people at 6 pm.
+
+I’m on the cusp of being level 1, but I feel more lost than ever, I don’t quite understand what we are learning now and haven’t for days. The class seems split into quarters as far as understanding. The very smart people most of whom have coded for a year before are keeping up and doing the majority of assignments. Upper middle (like myself) have felt lost for a few days but are working to keep up with it understanding bits and pieces as we go but not getting much turned in. Lower middle is understanding how to code but have felt like 4 days behind the entire time, and the lower feel completely frustrated and have the entire time. There is a part of me I’ve neglected for some years but it’s there still the same, I’m actually a competitive person, and it is frustrating to have so much that I don’t understand, but then more so to see it come so easily to others, even if they are a minority. This is a part of me I’m not sure what to do with, as it’s been neglected so long I don’t remember how to manage it. I don’t feel like I have time for jealousy right now though, things need doing after all.
+
+I want to go to this school, but I wonder if I’m struggling as much as I am right now, and struggling to find answers on my own, I wonder if I would actually cut it once I did get in. My friend thinking of quitting has only further reinforced those doubts. Perhaps when we were trying to convince her to stay we were giving ourselves reasons more than her. The staff is trying to talk to her as well, I hope it helps.
+
+I still haven’t talked to a RA about switching rooms, mostly for lack of time. My sinuses haven’t been as bad lately, I think they’ve been smoking less, it might be less of an issue now.
+
+Assignments for day 7 are as follows.
+
+    clone strdup
+    a function that returns an array of ints between min and max
+    same as above but more
+    function to transform arguments given as commands into a string
+    splits a string of characters into words using spaces, tabs and line breaks
+    display the content of the array you created in last function
+    result of the conversion of the string nbr from a base_from to base_to
+    splits a string of characters
+
+-----
+
+Day 11 (08)
+
+Today most of us are prepping for the next exam, I started to as well and I’m glad I did as it showed me which foundational knowledge I was lacking in. I ended up spending most of the day understanding pointers more thoroughly and also understanding argc/argv. With those a little more understood I’m a lot more prepared, I’ll keep studying for a few hours, and again in the morning. I don’t expect I’ll do as well on this test as the last one, this last week really kicked my butt I’ve felt behind the whole time. Everyone I talk to either is keeping up fine or is so far behind that to them I seem like I’m way ahead, there doesn’t seem to be much of a middle ground where I’m at, or at least it feels that way.
+
+I’ve barely looked at day07 due tonight, or day08 due tomorrow, day09 is also due tomorrow before the test. I’m not sure if they are going to get done or not. I just want to understand this crap, it’s almost pissing me off not understanding.
+
+A warning about day09, you have to sign up for each assignment individually, each is released one an hour, to get decent credit for the assignment you have to do more than half, which is about 15 assignments. They are small assignments and you can pick and choose which to do, so in a way it’s easy points, but the timing is awful and I think that’s by design.
+
+My friend who was thinking about leaving had seemed to pretty well decide to go, but then sat down at a computer and started working on figuring things out again, all I did was smile, nothing needed to be said, I was proud of her for trying. It reminded me of how sometimes I’m better with women after they have initially rejected me because now I’m no longer holding myself to a standard making me awkward, perhaps by allowing herself to have already failed she is now free to succeed by no longer living under the pressure and strain of needing to. Probably I’m reading too much into this.
+
+We had another study session tonight, the girl that was kind of in charge arranged for one of our classmates that really knows his stuff to come down and explain some things to us (pointers mostly) and I was grateful, but it was interesting to see him have little patience with the people he was teaching. Which is fair, he is as stressed as we all are and taking time to help with something he already understands. Ironically one of the other girls who sort of rubs me the wrong way was actually a great teacher, but still bugged the hell out of me. I’m not sure what it is about her, I think it has to do with a sort of patronizing tone, but I can’t quite place it. The girl that put it together got doughnuts for everyone too, a really nice gesture. I’m not quite sure why she’s trying so hard to put these together as she was barely there and didn’t stay long at all. I’m curious as to the motivation is all, not ungrateful.
+
+I felt more isolated today, everyone was sort of already talking to someone else and I didn’t really want to interrupt. I know most of these people are friends or at least know me by name acquaintances, but it still sort of felt like intruding today. I still did talk to people mind you, just not as many as I would have liked to or should have.
+
+I’m still running into people I’ve not met before, and I’m not sure how that’s happening, I’ve been fairly social, I wander around, I talk to people and yet it sometimes feels like when a new character is introduced on a sitcom. Suddenly a new person who really was there the whole time but you had never noticed. My personal headcount tonight was 95. I saw two people leave this morning with luggage and a mom picking them up. I’m not sure how many others have left and how many are just nocturnal or only putting in smaller hours.
+
+A lot of the people who did piscine’s before were complaining today about hoping they get in (apparently the acceptance letters from last month are only just coming out). I guess some student they didn’t feel were very bright or capable got in so their reasoning was along the lines of “if they let her in, surely they will let me in too”. But I was sort of turned off by the logic of it, it felt sort of asshole-ish in a way. Like I can see the logic sure, but it was the entitled tone I guess.
+
+Today was productive, perhaps not in the most useful of ways, but I learned a ton so I’ll call it a success, even if I’m fairly sure I did last nights assignments right and the computer marked it wrong, all good here.
+
+Assignments today were as follows:
+
+    split whitespaces, split characters into words using spaces, line breaks, and tabs.
+    create a library
+    boolean to run the main in the photo properly
+    macro ABS
+    compile the main in photo
+    store program arguments in an array and return the address of the arrays first box
+    now display the content of the array created in last function
+
+-----
+
+Day 12 (Exam01)(09)
+
+I failed my test, and I failed it for stupid things that I thought I knew, and I thought I could figure out, and that I thought I had mastered. But when I needed the knowledge the most, it escaped me and I coded things that were so close to what was needed, but ultimately not enough.
+
+I’m embarrassed, and angry at myself for not being more prepared, not having used my time as wisely as I should have. If I could do it again I would have worked on a few test preparation questions a day, everyday instead of trying to study for two days before the exam. As I studied for the exam I found gaps in my more foundational knowledge that needed addressing so it’s been one of the most useful exercises I’ve done so far. I feel left in the dust by the current assignments because I never completely grasped some of those concepts that were needed but tried to carry on all the same.
+
+So new plan, allocate a certain amount of time to learn, a certain amount to figure, and a certain amount to ask questions. Then I will spend the rest of my time going over test prep questions and asking for help until I completely understand the concepts and can build it in my sleep.
+
+The silver lining of my failing is that a lot of people I didn’t really know before have ended up being really kind and sort of supportive. I’m grateful for that at least, it has relieved some of those feelings of aloneness that I was previously struggling with.
+
+Day nine was technically easy points, but oddly allocated, I didn’t get any of it done as I was studying. I may have chosen poorly here.
+
+That’s all for now, I’ll try to get something done tonight, until tomorrow.
+
+-----
+
+
+Day 13 (Rush01)
+
+It’s the weekend which means two projects; a group project and a personal one. The personal one is worth more points, but the group one feels more important to me as it demonstrates teamwork and collaboration etc. How these are actually weighted is unknown to me, but there has been some debate among the students where the time would be better spent.
+
+My group for the group project is not ideal. One of my members is attending an entrepreneurship expo in San Fransisco for both days we are allowed to work on it. She is eager to work on it but absent, so she wanted to cram in as much as possible before she left and has asked me to stay late as well. So to accommodate and give her the chance I will be here till midnight. The other one I chatted with didn’t seem convinced that it was worth putting much time into, her friend sort of spoke for her and told me to not waste my time on it and focus on the personal project instead as it was worth more points. I told her I would check in with her once I’d done more, she hasn’t answered any further messages. So it seems like it’s just me working on this, and I’m stuck on something that should be simple, displaying a double array to the screen. If I can’t manage that at least then I’ll have to either find another way to store my data or actually give up. Perhaps by choosing to work on the group project I chose poorly again.
+
+My friend’s group is very different than mine, two of her teammates are superstar programmers and she is the least capable (though still very capable). Which has a different feeling of wanting to not be the dead weight, instead of trying to convince people to show up like mine.
+
+Yesterday I was chatting with another student here and he said something to the effect of “I haven’t failed a test since the third grade, this place makes me feel dumb” and that seems to sum up the gist of it. Most of us are the types who are usually the smartest person in the room, and here many of us are not, at least not compared to each other, the constant inability to do everything (often interpreted as failure) contributes to this feeling as well.
+
+More people are struggling and at similar levels as myself than I thought, my worry is that this means I’m actually in worse shape than I thought. It still remains to be seen if they value people with previous programming experience over those who are first time learners, it would make sense as they would score higher, but that doesn’t seem to be the vibe that I’m getting. Ironically most of the people doing well this piscine are people who have taken one previously or have lot of background in coding. My one semester of C++ at community college helped me understand loops and that’s it, I didn’t really have an edge at all because of it. The stuff we are learning is so much deeper than anything I’ve learned about code before that anything short of a years worth of experience (or schooling in computer science) wouldn’t really prepare you much for it. Those who are doing well seem to have that year of experience.
+
+I can see my writing get lower and lower quality everyday, it rambles more and drifts, I’m mentally tired when I get around to writing, I’m mentally tired everyday, most of us are. I have run into a few people though who are here but not really attending, or are only attending a couple of hours a day. I wonder what their motive was, just free rent for a month? That doesn’t seem like enough for me, but then again who knows.
+
+I forgot to take a headcount today, but I’m sure more have quit.
+
+The group project is to make a sudoku solver.
+
+-----
+
+
+Day 14 (Match N Match)
+
+I am a man defeated.
+
+I’m about 75% sure I’m going to need to take the piscine a second time. I’ve not retained much this last week and have genuinely felt overwhelmed since day 6. I had come to the conclusion that the tests mattered most of all but discovered today that may not be the case. If you pass the tests but haven’t turned in anything that is still enough not to get in. I guess balance is what is really needed. Despite my best efforts to complete assignments I don’t fully understand, and learning while I struggle through it, many were not turned in due to the fact that they were not completed, which was probably a mistake. So I may have to take it again because I’m not sure I can catch up on my own, the time just isn’t there.
+
+I read some of the only other blog about the piscine experience I’ve found and she was getting high marks on everything, it just made me feel a little bit dumber as that has not been the case for me. I can’t believe that anyone is retaining much more than I am if they are coming from a background without coding experience. I know they don’t expect you to be an expert at the end of the piscine, and from what I understand are somewhat forgiving in that area but still the only real solid requirement I’ve seen is to get more than 25% on the final, the rest are reasons to veto(you know, not playing well with others, being a dick etc), but that seems to be the hard and fast rule is the score of the final (there is a story of one exception but I think hers was a computer error and she should have scored much higher).
+
+I’ve felt some more solidarity/inclusion today, several people have helped me with my projects today. I still didn’t finish, but I did learn a lot and it was nice to feel remembered for lack of a better word. While doing laundry one of the cadets was really friendly and gave some pointers on getting more work done. Another girl here tried to help me find people to help me figure things out as well, which was appreciated.
+
+One of my better friends decided to leave, we had thought we had talked her out of it before, but there it is, this is mostly for reasons to do with depression. I’m glad she stayed and passed the second exam though, proud of her for that, for not quitting because it was hard, she still quit but now for a much better reason and I really respect that.
+
+I didn’t finish the group project, the one girl who was at a conference stayed to make time to work on stuff and the other one that sort of refused to help later told me she was leaving and I think she meant the school. I know of at least 6 people that left today. I think we are less than 100 now. My headcount tonight at 7pm was 71. I feel terrible that we didn’t finish after my teammate made time, she was leaving most of the code to me but giving ideas here and there but I was struggling as I’ve been working on it all day, my brain was mush. We really just didn’t know enough to finish it in time, perhaps if we had both days to work on it together we might have pulled it off.
+
+The solo project for the weekend was match n match. Basically we had to compare two strings and if they were similar enough to fill in the data, think about it as a precursor to an auto fill or a spell check. It took a lot of pointers and recursion, both areas I’m sort of struggling with.
+
+Spirits seem mostly low today, but I feel there is also a deeper level of camaraderie forming too. It’s been an experience, and I’ve learned more about coding in two weeks than I ever have in my years of trying to learn. It’s crazy to think that we are half done. Actually more than half. This next week will probably destroy me mentally, tomorrow we will find out.
+
+Until tomorrow then.
+
+-----
+
+
+Day 15 (10)
+
+Yesterday started in exactly the way I do not want a day to begin, with a woman angry at me. My group project was probably the most dysfunctional group I’ve ever worked in. One of the members refused to help and I think dropped out in the middle of it. The other one informed me she would be unavailable to help because she’s attending a conference, then cancelled her second day of the conference to be available but still didn’t actually help. She tells me she is a VP of marketing for a startup, but I find that unlikely as she is one of the hardest people to communicate with effectively. So that’s what happened, I was stuck with a project alone for half the time, then the second half of the time I had someone who was trying to cheer me on but still not actually helping. It went about how you would expect, we didn’t finish on time. I told her I would upload to github so if anyone goes through our code they see we did something (maybe it will soften perspective) but that I wouldn’t get it graded as there are no partial credits here and so it’s a failing grade. We have to pay points to get things graded, group projects cost 3 points, an expensive project and these points don’t go back into the pool, of which there is starting to be a shortage now that a lot of people have quit.
+
+I stand by my decision to not have an incomplete and failing project graded, it would be a waste of time for everyone, a waste of resources and frankly I don’t think they would use it as a teaching moment. She noticed I had thrown in the towel on the project, declining the chance to have it graded, and she was upset. She thought that having them see our work and commenting on it mattered more than the grade, she had misunderstood when I told her I wouldn’t have it graded and was upset that I had done so without talking to her first (except I did). I apologized, she was still upset, there was nothing to be done really, the grade is unchanged either way. My friend who sits next to me was mad for me though saying things like “she didn’t even put in any work into this, she has no right to be mad about not getting graded for work she didn’t do” and he may have a point. We later had a good laugh about something she said though “we will be graded on how well we worked as a team and worked together” I just shook my head, because no, this was the most dysfunctional team I’ve worked on in my life, even the ones where I’ve been stuck doing all the work, at least we sort of communicated ok, this didn’t even have that.
+
+So I spent a good chunk of the morning trying to calm down. It seems procrastination and inability to focus are more about emotional control/flow than anything else. I’m one that has always felt feelings very deeply so this has been a lifelong struggle. I didn’t get much done all morning, I tried, I watched videos to understand the assignment, and other related videos to get a grasp of what’s going on. Then after lunch I took a quick nap, because I was still struggling to calm myself. Afterward, my friends and I decided to take a few hours off if we could get a certain amount of the daily project done, so we went and saw a movie at a theater. I needed it, I was all kinds of stressed, I feel a lot better now.
+
+There are only 3 more days of projects left, one group project, then one very large project, one more test and of course the final. We are more done than not. My headcount yesterday was in the ballpark of 40. I feel that a lot of people took yesterday off as it was labor day, but also I think a lot of people quit just before exam02 and right after it, I think group project02 sent a lot of people home as well.
+
+Another thing yesterday is I found out one of our students is actually a recruiter here to plant seeds of people to find later. She is also here to learn how the program is set up and designed so that her organization can emulate it some and perhaps improve on the model. After talking to some of my friends about it I guess this isn’t completely uncommon practice. I find the whole thing fascinating and in some ways that would be a dream job for me, to go places, learn things, meet people and try to find the talented ones, perhaps I’ll look into something like that.
+
+I also finally bought my plane ticket back and let my boss know when I’ll be ready to work again. Since I’m going back it may be worth it to stay more than just a month back at the job, so if I have to take a second piscine, perhaps the one in October isn’t timed quite right. In a perfect world I won’t have to take a second one, but I know where my skills are currently, and I might. So perhaps November or January then. But I had hoped to start my semester(for lack of a better word) as a cadet in November, if wishes were fishes.
+
+The assignment yesterday was about Makefiles, if you understand this well you can get through the assignments. It was a somewhat easier day than the last week, I was grateful to actually be able to turn something in, I still had to learn it mind you, but it wasn’t building on top of concepts I had missed as much as the assignments of week2.
+
+-----
+
+
+Day 16 (11)
+
+As much as I’ve struggled to focus before today was worse. I was missing family, friends, former romantic partners. If it was a thing that could be missed I felt it today.
+
+So I got to the lab at 8 am, studied a bit, watched some video’s to understand the concepts for today, and then spent at least 3 hours bouncing between trying to study, checking reddit, looking at imgur, checking email, looking up people from the piscine (one went to Harvard for economics, fascinating). It was not a productive day. After lunch I tried to double down and watch videos to further understand the topic of the day (link lists) but my mind was wandering. Finally after dinner I realized this was due to a lack of sleep, I took a nap and suddenly I could focus again. Don’t forget to sleep enough everyone, you will focus better.
+
+There was a time when all the computers on the network crapped out for a bit, and some of my assignments were abandoned when they couldn’t have been, which was odd, things were fixed and taken care of, so no worries at the end of the day.
+
+Today on our slack channel 42’s official twitter retweeted a guy who wrote an article about his piscine experience after the fact, it was short, entirely positive in tone and on the whole accurate. He posted pictures and screenshots, perhaps I should implement some of those as well. It’s a struggle to write everyday as it is, the postmortem after the fact will be of higher quality for sure. Some of the other pisciners are reading my blog and having a laugh at our shared pain (love you guys). It made me realize that my tone has slanted negative some.
+
+In truth I understand more about programming than I ever have in my life, and I’ve been trying to learn this stuff for more than ten years, unsuccessfully I might add. This after only two weeks, these have probably been the best spent two weeks of my last decade. So I don’t want you to think that my despair and frustration of the moment are signs of regret, I’d have quit already if that were the case. No I’m just trying to accurately convey the emotion of the moment, and the feeling of today was homesick and distracted.
+
+When I see code now I can read and understand it, it’s amazing, it feels like a superpower. I wish this program had existed when I was younger, I don’t think these guys coming here out of high school realize how fortunate they are to have this sort of opportunity. I hope they don’t squander it.
+
+Day 11 assignments are entirely about link lists, understand that and you will do well, if you want specifics I’ve saved all the pdf’s of the assignments, message me and I’ll get that to you.
+
+That’s it for today, I’m going try to actually get to bed at a decent time tonight.
+
+-----
+
+
+Day 17 (12)
+
+Still struggling to focus, but today was slightly better. I think it’s almost like I’ve lost hope in my ability to get in, I haven’t given up, but mentally I’m dragging my feet in an almost “what’s the point” kind of way. It’s something to push through, and to ignore rather than accept.
+
+Ultimately the piscine is a battle of resilient thinking, of keeping emotions in check, and of prioritizing time appropriately. In all three areas I’ve stumbled, tripped and struggled, helping me to learn some incredibly valuable lessons. I think I may look back on this month as a formative time that eventually really shaped who I am and how I do things.
+
+There is a student here, a pretty cool guy, everyone likes him and today at lunch I made a comment about the lunch lady having given him more curly fries than me (she did). He just sort of looked down and in a non confrontational and still really cool way said “well that’s sort of jealous” and uh, you wouldn’t think of that as being a life changing insightful statement, but it blew me away. I’ve been comparing myself to other people, looking at their stats “they are level five, I’m not even level one” kind of self talk. I’ll hear myself say things like “we all learn at different paces and speeds” but do I actually believe it, I mean I do, I don’t say things I don’t believe, but then somehow I work it out in my mind that when it comes to me there is some exception, that it’s true for everyone else, but for me, no with me I’m held to some sort of higher personal standard. All in all a stupid attitude, short sighted and worst of all, it was petty and holding me back from actually being able to learn. So long story short, thanks for calling me out at lunch man, means more than you know.
+
+Some good news though, I got some of day 10 turned in and graded, so I finally got above level 1, a small accomplishment to be sure, barely worth celebrating, but I feel a small amount of relief to at least get that far.
+
+Most people have started seriously studying for the next exam. I guess showing growth matters, and most of us understand the importance of the exams now, so most have started a routine already, this has made us interact less in the lab today, interactions aren’t absent, but it is less.
+
+There also seems to be a shortage of correction points as predicted. lots of people who left took their points with them into oblivion. So the economics are skewed. Ironically I have a small stockpile because I didn’t turn in anything to be graded for most of week 2 because I was struggling, but I still graded people as it helped me learn. I’ll have to divvy some out or something. As it turns out, when we give points to prefects (cadets who are volunteering as piscine staff) when they grade us, that’s how they earn their correction points that fuel the economy of correction points for cadets as well. So there is an entire ecosystem with a near permanent shortage during the whole of the program. I would shift the design a touch to renew some points like one a week or something, still keeping it a shortage but more manageable. I’d have to look closer before actually developing a solution, but it also may be functioning exactly as designed. I guess I’ll find out if I ever make it to being a cadet.
+
+My head count lately is around 75–85, but for the test on Friday 108 people have signed up. So I think there are still about 100 of us or so, which means my counts before have been off between about 10 to 20 based on how many I’ve personally seen leave lately.
+
+I find myself a little angry about another article about the piscine that’s gotten some traction lately. I wasn’t mad about it at first, but he sort of put such a positive spin on all of it that I feel it has taken some liberties with the truth making it seem easier and more attainable than I personally feel it is. Hopefully this is only my pessimism speaking, I would rather him be right, but I don’t think that’s the case. He came from a background of having a degree in comp sci, and feels that it didn’t really help him (saying it only helped him the first week), I think he is just blind to how much it helped him. I know how it feels to want to take full credit for an accomplishment, to discount the privileges and advantages one has entered the game with. Rich people do it all the time in fact there are entire psychological studies based around when people start with privileges they are blind to it and feel it’s fair (see the study about unfair monopoly gaming). In his defense he has earned all he’s gotten, and should rightfully be proud, but I’m angry about how the very thing I’m currently struggling with would be sugar coated as easier than it is thus discounting my own current struggles. This is hard, really hard, one of the hardest things I’ve done, and I think it’s really hard for those who come from a coding background too, but I also think that they seem to be incorporating and learning the material faster than the rest of us with less coding experience, to not acknowledge that feels unfair and heartless.
+
+(edit) I just talked about not comparing myself to others and then immediately went on a rant about people minimizing a struggle, ironic, and I apologize, please ignore my complaining.
+
+I need to lighten up.
+
+Assignments for day 12 are as follows.
+
+    Makefile with display file function
+    cat command clone
+    tail command clone
+    hexdump command clone
+    last command clone
+
+-----
+
+
+Day 18 (13)
+
+I may actually be dumb after all. I thought I was smart, hard working, dedicated. Friends of mine usually use the words “witty”, “sharp”, “creative”, “brilliant”. Maybe I was just a big fish in a small pond. None of these words feel true at the moment.
+
+Yesterday I went on a bit of a rant in the blog about people discounting how hard it’s been for me and others of us without a stronger background in coding. I regret that rant, it was unprofessional and came from a place without forethought. So I dug a little deeper to see how I may have been mistaken.
+
+I reviewed all of the assignments we’ve been doing. I had in my mind told myself that I didn’t start struggling until after the first week, this wasn’t actually true, I’ve been struggling with concepts since day 4, and I struggled with format and how to turn things in since day 1. The whole thing has been a struggle. I have learned more than I thought I could, and am arguably not just smarter because of it, but a better person too. No regrets, but I am humbled and aware of the fact that perhaps I held myself higher than I should have. IQ tests be damned, I’m not actually as smart as they or I thought.
+
+I also have regrets about how I portrayed the last group project. Our group did fail to communicate, but this was also my failure as I was also one who communicated poorly. To not own up to my own role in this would be a disservice to everyone and also to myself. Most of what happened was outside of my control, but I could have communicated better, this is an area I don’t completely suck at and I should have performed better.
+
+One of the people in my piscine made a video of his last piscine that fairly well captures the feelings of it, you can find the video here. I should add, that his first piscine he hadn’t done any programming before and this piscine he has consistently been one of the most brilliant people that I could bring questions to, it’s cool to think about his growth like that. I’m sure that I am in many ways discounting my own growth, the test tomorrow will tell.
+
+Speaking of, that’s what almost all of us are doing right now, studying for the test, or procrastinating studying for the test. My writing this article is my at least somewhat justified form of procrastination. My intent with the blogging was to give people a glimpse of the experience as I found it really hard to find much info about how the piscine was or worked(at least in english), or how to get ready for it ahead of time, or even if you could get ready for it ahead of time. If I get in perhaps they would let me take a shot at helping to boost the marketing and recruiting, I mean I’d love to give it a go, that’s a big “if” right now though. I just hope it’s helpful for someone. A lot of the other Pisciners have come up to me telling me that my blogging about how hard it is gave them a laugh because “that’s exactly how we felt”. So at least that. I am proud of myself for keeping up the day to day of it, and for putting in the hours to learn here, I’m averaging over 14 hours a day, mostly just sleeping, eating and coding. So I’m proud of the effort spent as well. My brain isn’t adjusting as quickly as I’d like, and procrastination and poor time management struggles aside I’ve done as much as I could have done, I pushed limits, I achieved more than I thought I could, all of these are things to be proud of, not ashamed.
+
+Even if failing but done with right action it was still the right action. Or as my own little life motto has started to be the last couple of years; fail better, fail faster, fail forward.
+
+I’ve questioned if there was wisdom in listing what the assignments were as I’ve been doing, but I think I’ve been vague enough about them that if someone took the time to actually figure out this stuff ahead of time, then they are the most deserving of getting into the program that there ever was. Seriously, to figure things out from my vagueness, I would only applaud. That said if anyone from 42 reads these and wishes edits just let me know. I wrote these in the spirit of helpfulness not malice.
+
+Day 13 assignments are as follows, this is the last days of assignments, only large projects and tests remain.
+
+    tree create node
+    tree apply prefex
+    tree apply infix (honestly I don’t understand what these are asking for)
+    tree apply suffix
+    tree insert data
+    tree search item
+    tree level count
+    tree apply by level
+    insert data to the tree
+    remove data from the tree
+
+-----
+
+
+Day 19 (Exam03)
+
+Well I no longer fear failure as it has been my constant companion. “hello little fella, good to see you again, oh is that how today will go, fantastic, I’ll try to learn from it”. In short, I failed the exam. Not because I don’t know how to code, no not that but because my brain decided that remembering which library to use was no longer information worth remembering. Code was otherwise flawless and functional, but with a compile error, still compiled, still worked, but I failed the exam. One of my friends failed as well because he forgot to put them in proper folders, again code was fine but instructions weren’t followed.
+
+Such is the nature of the beast that is the piscine. It doesn’t even phase me anymore, no anger, no depression, just a hard lesson learned. My chances of getting in this time are ever slimmer as rather than show progress mine has been a downward slope, despite my ability to code being better than it was at the start, these dumb mistakes have really cost me.
+
+Most people did fairly well on the exam though, we are all improving, and most people don’t spaz out like me and make dumb mistakes. So for most a fairly good day.
+
+More people continue to leave everyday, but strangely I saw more than ten people at the exam that I’ve never seen before, and I’m here from about 8 am to 10 pm everyday, so I’m not sure how that happened unless they are purely nocturnal, even then I would have though, a couple of nights I’ve not slept well and come in at 3 am, several times I’ve come in at 6 instead of 8. I have no idea who they are or where they came from, they are clearly registered but they haven’t been here. My headcount is still around 85 every-night, but we had about 130 sign up for the exam, again it doesn’t really add up for me.
+
+It’s been cool to get to know some of the other students as well. One is a chemist that used to do research for the EPA, another a pharmacy tech, another a former nurse. We have people from all over Europe, all over the USA, Australia, New Zealand, Africa, the Caribbean, Ukraine. I hear at least five different languages daily. I’m exposed to ideas I’ve never thought of, I just played one of the most enjoyable games of chess of my life.
+
+In the slack channel they have asked for volunteers to study really cool things, to mentor kids in programming and to do hackathons. I want to volunteer every time they ask, but I’m not actually part of the school yet, and if things continue as they are I may not get in, at least not the first time. But I still want to be here. I need to learn to be better about figuring things out on my own, but this is the place to learn that. It says a lot about a place when people willingly come back to potentially fail again and don’t feel cheated by the experience.
+
+Barely matters though, I’m growing my skills, I’m growing as a person, and as frustrating as this has been I have no regrets about having done it. Tomorrow is a new day.
+
+-----
+
+
+Day 20 (EvalExpr)
+
+Today seemed to have a palpable lull to it. Everyone and their grandma (really someone is taking it with their grandma, it’s sweet) was procrastinating more than usual, showed up later than normal or decided to take it easier today. Nobody really discussed that happening, but the mood sort of struck everyone all at once.
+
+I had wrongly assumed that most people didn’t really want to work on the group project, well my group does, so I have something to work on at least. There is the personal project of EvalExpr as well, which is mostly to build a calculator, well a more complex calculator.
+
+I’ve not gotten much done today at all, a bit of studying, a bit of figuring on how to solve the group project, a few hours watching youtube tutorials while I simultaneously looked at paintings on pinterest. Then again while I browsed books on amazon.
+
+Due to people chilling out and/or quitting our peak students in the lab today was around 57, a big contrast to the usual 85–90. When I came in at 8 am there were 4 compared to the usual 13.
+
+A lot of us are talking about going into town to watch a movie, it will be a nice break, nice to do things like normal people instead of just solid work in front of a screen as we have been.
+
+I’ve had a few people approach me about my blogging today, some to complain to a sympathetic ear, others just to discuss my thoughts on how the program works. Others to pass along sympathy for my failure yesterday, others still to laugh about how they relate to what I wrote. It was an interesting position to be in as my main point of doing the blogging was to provide a gist of what the piscine is like, as I struggled to find much info on it before coming, you know marking the trail for those who follow. I guess some of my old boy scout attitudes never truly go away. “leave things better than you found them,” and equally the entrepreneurial mindset “if something doesn’t exist that you wished existed, create it”. So here we are. Ironically it’s ended up being similar to a small town paper, people reading to see if they were mentioned, reading to relate to the sentiment, to feel less alone.
+
+It’s been a pleasure to be here, a pleasure to learn, to grow and to write as I have. The final is on Friday, it is also the last day, there are only 6 days left, the home stretch. I wish us all luck and that we find the outcome we deserve and hoped for. I may not get in this time, and if I don’t I would understand due to the mistakes I’ve made, no hard feelings on my end, but I’ll be damned if I don’t go down fighting, studying my ass off until the very last day, what other option is there, to quit? unacceptable, it would be acceptable if I didn’t actually want this, if I somehow discovered that I don’t love making things with code, but that’s not what it is, I’ve just been slower on the uptake than I’m comfortable admitting, I still very much want to be here.
+
+Until tomorrow.
+
+-----
+
+
+Day 21 (Rush02)
+
+I find myself listening to happier music today, things with ukulele’s, things with a triumphant finish, things about returning home and living a simple life. It’s not just me more optimistic today either, I see other people with Elton John on their playlists. The mood seems more optimistic and relaxed than previous days would have let you think possible.
+
+My one group member for the rush project is a guy who I really like, funny, great storyteller, and smart too, really knows his stuff when it comes to code. He had previously told me he wanted to work on it, well I haven’t seen him all day, and barely saw him yesterday, I looked at his hours and he has a trend of doing less hours on the weekend, significantly so. and I get it, I basically took yesterday off too, physically here but mentally elsewhere, so I get it. My other group member even less than him, so…I don’t think this project is getting done. Not for dislike of people or lack of skill but rather due to scheduling conflicts.
+
+A lot of people are absent today as well, probably taking the day off as it is the weekend. I count about 70 people in the lab right now at 4PM. Some of us are working on projects, some studying, others procrastinating with phone games, others watching UFC fights on one half of the monitor with terminals filled with code on the other. Most are at least making an attempt at being productive, but there is still a lingering feeling of procrastination.
+
+One of my other friends was showing me the games to get into the Amsterdam piscine equivalent, I may have to later make another post later listing all of the other affiliate programs and schools. I know in our slack we have had contact from Russia’s 21 since I’ve been here. I wonder if the school takes advantage of setting up an alumni network. The college I got my degree from was not prestigious, no not even close, but the way they approached setting up an alumni network was what made them so successful at placing interns and jobs post graduation, it was their one killer advantage. The more prestigious schools like Harvard do the same, just also with the added bonus of their reputation, why not both? Setting one up between the affiliate schools would be one step short unstoppable, want an interview at google or facebook, “talk to harry who was in the program two years ago”. If it doesn’t exist yet, it should. If I get in maybe I’ll help facilitate setting it up. So far though it hasn’t been mentioned. In truth even being here I’ve had minimal interaction with cadets or prefects, perhaps I could have been more proactive and changed that but I didn’t. The website is still the best source of information, and even that leaves a lot of questions unanswered.
+
+Ironically I was offered two jobs today, one for my previous Graphic Design work and another for my blogging about the piscine. It was validating, but ultimately made me laugh and say something along the lines of “I guess I’m better at marketing than coding”. Maybe I’ll have to utilize my past skills to pay the bills as I continue to learn.
+
+I have this crazy idea to someday be one who bridges gaps for others, you know the team lead who can translate between management, marketing and tech. Use my past as a designer to better understand a problem before we start writing code, to better work with the clients, speak to our users, flesh out the specs, prototype better, faster, more efficiently. But all the while still being the guy with a strong tech foundation. I forget the name of the title but the one who goes between departments, knows how all of them work and facilitates your teams ability to get things done. Helping to shape the things we make, speaking with and for all the stakeholders involved, promoting understanding and best practices. In short helping to help a team make awesome shit.
+
+A guy can dream anyway. I do at least.
+
+-----
+
+
+Day 22
+
+I had a chat with one of the prefects, cool guy, one of the coolest I’ve met actually. We talked about the importance of being the kind of person who figures things out, how often when you are programming what you are actually doing is creating the future, making things that don’t exist yet and so you can’t rely on what’s been built before, there is no instructions only pieces of them scattered about. How sometimes you trust a function to work a certain way when you don’t fully understand how it works so debugging is that much harder. As it turns out almost everything we learn in the piscine is considered beginner level for Cadets. I had a good laugh about how the things I find so hard are still considered training wheels. He also had a great point of view from someone who came from a more experienced coding background, for him it was quicker to pick up what was being taught, but was harder to unlearn bad habits he had picked up before. Things like learning coding standards (the Norm) or even how to pick apart base functions and make our own libraries as we do. A lot of what we learned also wasn’t part of any normal curriculum so it was still new to him as well even with knowing a lot of the techniques to solve it already. So he still struggled in his piscine, but with entirely different struggles than myself. I really valued that other point of view about it.
+
+Also he only had great things to mention about the program as a cadet, how it’s made him a better coder, one who understands what’s going on, how positive the environment has been and how much more confident he is now because his code has improved so much.
+
+I can’t think of a more glowing review for 42 than what he said, and the way he said it was with the tone and intent of giving us hints in the right direction. To “not memorize” or “rely too much on github”. We all agreed. I left the conversation feeling relieved, hopeful, and grateful for the insight. But later on I began to realize that I’m probably a lot less ready skillswise than I hoped or thought I was.
+
+Also a sidenote, there is one guy here who most of consider one of the smartest of the piscine. He had no experience programming but has picked it up incredibly fast, so even though my own experience makes me skeptical that someone with no experience could do great, there is at least one exception I know of. He did prepare for the piscine ahead of time though by reading the C programming language by Kerninghan and Ritchie, which is the book most recommended for those who come to the piscine. He has also made an effort to spend a lot of his time with other smart people, and came into it already humble, focused and ready to learn. So it can be done, not by me but it can be done.
+
+Also today was the first day for the new cadets coming in, some of my friends were friends with them already from their previous piscines. One of them said in passing that the last piscine they changed the amount of points each question is worth, which shifts it decidedly harder as before the minimum to pass the final was to have mastered a smidge more than all of the level 2 questions, now one would have to have mastered more than the level 3. This has made me concerned and also somewhat defeated. I could have maybe pulled off learning the parts I don’t fully understand about level 2, I’m not sure I can pull off most of lvl 3. I’m not the only one feeling defeated either, there is a sizable group of people barely coming to the lab anymore, already mentally having given up, I see them at lunch or out playing basketball, we trade conversations in the hallway, but they are rarely in the lab. They are passing time until their flights leave on Saturday, perhaps there is some sliver of hope to still get in, but I’m not so sure. One of my friends picked up how I was almost a professor in China and has started looking into teaching english abroad jobs, I worry that’s his way of giving up as well. The count in the lab today is about 71. I ended up taking a nap today to try and shake that feeling of defeat so that I will actually try to get something done. This is more a mental battle with myself than anything.
+
+Unrelated to the piscine but still part of how I’m feeling about learning to code is that earlier today I was reading comments on hacker news about how to be a better programmer and I recognize many of the practices in place here which made me only more impressed with what 42 is trying to do. I came away making a list of books to read at a later date and made a google doc listing many of the tips on how to make better software, work better in teams and format the code you create. I also watched an old talk by Don Norman entitled it’s all about experience, which oddly enough made me feel better about my past jobs in the service industry and as a Graphic Designer, that a lot of my past experiences could in fact help me to create better software, because I know how to find out what people want, how to speak to them, to find out problems. My delays in getting around to learning to code will have it’s own advantages as I go forward. I mean it won’t necessarily make me better at code, with it will help me to code what matters and work better with others, which are useful skills in their own right.
+
+It’s hard for me to completely put my feelings into words today and the ones I’m finding don’t quite do it justice. In some ways I feel almost defeated, but also hopeful at the same time, “Out of my depth” would be the simplest way to put it, but it’s more positive than that, less hopeless so it doesn’t quite fit. It’s more like I thought I was close to being an adult only to realize that I’m still a child, this is simultaneously frustrating and relieving. I feel like I’m on the path, that I’ve gained some much needed perspective and insight about the process to be a great developer, what’s needed and what I still need to learn, but that the overall lessons from said insights are just how little I truly know and how long the journey will really be. It almost feels like if this were a TV show like I’ve beaten the odds at the end of a first episode when there are many seasons yet to follow.
+
+I know I want to attend this school, but the challenge ahead isn’t “beating” the piscine as I thought when I arrived, but rather being good enough at coding that the the challenges ahead(like the final)would seem an obstacle rather than some monumental triumph. The piscine is just a beginning, it’s actually the easy part. I want to be a great developer, I’m not convinced that I’m there yet, so the question becomes what comes next. Do I retreat to learn as much as I can on my own and return at a later date, do I push myself to the extreme to try again immediately? Could I mange to pull off some sort of last minute miracle and get in the first time as I’m often known to do? But the larger question is would I feel ready and prepared if I got in the first time, would it be enough? Would the vote of confidence of having gotten in be enough to make me feel worthy of the opportunity, and how much of my current self doubt is unfaithful to the reality of the situation? I don’t actually know. I only know that I feel like I’m lacking the skills to accomplish the task ahead despite having learned and grown so much, despite having done more in less than a month than I previously believed possible, all I see ahead is a lifelong journey to improve my craft of coding. I’m grateful, I’m humbled, I’m doubtful of my chances to pass the upcoming final. We will have to wait and see.
+
+Week 3 photos have come out, I’ve still managed to not end up in any of them. Usually I try to dodge cameras but here I haven’t, somehow I’ve just not been photo worthy so far despite always being about 5 feet away from whatever was. Speaking of photos here are some links.
+
+Check the twitter page for other photos to see what it was like.
+
+-----
+
+
+Day 23
+
+Yesterday I had just about mentally checked out, like someone hanging from a cliff losing their grip, fingers slowly losing strength, only four fingers hanging on, then three, then two, then at the last moment another pair of hands reach out and pull you up to safety. I may be being dramatic, but I was on the verge of giving up, and someone did care enough to pull me out of my mental rut. Took the time to chat with me about what things were holding me back, to give advice and then most importantly came and sat with me to follow up and to make sure I understood. The followup was where the magic was, because it was unprompted, unasked for and above and beyond the call of duty. How can someone give up on themselves when other people are rooting for them? Thanks man, you saved me.
+
+Due to that interaction last night, today has been the most productive since Friday (it’s Tuesday now). I’m going back over all the old assignments, making sure I can get through all of them and they are going a lot faster now (significantly so). It’s reminding me of a lesson I learned from my past in art, so bear with me it’s storytime.
+
+I’m learning to code coming from a background in Art. I’ve always made art and I probably always will, but my medium changes, my approach changes. What I create is shaped by who I am, and what I make helps to shape who I become. When I read articles like Paul Graham’s Hackers and Painters I find comfort in the fact that I’m not alone in how I feel about this, about being one who does both. Perhaps I approached it backward chasing art first, but circumstances were such I had more access to people who would teach me painting and photoshop than I did to those who could teach me HTML and C (despite looking for them). But today’s workflow has reminded me of one of the most valuable lessons I learned as an artist.
+
+I was taking a painting class at university, my professor was one who had previously taught at the Art Center in Pasadena (one of the most prestigious design schools). We were lucky to have him as a professor but the relationship between student and professor felt a lot like having an unloving father, you would try and try and try for approval and only be given the slightest of acknowledgment. To receive something as small as a “good job” was impossible, we were held to the highest standards and pushed ourselves past them. I constantly pulled all nighters, using my time immediately after waking up to do my design and planning (sketching, color theory and the like) and then using the long slog of sleeplessness to do the tedious parts like actually painting, you know, brush strokes and filling it in. During our third week once we understood the flow of the class and knew what was expected of us our professor proclaimed that this week there would be only one project, and it was to be our masterpiece, all time would be dedicated to just this project and that he expected great things from us (contrast this with our usual 5–14 a week). So we did our part, we lost sleep, we worked our assess off, reviewed each others work at odd hours of the morning, and really did everything in our power to make the best piece of work we were capable of. Presentation day comes, we put our pieces on the wall, we are given critiques, we take notes on how we would improve it later. Then once the class had been graded, he told us that the real grade for the day would be in our ability to destroy what we had made and to “kill our babies”. People cried, I came close to tears myself. Some people took the failing grade instead of crumpling their painting. Then after we had calmed down some he lectured us on how “you are not your art” to “remove your ego from your work” and instructed us that the assignment for the next week was to create the same piece, but this time better, this time faster and this time while actually making time to sleep. Then to do it once more. So we did, in less than half the time, and it was the most valuable lesson I ever learned as an artist. What we made the third time was infinitely better than what we made the first, and we learned more from this than nearly any other project. I also learned to decouple my self esteem from the work I had created, and to be comfortable doing things again and again until I gained the skills instead of grasping the pride felt from the first accomplishment.
+
+That’s how it’s been today with the code I’ve been working on, I am remaking things, things I sort of already know how to do, and I’m learning more this time than I even thought to know the first time. I may be learning more in the next three days than I had previously learned in the three weeks before, and this right after I was on the verge of giving up.
+
+This morning at 8 am there were only 3 of us. Right now at 7 PM the count is around 75. Almost everyone here is working hard, either studying for the exam or working on the BSQ project in teams. Everyones mood seems improved and spirits seem higher, at least for those who are still working.
+
+Until Tomorrow then.
+
+-----
+
+
+Day 24
+
+Anyone who’s ever attended college knows what finals week feels like, this week has felt the same. There was a group of us talking about grabbing pizza on Wednesday night (tonight) I guess the local pizza place has a Wednesday night deal or something. But when we talked about it at lunch the consensus was “no, we need to study”. That’s about the vibe right now, people are maxing out their time, doing what they can to prepare. Many are still working on the group project BSQ (has a lot of do with optimization) but even more are just going over material and studying. Today was also the day we graded our Rush02 project, but as my team and I didn’t finish, it wasn’t a personal concern of mine.
+
+Some of my friends and I were discussing yesterday how a few of the seemingly brightest people have stopped showing up, one in particular, he was french, tall, curly haired, what most would consider good looking, What’s more is he has years of experience as a developer, so he knows his stuff. If he had half of my ambition or if I had half of his advantages I would have conquered the world a month ago. Anyways I guess the guy decided that his time in the USA was better spent sightseeing than here in the lab, so he just sort of quit showing up. I had completely forgotten about him until they brought him up. Then we went on to list another couple of people who also were intelligent and promising candidates that just sort of stopped coming, an interesting phenomenon that I had somehow not noticed before, this has been a minority though, most of the smartest people are still here.
+
+I suppose the month long piscine is very good at one thing in particular, filtering out those who are dedicated and those who are not, those who only have a slight interest end up quitting, those who don’t feel up to the task quit as well and then at the end of it we are all filtered by ability to learn, actual skill and personality fit. The longer I’m here the more I feel converted to this style of doing things. I wonder if a clearer cut system of what’s expected and a more involved on-boarding process wouldn’t lower attrition rates, but then again is that something that they want for the program? As it is only those who truly want the opportunity, can think for themselves, know enough to proceed and are dedicated are the only ones to get in. In some ways those are the most valuable things to screen for, so really the system isn’t broken is it, not so long as it’s doing exactly what it was intended to do.
+
+I couldn’t sleep last night, I woke up at 2AM and after laying in bed for an hour decided that going back to sleep wasn’t going to happen. So I was back at the lab until 8AM, tried to sleep again, failed, then finally got about 4 hours between lunch and dinner. It’s thrown off my whole day, and my ability to think throughout the day.
+
+At 3AM the lab was still lively and had about 20 people working on group or personal projects, It’s actually really cool that we have a lab that’s open 24 hours, that you can take the time to go and get something done when you can’t sleep. Around 5AM the lab was empty, there was just two of us, me struggling to get things done and one other guy sprawled out on chairs taking a catnap.
+
+There are about 76 people in lab right now at 6:30PM, which feels an accurate assessment. I hear that most piscines are much fuller than ours, and I know that when it’s more full the lab can get pretty hot. During our first exam when most people showed up, that first hour was unpleasantly warm. I bought a fan on recommendation, and I’ve not used it as we’ve been small most of the time. I don’t have a way to pack it on the plane, someone is getting a free fan I guess.
+
+There is a tradition of throwing a BBQ after the piscine, a few people have formed a sort of party planning committee and a “buy in” for a plate of food has started. I spent about 30 min trying to get past paypal security until I gave up and went with venmo, which was also a struggle as the search didn’t find the guy I needed to find right away. Finally I had him send me a link to his profile. The committee made a flyer, and I guess a lot of the cadets will make an appearance as well, should be cool to do some mingling.
+
+I’ve been solidifying travel plans home, flight plans, rides from airports, communicating with my job after being gone for a month. It’s odd to think about leaving in a few days. This place has almost felt like home for the last month, the people I’ve gotten to know I’ve gotten to know well, there are friendships there, I hope to see most of them again once we are all Cadets, but I know there are some I’ll not see again. A few people have invited me to come visit them where they live later, so far I’ve gotten invitations for New York, Ireland and Wisconsin. Now I’m fairly well traveled so far as the western and southern USA, but I’ve yet to be to the northeast, and as for Europe I’ve only really been to Iceland, I’m not even sure if that actually counts lol. I’ll have to start gathering phone numbers to set up further plans. To anyone reading, if I’m still in Austin when you read this, let’s go for taco’s I know a few places.
+
+My schedule for work has me back on schedule starting Monday, I wish I could say I was excited… But it will be good to see some people again, they are in for a shock now that I’ve cut my hair and shaved my beard though. Many of these people have never seen me without a beard, should be a fun day.
+
+Not much else going on, we are all just working as hard as we can to either prepare for the exam or finish our last project.
+
+-----
+
+
+Day 25 (Last Day Before Final)
+
+I’m an emotional mess, no good reason for it but there it is. Nearly teared up a few times, I think the stress mingled with other past emotions pushing them to the surface.
+
+The lab has been quieter than normal today, some people are still studying for the exam, but others I think are enjoying their last day here, spending time with friends, taking in the sunshine things like that. We’ve also been cleaning because if your room isn’t clean during the final you will be pulled out of the final to go back to your room to clean. I’ve basically packed up everything and given away whatever doesn’t fit in my bags.
+
+I also managed to have a chat with Jamie today, she is the resident Mom here. We talked about how our learning style here helps to prepare better candidates and how many of our cadets have gone on to big things, even recently. Some of the companies taking on interns were the biggest names in the business. She also strongly encourages us to volunteer at networking events instead of merely attending them, a brilliant strategy actually. Sometimes being an ambassador (volunteer guide) who shows around MVP’s will really help you to be prepared for technical interviews as well, as many of the executives who come to check out the school will ask those sort of questions ahead of time, often at a deeper level than a recruiter would, and even more often these are the sorts who are the bosses bosses. Really cool stuff, got me even more excited about the opportunity here.
+
+That said my confidence in my ability to pass the exam is small, I suppose we will find out after. The saying goes that fear and excitement are two sides of the same coin, well mine feels more like fear right now. At least I know what I need to work on next, overcoming that so I can continue to learn.
+
+Tomorrow I’ll update how the final went and how the BBQ was, then I’ll make a post mortem post about collective things learned, what the overall experience was and tips to prepare and get in. Until tomorrow.
+
+-----
+
+
+Day 26 (Final Exam)
+
+The piscine is over and my only regret is that I could have focused more the last few days. I didn’t do well on the final and so my expectations of acceptance aren’t super high. One of the prefects was like “don’t count it out yet” and I might have brushed it off, sorry. Stranger things have happened and were it to happen I would take it as such a vote of confidence I would move mountains to live up to it. We will find out in a couple of weeks.
+
+More likely I will try again in October, build upon what I’ve learned so far and come back more prepared and ready to continue the path toward mastery. It’s not enough just to get in, this is about learning a craft, of understanding and the joy of finding out “oh so that’s how that works”. I can safely say now that figuring out how to make code work is a joy now when it started as something that felt overwhelming.
+
+I found myself figuring things out and learning things even during the final, there were moments of frustration, triumph, curiosity and joy.
+
+Right now our BBQ is in full swing, I excused myself to write this and to get a jump on laundry before my flight in the morning. Food was great, company better, I really will miss some of these guys. This place felt like home, if you can get through the initial frustration I would recommend it to anybody who wants to learn the deeper aspects of code, in all a fantastic experience and I wouldn’t trade it for anything.
+
+Since the piscine is over we no longer have lab access, and my laptop is broken so this was written on my phone, I apologize if anything is misspelled or out of place.
+
+I’ll do the recap/postmortem in a couple of days once I’m back in Austin.
+
+Until next time.
