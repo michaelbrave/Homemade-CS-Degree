@@ -3,3 +3,4 @@
 *.exe
 *.obj
 *.bak
+node_modules/
