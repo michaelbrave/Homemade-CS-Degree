@@ -370,3 +370,73 @@ canvas-sketch sketch-02.js --output=output/02 --stream
 
 then ctrl shift s, cmd shift s to start and stop export
 - this didn't work for me, it made a corrupted file
+
+
+----- Grid
+
+lots of variables in initial setup
+    const cols = 10;
+    const rows = 10;
+    const numCells = cols * rows;
+
+    const gridw = width * 0.8;
+    const gridh = height * 0.8;
+    const cellw = gridw / cols;
+    const cellh = gridh / rows;
+    const margx = (width - gridw) * 0.5;
+    const margy = (height - gridh) * 0.5;
+
+then more inside the loop
+    const col = i % cols;
+    const row = Math.floor(i / cols);
+
+    const x = col * cellw;
+    const y = row * cellh;
+    const w = cellw *  0.8;
+    const h = cellh * 0.8;
+
+then some things for rotation and randomness
+    const n = random.noise2D(x + frame * 10, y, 0.001); // third parameter is frequency
+    const angle = n * Math.PI * 0.2; // -180 degrees till 180 degrees possiblity
+    const scale = math.mapRange(n, -1, 1, 1, 30);
+
+then we draw it
+    context.save();
+    context.translate(x, y);
+    context.translate(margx, margy); // center in canvas
+    context.translate(cellw * 0.5, cellh * 0.5); // draw from center
+    context.rotate(angle);
+
+    context.lineWidth = scale;
+
+    context.beginPath();
+    context.moveTo(w * -0.5, 0);
+    context.lineTo(w * 0.5, 0);
+    context.stroke();
+
+    context.restore();
+
+--- Tweakpane
+lets you add UI elements like buttons, or a title outside the sketch
+
+at the end of the sheet but before canvas is called it looks something like this
+const createPane = () => {
+  const pane = new Tweakpane.Pane();
+  let folder;
+
+  folder = pane.addFolder({ title: 'Grid '});
+  folder.addInput(params, 'cols', { min: 2, max: 50, step: 1 })
+  folder.addInput(params, 'cols', { min: 2, max: 50, step: 1 })
+};
+
+createPane();
+
+above sketch and object like this
+const params = {
+  cols: 10,
+  rows: 10,
+}
+
+then use the values of the object to interact with the UI and the sketch
+see sketch-03 for more examples of how the UI was implemented to add options
+

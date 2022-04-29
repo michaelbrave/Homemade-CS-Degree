@@ -163,5 +163,6 @@ https://chris-granger.com/2012/12/11/anatomy-of-a-knockout/
 https://www.sebaslab.com/entity-component-system-design-to-achieve-true-inversion-of-flow-control/
 
 
-
+Book
+- Domain Driven Design
 
