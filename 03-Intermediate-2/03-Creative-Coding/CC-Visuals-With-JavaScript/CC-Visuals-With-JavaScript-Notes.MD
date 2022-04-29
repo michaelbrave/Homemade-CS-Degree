@@ -306,3 +306,67 @@ const random = require('canvas-sketch-util/random');
 
 --- Arcs ---
 
+-- Objects & Classes --
+
+example object
+- const point = {x: 800, y: 400};
+reference it like
+- point.x
+
+-- with his definition, isn't hat a dictionary or a map?
+
+-- Classes
+
+usuually start with an uppercase letter
+- example
+class Point {
+  constructor (x, y, radius) { // pass in 3 variables x, y, radius
+    this.x = x; // set the x of the class to the x passed to it, so we can all it later with Point.x
+    this.y = y;
+    this.radius = radius;
+  }
+}
+
+eventually refactored to Vector to make more sense with position and velocity data
+class Vector {
+  constructor(x, y) {
+    this.x = x;
+    this.y = y;
+  }
+} // the radius part was put in a different method
+
+update adds the velocity just before the draw
+  update() {
+    this.pos.x += this.vel.x;
+    this.pos.y += this.vel.y;
+  }
+
+but it needs to be in the sketch function too
+  return ({ context, width, height }) => {
+    context.fillStyle = 'white';
+    context.fillRect(0, 0, width, height);
+
+    agents.forEach(agent => {
+      agent.update();
+      agent.draw(context);
+    });
+
+but for the animation to properly load it needs to be set in the setting as well
+const settings = {
+  dimensions: [ 1080, 1080 ],
+  animate: true
+};
+
+eventually the whole program looks like (see file sketch-02.js)
+
+
+-- export to video
+
+install ffmpeg with npm
+ npm install @ffmpeg-installer/ffmpeg --global
+
+add --stream to the end of the loading
+canvas-sketch sketch-02.js --output=output/02 --stream
+
+then ctrl shift s, cmd shift s to start and stop export
+- this didn't work for me, it made a corrupted file
