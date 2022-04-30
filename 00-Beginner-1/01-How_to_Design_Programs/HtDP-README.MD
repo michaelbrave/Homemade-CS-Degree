@@ -75,6 +75,10 @@ I'm going through 5 of the similar courses concurrently, week by week, reading/w
 5. Istanbul BILGI HtDP 2010
 - https://www.youtube.com/playlist?list=PLA_-EWSPTJcuy5VyJyvemxydu16kcAK0S 
 
+6. CS 1410-2 and CS2420-20 Computer Science I and II for Hackers University of Utah
+- http://www.eng.utah.edu/~cs1410-20/schedule.html
+- http://www.eng.utah.edu/~cs2420-20/schedule.html
+
 
 My Reasoning
 
