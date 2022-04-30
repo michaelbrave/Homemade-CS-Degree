@@ -440,3 +440,46 @@ const params = {
 then use the values of the object to interact with the UI and the sketch
 see sketch-03 for more examples of how the UI was implemented to add options
 
+
+
+----- drawing text
+
+so fonts are actually kind of tricky to center correctly
+
+first it wants to draw it starting at 0, 0 (the top left corner) but it wants to draw it above the line and thus out of sight
+context.textBaseline = 'top'; // makes it draw starting at the top
+
+so then if you want to center it in the page it's still tricky and we have to find the actual bounding box around the shape of the letter to base our centering off of, we can find this out with these variables
+
+    const metrics =  context.measureText(text);
+    const mx = metrics.actualBoundingBoxLeft * -1;
+    const my = metrics.actualBoundingBoxAscent * -1;
+    const mw = metrics.actualBoundingBoxRight + metrics.actualBoundingBoxLeft;
+    const mh = metrics.actualBoundingBoxAscent + metrics.actualBoundingBoxDescent;
+
+    const x = (width - mw) * 0.5 - mx;
+    const y = (width - mh) * 0.5 - my;
+
+then eventually draw it centered with a line for the bounding box
+
+    context.save();
+    context.translate(x, y);
+    context.beginPath();
+    context.rect(mx, my, mw, mh);
+    context.stroke();
+
+    context.fillText(text, 0, 0);
+    context.restore();
+
+  
+--- keyup and keydown event listeners
+
+key up is preffered since it won't do duplicates?
+
+-- Async Functions
+javascript promises - it will give the result when it's finished
+await funcitons - 
+
+- in truth I'm following along but I don't completly get it yet
+
+it's getting harder and harder for me to follow, I will come back to this course (That I'm nearly done with) later, prob in a few days
