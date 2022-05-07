@@ -9,12 +9,6 @@ Understand as much as you can and move on, don't get stuck - learn to write proo
 4. An Introduction to Abstract Mathematics - 
 
 
-DMFP Discrete Mathematics and Functional Programming Wheaton College
-- http://cs.wheaton.edu/~tvandrun/dmfp/
-- http://cs.wheaton.edu/~tvandrun/dmfp/source.html
-
-
-
 
 
 

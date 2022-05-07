@@ -21,7 +21,7 @@ Keith Devlin - Stanford
 - Intro to Mathematical Thinking - https://www.youtube.com/watch?v=LN7cCW1rSsI
 
 Stanford CS103
-- Methematical Foundations of Computing - http://web.stanford.edu/class/cs103/
+- Mathematical Foundations of Computing - http://web.stanford.edu/class/cs103/
 
 Book - Concrete Mathematics - Patashnik, Knuth, Graham
 
