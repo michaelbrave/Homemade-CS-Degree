@@ -1,4 +1,7 @@
-Mostly Northeastern, Some MIT(SICP Days)
+Mostly Northeastern, Some MIT (SICP Days), Some UC San Diego
+
+Ideal for those who want to be Computer Engineers or Software Architects, or just those who want to make good software(Craftsmanship). 
+
 Based around designing programs, well thought out programs, writing documentation, testing and a bit of architecture and Human Computer Interaction Mixed in.
 
 
@@ -17,16 +20,31 @@ Python Basics and HtDP Recap
     - https://classroom.udacity.com/courses/cs212
 
 Math
-- Mathematics for Computer Science - (MIT) 6.042J (2010)
+- Mathematics for Computer Science - Tom Leighton (MIT) 6.042J (2010)
     - https://www.youtube.com/playlist?list=PLB7540DEDD482705B
+    - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/
+    - Book Also
+- Mathematics for Computer Science Albert Meyer (MIT) 6.042J (2015)- MIT
+    - https://www.youtube.com/playlist?list=PLUl4u3cNGP60UlabZBeeqOuoLuj_KNphQ
+
+Computational Structures
+- http://ocw.fudutsinma.edu.ng/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/ 
 
 - HtDP Fundamentals 2
     - Designing Programs OOP (Usually Taught With Java)
         - Book Draft - How to Design Classes - https://felleisen.org/matthias/HtDC/htdc.pdf
         - Course Archive - https://web.archive.org/web/20201210204853/https://course.ccs.neu.edu/cs2510/index.html
+    - Elements of Software Construction
+        - http://ocw.fudutsinma.edu.ng/courses/electrical-engineering-and-computer-science/6-005-elements-of-software-construction-fall-2008/
 
-- Algorithmic Design and Techniques (UC San Diego)
-    - https://www.edx.org/course/algorithmic-design-and-techniques
+UC San Diego Data Structures Specialization (Best Structure of Courses)
+- https://www.coursera.org/specializations/data-structures-algorithms
+- Algorithmic Toolbox
+- Data Structures
+- Algorithms on Graphs
+- Algorithms on Strings
+- Advanced Algorithms and Complexity
+- Genome Assembly Programming Challenge
 
 Logic & HtDP 3
 - Semantics of First-Order Logic (Stanford)
@@ -35,22 +53,68 @@ Logic & HtDP 3
     - https://www.edx.org/course/language-proof-and-logic
     - https://web.archive.org/web/20190428201834/https://course.ccs.neu.edu/cs2800/index.html
 - Computational Proofs
+    - CIS 500 Software Foundations University of Pennsylvania
+        - http://www.seas.upenn.edu/~cis500/cis500-f14/index.html#schedule
+    - CS 3220 Introduction to Scientific Computing Cornell University
+        - http://www.cs.cornell.edu/~bindel/class/cs3220-s12/lectures.html
+    - Automata, Computability and Complexity (MIT)
+        - http://ocw.fudutsinma.edu.ng/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2005/ 
+
+Interview Prep
+- Book - Cracking the Coding Interview (Java) - Gayle, Laakmann, McDowell
+- Dynamic Program Solving
+    - https://www.youtube.com/watch?v=oBt53YbR9Kk
+
+Algorithmic Design
+- Algorithmic Design and Techniques (UC San Diego)
+    - https://www.edx.org/course/algorithmic-design-and-techniques
+- CSE 373 Analysis of Algorithms Stony Brook University
+    - http://www.cs.sunysb.edu/~algorith/video-lectures/
+- Book - The Algorithm Design Manual - Skiena - https://www.algorist.com/ 
+
+- Mathematical Thinking in Computer Science (UC San Diego)
+    - https://www.youtube.com/watch?v=i8sphCg1yTs
 
 HtDP 4
 - Object Oriented Design
     - https://web.archive.org/web/20210415162303/https://course.ccs.neu.edu/cs3500/#%28part._info%29
 
 Pre SICP
-- Math up to Linear Algebra
+- Math - all leading up to Linear Algebra
+
+Programming Languages (Brown)
+- Programming Languages: Application and Interpretation (Brown)
+- Book - http://cs.brown.edu/~sk/Publications/Books/ProgLangs/ 
+- Book - http://cs.brown.edu/courses/cs173/2012/book/ 
+- CSCI 1730 Intro to Programming Languages - http://cs.brown.edu/courses/cs173/2012/Videos/
+Book - Shriram Krishnamurthi, Benjamin S. Lerner, Joe Gibbs Politz, Kathi Fisler
+- Programming Languages - https://papl.cs.brown.edu/2020/
 
 SICP
 - Book SICP
 - Original Course lectures (1986) - https://www.youtube.com/playlist?list=PLE18841CABEA24090 
 - SICP Course (MIT) (2004)- https://www.youtube.com/playlist?list=PL7BcsI5ueSNFPCEisbaoQ0kXIDX9rR5FF 
 
+Data Driven Development & ECS
+- 
+
+User Interface Design
+- http://ocw.fudutsinma.edu.ng/courses/electrical-engineering-and-computer-science/6-831-user-interface-design-and-implementation-fall-2004/lecture-notes/
+
+- Advanced Data Structures - Demaine (MIT)
+    - https://ocw.mit.edu/courses/6-851-advanced-data-structures-spring-2012/
+
 HtDP 5
 - Software Development
     - https://web.archive.org/web/20200219190302/http://www.ccs.neu.edu/home/matthias/4500-f18/index.html 
+
+TDD - Test Driven Development
+- 
+
+Math - Linear Algebra
+- Gilbert Strang (MIT) - Lectures on Linear Algebra
+    - https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D
+    - https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
 
 Interview Prep
 - Book - Cracking the Coding Interview (Java) - Gayle Laakmann Mcdowell
@@ -62,6 +126,14 @@ Data Oriented Design, ECS, Test Driven Development & BDD
 
 Refactoring
 - Book - Refactoring, Improving the Design of Existing Code - Martin Fowler
+
+Dan Grossman - University of Washington
+- https://homes.cs.washington.edu/~djg/teachingMaterials/spl/
+- Programming Languages Part A - https://www.coursera.org/learn/programming-languages
+- Programming Languages Part B - https://www.coursera.org/learn/programming-languages-part-b
+- Programming Languages Part C - https://www.coursera.org/learn/programming-languages-part-c
+CSE 341 Programming Languages University of Washington
+- https://courses.cs.washington.edu/courses/cse341/16sp/#lectures
 
 Software Engineering
 - CS 5150 Software Engineering - Cornell University - http://www.cs.cornell.edu/courses/CS5150/2014fa/materials.html

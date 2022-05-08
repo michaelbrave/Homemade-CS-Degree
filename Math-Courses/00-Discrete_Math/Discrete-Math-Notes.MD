@@ -9,6 +9,12 @@ Understand as much as you can and move on, don't get stuck - learn to write proo
 4. An Introduction to Abstract Mathematics - 
 
 
+Shawn Grooms
+- Maths for Programmers - https://www.youtube.com/watch?v=2SpuBqvNjHI
+
+
+
+Book - Concrete Mathematics - Patashnik, Knuth, Graham
 
 
 

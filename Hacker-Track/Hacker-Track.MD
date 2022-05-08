@@ -1,40 +1,74 @@
 
+The influence for this comes primarily from the University of Michigan (Dr. Chuck) and supplemented heavily from Harvey Mudd.
+
+Ideal for beginners, people with careers that want to learn to code (just stop once you know enough), or those who want to be a web developer.
+
 This Track is based around the philosophies of "everyone can code" and "programming for everyone" with an emphasis on practical application of knowledge.
-The influence for this comes primarily from the University of Michigan and supplemented heavily from Harvey Mudd. It starts broad with high level coding, moves toward practical application, then gets into progressively lower level code to understand how the higher level code works internally. It goes in with the understanding that you will learn infinately more on the job eventually, but one should build up their foundation still. But the core idea is that it should be useful and fun and should pique the curiosity to dig deeper.
+It starts broad with high level coding, moves toward practical application, then gets into progressively lower level code to understand how the higher level code works internally. It goes in with the understanding that you will learn infinately more on the job eventually, but one should build up their foundation still. But the core idea is that it should be useful and fun and should pique the curiosity to dig deeper.
 
 Course List:
+Coding Basics
 - Python For Everybody (Michigan)
     - https://www.py4e.com/
 - Computer Science For All (Harvey Mudd)
     - https://learning.edx.org/course/course-v1:HarveyMuddX+CS005x+2T2016/home
-- Discrete Math (Optional)
+
+Foundational Math
+- Discrete Math (Harvey Mudd)
     - https://www.thegreatcourses.com/courses/discrete-mathematics
+
+Data Structures & Logic
 - Python Data Structures (Michigan)
     - https://www.edx.org/course/python-data-structures
 - Computability and Logic (Optional)
+
+OOP in Practice
 - Django For Everybody (Michigan)
     - https://www.coursera.org/specializations/django#courses
-- Algortithms (Optional)
-- FullStack Web
-    - Building Web Applications in PHP (Michigan)
-        - https://www.coursera.org/learn/web-applications-php
-    - Introduction to SQL (Michigan)
-        - https://www.coursera.org/learn/intro-sql
-    - Building Database Applications in PHP (Michigan)
-        - https://www.coursera.org/learn/database-applications-php
-    - Javascript, JQuery, and JSON (Michigan)
-        - https://www.coursera.org/learn/javascript-jquery-json
+
+Algortithms
+- Introduction to Algorithms
+    - Book - Introduction to Algorithms - Cormen, Leiseroson, Rivest, Stein
+    - Course Lectures on Youtube - https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp
+    - MIT Lectures - http://videolectures.net/mit6046jf05_introduction_algorithms/
+- Google Tech Dev Guide
+    - https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/
 
 Interview Prep
 - Book - Elements of Programming Interviews in Python - Aziz, Lee, Prakash
+- HackerRank
+    - https://www.hackerrank.com/
+    - Tutorials - https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt
 
-- C Language
-    - Coding for Everyone: C & C++ - UC Santa Cruz
-        - https://www.coursera.org/specializations/coding-for-everyone#courses 
-    - C & Arduino - UCI
-        - https://www.coursera.org/learn/arduino-platform
-- Advanced OOP (Probably Java)
+FullStack Web
+- Building Web Applications in PHP (Michigan)
+    - https://www.coursera.org/learn/web-applications-php
+- Introduction to SQL (Michigan)
+    - https://www.coursera.org/learn/intro-sql
+- Building Database Applications in PHP (Michigan)
+    - https://www.coursera.org/learn/database-applications-php
+- Javascript, JQuery, and JSON (Michigan)
+    - https://www.coursera.org/learn/javascript-jquery-json
 
+6.171 Software Engineering for Web Applications (MIT) (like an intro to security and stability)
+- http://ocw.fudutsinma.edu.ng/courses/electrical-engineering-and-computer-science/6-171-software-engineering-for-web-applications-fall-2003/
+
+C Language
+- Coding for Everyone: C & C++ - UC Santa Cruz
+    - https://www.coursera.org/specializations/coding-for-everyone#courses 
+- C & Arduino - UCI
+    - https://www.coursera.org/learn/arduino-platform
+
+Connecting C With Higher Level Languages
+- CS 164 Hack your language! UC Berkeley
+    - https://archive.org/details/ucberkeley-webcast-PL3A16CFC42CA6EF4F
+    - https://inst.eecs.berkeley.edu/~cs164/fa21/syllabus.html 
+
+Advanced OOP
+- Java?
+
+Linear Algebra (Harvey Mudd)
+- https://www.thegreatcourses.com/courses/mastering-linear-algebra-an-introduction-to-applications 
 
 Assembly Language
 - Azeria - ARM Assembly - https://azeria-labs.com/writing-arm-assembly-part-1/
@@ -47,22 +81,12 @@ Operating Systems
 
 Circuits
 - Digital Design (Harvey Mudd) - https://www.edx.org/course/digital-design-2
-- Circuits and Electronics 1: Basic Circuit Analysis (MIT) - https://www.edx.org/course/circuits-and-electronics-1-basic-circuit-analysi-2
-- Circuits and Electronics 2: Amplification, Speed, and Delay (MIT) - https://www.edx.org/course/circuits-and-electronics-2-amplification-speed-a-2
-- Circuits and Electronics 3: Applications (MIT) - https://www.edx.org/course/circuits-and-electronics-3-applications-2
-
-Nand to Tetris (Logic Gates)
-- Build a Modern Computer from First Principles: From Nand to Tetris (HUJ) - https://www.coursera.org/learn/build-a-computer
-
-Compilers
-- Compilers (Stanford) - https://www.youtube.com/playlist?app=desktop&list=PLEAYkSg4uSQ3yc_zf_f1GOxl5CZo0LVBb
 
 Computer Architecture
-- Computer Architecture (Harvey Mudd) https://www.edx.org/course/computer-architecture
+- Computer Architecture (Harvey Mudd)
+    - https://www.edx.org/course/computer-architecture
 
 
-Linear Algebra
-- https://www.thegreatcourses.com/courses/mastering-linear-algebra-an-introduction-to-applications 
 
 -------- Primary Influence of These Curriculim Choices is Dr Chuck's "Path to Mastery" --------
 --- Path to Master Programmer ---

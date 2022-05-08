@@ -26,17 +26,11 @@ The first track, which I will call the "Hacker Track" is based around the idea t
 --- Math Courses/Books ---
 
 
---- AI & Data Science Related Courses ---
+--- Creative AI & Data Science Related Courses ---
 
 
 
-Graphics Programming
-- Interactive 3D Graphics (Autodesk) - https://www.udacity.com/course/interactive-3d-graphics--cs291
-- Books - Ray Tracing in a Weekend - https://raytracing.github.io/
 
-Creative Coding (Bonus)
-- Creative Programming for Digital Media & Mobile Apps (London) - https://www.coursera.org/learn/digitalmedia
-- Creative Coding (NYU) - https://www.edx.org/course/creative-coding
 
 
 ------- Other Resources -------

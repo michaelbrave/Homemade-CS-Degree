@@ -13,14 +13,3 @@ Books
 Playlist 3Blue1Brown
 - https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab
 
-MIT
-- https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
-
-
-Brown - Coding the Matrix - Learn Linear Algebra with Code
-- Book - http://codingthematrix.com/
-- https://cs.brown.edu/video/channels/coding-matrix-fall-2014/
-
-Gilbert Strang (MIT) - Lectures on Linear Algebra
-- https://www.youtube.com/playlist?list=PL49CF3715CB9EF31D
-

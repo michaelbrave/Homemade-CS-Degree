@@ -1,25 +1,8 @@
+Algo and Interview Prep Checklist
+    - https://github.com/jwasham/coding-interview-university/blob/main/README.md#data-structures
 
-
-- Book - Cracking the Coding Interview - Gayle Laakmann Mcdowell
-- Book - Elements of Programming Interviews in Python - Aziz, Lee, Prakash
-
-Dynamic Program Solving
-- https://www.youtube.com/watch?v=oBt53YbR9Kk
-
-
-Leetcode
-- https://leetcode.com/
-
-Project Euler
-- https://projecteuler.net/
-
-GeeksforGeeks
-- https://www.geeksforgeeks.org/
-
-HackerRank
-- https://www.hackerrank.com/
-- Tutorials - https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt
-
+Software Engineering Interview Study Guide (Sorry I can't remember who gave it to me)
+    - https://docs.google.com/spreadsheets/d/1Nz09S4i6fodyFjSuC-3-KuzZMtwl14yNXM1AG2URFWE/edit?usp=sharing
 
 Useful Links
 https://www.youtube.com/watch?v=XhfYpmOaBsQ
