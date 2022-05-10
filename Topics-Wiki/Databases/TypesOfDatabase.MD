@@ -17,7 +17,7 @@ Often used as an integration mechanism.
 It's designed to run on a large system, not lots of little distributed clusters. 
 
 
-1. Key Value Database
+2. Key Value Database
 - Reddis, Memcached EtseeD
 
 Set & Get
@@ -41,7 +41,7 @@ also usually used in combination with other solutions, but this one is the write
 
 
 4. Document Oriented
-- MongoDB, Firestore, CouchDB, DynamoDB
+- MongoDB, Firestore, Couchbase, DynamoDB, RethinkDB
 
 each document is a container for key value pairs, unstructured but grouped together in collections, heirarchical
 
@@ -74,7 +74,7 @@ mostly used in search engines, and typeahead search boxes
 
 
 7. Multi-Model
-- Fauna
+- Fauna, CosmosDB, 
 
 Similar to document oriented but it has a lot of internal options of what it can do with the data. 
 
@@ -95,6 +95,11 @@ focus on use with machine learning, otherwise very similar to a graph or search 
 
 came out in the 90's as a response to relational databases. It mostly didn't catch on due to relational dominance. 
 
+
+12.  AmorphousDB by Jim Starkey
+- can't find a way to play with it but he talks up
+- https://www.linkedin.com/pulse/amorphousdb-rethinking-relational-database-jim-starkey/
+- 
 
 ----
 
