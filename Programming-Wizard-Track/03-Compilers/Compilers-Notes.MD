@@ -8,3 +8,9 @@ CS 4120 Introduction to Compilers Cornell University
 CSE P 501 Compiler Construction University of Washington
 - https://courses.cs.washington.edu/courses/csep501/09au/lectures/video.html
 
+
+Book - Programming Languages: Application and Interpretation - Shiriram Krishnamurthi
+
+Book - Essentials of Compilation - Jeremy G. Siek
+
+https://craftinginterpreters.com/

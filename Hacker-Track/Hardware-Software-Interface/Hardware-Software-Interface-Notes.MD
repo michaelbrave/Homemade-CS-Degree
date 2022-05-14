@@ -7,3 +7,5 @@ CS 3410 Computer System Organization and Programming Cornell University
 - https://www.cs.cornell.edu/courses/cs3410/2014sp/schedule.html
 
 
+Book - Patterns for Time-Triggered Embedded Systems - Mighcael J. Pont
+https://www.safetty.net/publications/pttes
