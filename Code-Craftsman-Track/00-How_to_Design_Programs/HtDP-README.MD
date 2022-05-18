@@ -81,7 +81,6 @@ I'm going through 5 of the similar courses concurrently, week by week, reading/w
 
 
 My Reasoning
-
 1. This content although brought about in 2010-2012 hitting it's peak popularity in 2014-2015 it's not the kind of stuff that goes out of date and so how old the teaching materials are barely matters. That said the book was updated in 2018.
 2. Since I'm kinda solo here the lectures/videos/examples from different sources are helpful, and should I teach this someday (a goal) having more than one reference is helpful.
 3. Repetition of material does help it to solidify in memory even if it is a bit slower going at the time. 
