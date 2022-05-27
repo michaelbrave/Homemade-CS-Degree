@@ -106,7 +106,7 @@ Things to Look up, Terms I read somewhere, Things that seem worth defining and w
 
 
 Terms:
-Nerfs - seems to be the next big thing, see waymo's usage
+Nerfs - seems to be the next big thing, see waymo's usage, also good for turning 2D into 3D
 BERT - Transformer based NLP (Big in 2018)
 Transformers - compute and data hungry, GPT-3 and Co-Pilot based on this
 BLEU Scores - used by NLP researchers
@@ -120,9 +120,88 @@ student - teacher -
 On device AI - look up TVM tech by OctoML
 MIT's Han Lab / OMNIML - look it up
 (look up Elmo, MT-NLG (Megatron-turing NLG), TuringNLG, Megatron-LM, , Wu Dao, Switch Transformer)
+AI's three steps: training (teaching), pruning and inference (predicting by itself.)
+Buying pretrained models - https://modelzoo.co/ https://aws.amazon.com/marketplace/solutions/machine-learning/pre-trained-models
+data/concept drift - 
+Linear Regression - high explainability
+Reading comprehension benchmarks - SuperGLUE SQuAD
+OODA - Observe Orient Decide Act - some call for this to be replaced with "sense-predict-agree-act", likely different tasks will require different models
+types of chips, from Steve Blank
+  - Graphics Processing Units (GPUs) - Thousands of cores, parallel workloads, widespread use in machine learning
+  - Field-Programmable Gate Arrays (FPGAs) - Good for algorithms; compression, video encoding, cryptocurrency, genomics, search. Needs specialists to program
+  - Application-Specific Integrated Circuits (ASICs) – custom chips e.g. Google TPU’s
+Spiking Neural Nets (SNN) - different from deep neural nets, for of Neuromorphic Computing, good for pattern finding and sensors
+Analog Machine Learning Chips - low power, good for sensors
+Clustering - 
+Association - 
+Dimensionality Reduction - 
+Supervised ML - best use case is for prediction like spam detection, sentiment analysis, forecasting
+Unsupervised ML - best used for large volumes of new data to gain insights into that data, to find differences and similarities - like anomaly detection, recomendation engines, personas
+Reinformenet learning - it's like it figures things out in an environment on it's own gathering it's own data with a win condition (DQN, DDPG, A3C, NAF)
+Machine Learning Tree
+    - Classical Learning - data and win condition/clear feature
+      - Unsupervised - data is not labeled, mostly used for exploratory data analysis
+        - Custering - divide by similarity, used for segementation, image compression, analyze and label data, detect abnormal behavior
+          - Agglomerative
+          - DBSCAN
+          - K-Means - good for color seperation, is it green or blue? uses centroids
+          - Mean-Shift
+          - Fuzzy C-Means
+        - Pattern Search / Association - Identify Sequences, rule learning - look for patterns - forcast sales, things bought together, web surfing patterns
+          - Euclat
+          - Apriori
+          - FP-Growth
+        - Dimensional Reduction / Generalization - find hidden dependencies, good for recomendation systems, visualizations, topic modeling, similar document search, fake image analysis, and risk management
+          - t-SNE - for visualization
+          - Principal Component Analysis (PCA)
+          - Latent Semantic Analysis (LSA)
+          - Singular Value Decompisition (SVD) - can seperate and group documents by data, like seperating a tech article from a health one or a policial one
+          - Latent Dirichlet Allocation (LDA)
+      - Supervised - data is pre-categorized or numerical
+        - Regression - like number predictions, like price of a car or traffic with time of day, used in forecasts, analysis, diagnosis and correlations
+          - Linear Regression - straight line graph
+          - Polynomial Regression - curved line graph
+          - Ridge/Lasso Regression
+        - Classification - like predict a category
+          - Logistic Regression - it's a classification method, not regression
+          - Decisions Trees - used to split data into yes or no questions, gets more specific the deeper it goes, used in places with responsibility like diagnostics, medicine and finances
+          - Naive Bayes - the original spam filtering algo, based on word frequency comparisons
+          - Support Vector Machines (SVM) - classify and identify, like is it ia plant or an animal kind of thing. Used in anomaly detection
+          - K-NN
+    - Ensemble Methods - quality is a problem "bunch of trees learning to correct errors of each other" it's like letting hybrid algorithms grow, used for search systems, computer vision and object detection, outdoes most classic algo approaches
+      - Stacking - like piping and comparing algos into a final decision algo
+      - Bagging - same algo on different subsets of data
+        - Random Forest - basically just bagging on decisions trees, used in things like face boxes recognition on a camera, doesn't know the person but knows there is a face there
+      - Boosting (Gradient Boosting) - similar to bagging but real data instead of generated? takes the data that failed to process, and make new algos to fix the previous one, it doesn't parallize but it's faster than neural nets. 
+        - AdaBoost
+        - CatBoost
+        - LightGBM
+        - XGBoost
+    - Reinforcement Learning - no data but we do have an environment, like games, self driving cars, robot vacuums, automated trading
+      - Genetic Algorithms - mostly used by students as expiraments
+      - Q-Learning - optimize for quality (Q is for quality) maximises it's rewards
+      - Deep Q-Network (DQN)
+      - A3C
+      - SARSA
+    - Neural Nets and Deep Learning - complicated data, unclear features, it minimizes error? - replace other algos, object identification, speech recognition and synthesis, style transfer, machine translation
+      - Convolutional Neural Networks (CNN)
+        - DCNN
+      - Recurrent Neural Networks (RNN)
+        - LSM
+        - LSTM
+        - GRU
+      - Generative Adversarial Networks (GAN)
+      - Autoencoders
+        - Seq2seq
+      - Perceptrons (MLP)
+
+
+
+
+
 
 Non Machine Learning AI Algos: - look up AI Taxonomy
-Decision Trees - more basic algorithms like A* and Minmax tree, Random Forest, alpha-beta puring with heuristics, quicksort, game-tree search
+Decision Trees - high explainability, more basic algorithms like A* and Minmax tree, Random Forest, alpha-beta puring with heuristics, quicksort, game-tree search
 Expert Systems / Rule-Based Systems - like CLIPS https://clipsrules.net/
 Knowledge Based Systems - 
 Rational Agend Planning without ML - things like Search, Heuristics, MDP, POMDP
