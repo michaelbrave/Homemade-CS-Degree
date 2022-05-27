@@ -102,3 +102,62 @@ Things to Look up, Terms I read somewhere, Things that seem worth defining and w
 - deep player behavior modeling (DPBM)
 - multi-layer perceptron (MLP)
 - Bayes Net
+
+
+
+Terms:
+Nerfs - seems to be the next big thing, see waymo's usage
+BERT - Transformer based NLP (Big in 2018)
+Transformers - compute and data hungry, GPT-3 and Co-Pilot based on this
+BLEU Scores - used by NLP researchers
+NLP - brittle, requires customization
+Speech Processing - currently mostly DL based
+Intent Identification & Slot Filling - How Bixby and Siri process things
+RL - Reinforcement Learning - used in robotics, uses ML(debated? or usually?) but doesn't always use NLP
+Multi-Modal - mathcing vision w text
+sensor fusion - 
+student - teacher - 
+On device AI - look up TVM tech by OctoML
+MIT's Han Lab / OMNIML - look it up
+(look up Elmo, MT-NLG (Megatron-turing NLG), TuringNLG, Megatron-LM, , Wu Dao, Switch Transformer)
+
+Non Machine Learning AI Algos: - look up AI Taxonomy
+Decision Trees - more basic algorithms like A* and Minmax tree, Random Forest, alpha-beta puring with heuristics, quicksort, game-tree search
+Expert Systems / Rule-Based Systems - like CLIPS https://clipsrules.net/
+Knowledge Based Systems - 
+Rational Agend Planning without ML - things like Search, Heuristics, MDP, POMDP
+    Search Based Algos - monte carlo tree search
+NLP without ML - like Markov Models
+Planners - might tehncially count as a decision tree or NLP
+Automated Theorem Proving - 
+Satisfiability (SAT) and constraint Solving - 
+Policiy Iteration - 
+Value Iteration - 
+Q Learning - 
+Production Rule Systems - 
+Optical Character Recognition - 
+Symbolic regression - 
+program synthesis - 
+genetic programming - 
+
+
+Other Terms:
+game theory
+control theory
+operations research
+information theory
+simulation-based optimization
+multi-agent systems
+swarm intelligence
+statistics
+
+
+In the course of a normal day, an average person might interact with a dozen different ML-powered apps just using their iPhone.
+- Uber/Google Maps/Waze: ETA prediction
+- Gmail: Smart Compose & spam filtering
+- Instagram/Snapchat/Any camera app: Computer vision
+- Siri/Google Assistant: Speech-to-text
+- FaceID: Facial recognition
+- Facebook/Netflix/All content aggregators: Recommendation engines
+- Any banking app: Fraud detection
+- even used in cameras to take a photo, or in photoshop to make edits to that photo
