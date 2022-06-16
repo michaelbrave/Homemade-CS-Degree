@@ -138,6 +138,12 @@ Dimensionality Reduction -
 Supervised ML - best use case is for prediction like spam detection, sentiment analysis, forecasting
 Unsupervised ML - best used for large volumes of new data to gain insights into that data, to find differences and similarities - like anomaly detection, recomendation engines, personas
 Reinformenet learning - it's like it figures things out in an environment on it's own gathering it's own data with a win condition (DQN, DDPG, A3C, NAF)
+Backpropigation - 
+
+
+
+
+
 Machine Learning Tree
     - Classical Learning - data and win condition/clear feature
       - Unsupervised - data is not labeled, mostly used for exploratory data analysis
@@ -184,11 +190,11 @@ Machine Learning Tree
       - A3C
       - SARSA
     - Neural Nets and Deep Learning - complicated data, unclear features, it minimizes error? - replace other algos, object identification, speech recognition and synthesis, style transfer, machine translation
-      - Convolutional Neural Networks (CNN)
+      - Convolutional Neural Networks (CNN) - good at identifying objects in videos/images, face recognition, style transfer, enhancing imagages, special effects
         - DCNN
-      - Recurrent Neural Networks (RNN)
+      - Recurrent Neural Networks (RNN) - neural machine translation, speech recognition, voice synthesis - good with sequential data
         - LSM
-        - LSTM
+        - long and short-term memory cells (LSTM) - special cells representing memory so euch neural has memory to better aid in the sequential sequence of data
         - GRU
       - Generative Adversarial Networks (GAN)
       - Autoencoders
